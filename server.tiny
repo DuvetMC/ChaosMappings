@@ -12,7 +12,7 @@ c	ad	net/minecraft/util/nbt/CompoundTag
 	m	()B	a	getId
 	m	(Ljava/lang/String;)J	e	getLong
 	m	(Ljava/lang/String;S)V	a	putShort
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/lang/String;)[B	i	getByteArray
 	m	(Ljava/lang/String;)D	g	getDouble
 	f	Ljava/util/Map;	a	backing
@@ -49,13 +49,13 @@ c	aj	HandshakePacket
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	I	a	protocolVersion
 	m	()I	a	getSize
 c	ak	ak
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	al	MobTypeBase
 c	ao	NetherPortalBlock
@@ -75,15 +75,15 @@ c	ap	ap
 	m	(Lfi;)V	b	removePlayer
 		p	1	fi	serverPlayerEntity
 c	aq	aq
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ar	ar
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	as	net/minecraft/world/block/properties/FlowerBlockProperties
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	au	net/minecraft/util/tag/TagUtil
 	m	(Lad;Ljava/io/OutputStream;)V	a	writeToOutputStream
 	m	(Lad;Ljava/io/DataOutput;)V	a	writeTag
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInput;)Lad;	a	readTag
 	m	(Ljava/io/InputStream;)Lad;	a	loadFromInputStream
 c	av	net/minecraft/world/inventory/LargeChestInventory
@@ -109,7 +109,7 @@ c	ay	ay
 	m	()I	a	getSize
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	az	net/minecraft/world/block/FlowingFluidBlock
 	m	(Lff;III)V	e	onPlace
@@ -153,7 +153,7 @@ c	bg	net/minecraft/world/block/entity/BlockEntity
 	m	(Lad;)V	b	saveToTag
 		p	1	ad2	tag
 	f	I	d	z
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/lang/Class;Ljava/lang/String;)V	a	register
 	f	Ljava/util/Map;	e	idToClass
 	m	(Lad;)Lbg;	c	loadFromTag
@@ -163,7 +163,7 @@ c	bh	EmptyPacket
 	m	()I	a	getSize
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	bi	net/minecraft/world/block/LeavesBlock
 	m	()Z	a	isFullBlock
 	m	(Lff;III)V	g	decay
@@ -224,7 +224,7 @@ c	bq	bq
 	m	()V	b_	tick
 c	br	net/minecraft/network/packet/ChatPacket
 	f	Ljava/lang/String;	a	value
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/lang/String;)V	<init>	<init>
 		p	1	string	value
 	m	()I	a	getSize
@@ -267,7 +267,7 @@ c	bs	PacketQueue
 		p	1	socket	socket
 		p	2	string	name
 c	bt	FeaturePlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lff;Ljava/util/Random;III)Z	a	generate
 		p	1	ff	world
 		p	2	random	random
@@ -277,24 +277,24 @@ c	bt	FeaturePlacer
 c	bu	net/minecraft/world/item/SoupItem
 	m	(Lik;Lff;Lgp;)Lik;	a	use
 c	bv	bv
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	bw	bw
 	m	(Ljava/lang/String;DDDDDD)V	a	spawnParticle
 	m	(Ljava/lang/String;III)V	a	playDisc
 c	by	by
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	bz	net/minecraft/util/nbt/IntTag
 	f	I	a	value
 	m	()B	a	getId
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataOutput;)V	a	write
 c	ca	ca
 	m	(Lad;)V	a	storeTag
 	m	()V	b_	tick
 	m	(Lad;)V	b	loadFromTag
 c	cc	cc
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
@@ -303,7 +303,7 @@ c	cd	NetherLavaPlacer
 	m	(I)V	<init>	<init>
 		p	1	n	block
 c	a	EntityInteractionPacket
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
 	m	(Ljava/io/DataOutputStream;)V	a	write
@@ -333,7 +333,7 @@ c	c	net/minecraft/world/block/ChestBlock
 	m	()Lbg;	a_	createBlockEntity
 c	d	PlayerUpdatePacket
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	I	h	heldItem
 	f	Ljava/lang/String;	b	name
 	f	I	e	z
@@ -362,7 +362,7 @@ c	e	net/minecraft/util/nbt/LongTag
 	m	()B	a	getId
 	f	J	a	value
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataOutput;)V	a	write
 c	ch	net/minecraft/world/entity/SpiderEntity
 	m	()Ljava/lang/String;	d	idleSound
@@ -375,10 +375,10 @@ c	f	f
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	ci	SpawnHelper
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lff;II)Lip;	a	pickRandomBlock
 		p	2	n2	z
 		p	0	ff2	world
@@ -401,7 +401,7 @@ c	h	LoginPacket
 	m	(Lfr;)V	a	send
 	f	Ljava/lang/String;	a	name
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ck	NetherChunkGenerator
 	m	(II)Z	a	isChunkLoaded
 	f	Ljava/util/Random;	h	random
@@ -422,7 +422,7 @@ c	cm	net/minecraft/util/nbt/ByteTag
 	f	B	a	value
 	m	()B	a	getId
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	cn	cn
 	f	Lnet/minecraft/server/MinecraftServer;	a	server
 	m	(Lnet/minecraft/server/MinecraftServer;)V	<init>	<init>
@@ -434,7 +434,7 @@ c	co	FishingRodItem
 	m	(Lik;Lff;Lgp;)Lik;	a	use
 c	m	m
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -448,20 +448,20 @@ c	cp	net/minecraft/world/block/BlockType
 c	n	net/minecraft/world/block/ProcessedOreBlock
 	m	(I)I	a	getTextureId
 c	cq	net/minecraft/world/block/entity/MobSpawnerBlockEntity
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lad;)V	a	loadTag
 	f	Ljava/lang/String;	f	defaultEntity
 	m	(Lad;)V	b	saveToTag
 c	o	o
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	p	net/minecraft/world/block/GravelBlock
 	m	(ILjava/util/Random;)I	a	getDroppedItem
 c	cs	cs
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Lik;	e	stack
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -469,7 +469,7 @@ c	cs	cs
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	q	net/minecraft/util/nbt/FloatTag
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataOutput;)V	a	write
 	m	()B	a	getId
 	f	F	a	value
@@ -478,7 +478,7 @@ c	ct	net/minecraft/world/entity/PaintingEntity
 	m	(Lad;)V	b	loadFromTag
 	m	()V	b_	tick
 c	r	r
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
@@ -530,7 +530,7 @@ c	cw	net/minecraft/unpackaged/Explosion
 	f	F	f	power
 	f	D	d	z
 c	u	NetherBiome
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	cx	net/minecraft/world/entity/PrimedTntEntity
 	f	I	a	fuse
 	m	(Lad;)V	a	storeTag
@@ -543,7 +543,7 @@ c	v	EntityEventPacket
 	m	(Lep;I)V	<init>	<init>
 		p	1	ep	entity
 		p	2	integer	event
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	I	b	event
 	f	I	a	entity
 	m	()I	a	getSize
@@ -566,26 +566,26 @@ c	x	x
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	y	y
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	z	net/minecraft/world/entity/GiantEntity
 c	da	da
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	()I	a	getSize
 	m	(Lfr;)V	a	send
 c	db	db
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	dd	dd
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	de	de
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -618,7 +618,7 @@ c	dl	dl
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	dn	net/minecraft/world/block/FluidBlock
 	m	(Ljava/util/Random;)I	a	getDroppedItemCount
 	m	(I)I	a	getTextureId
@@ -654,12 +654,12 @@ c	du	net/minecraft/world/block/BlockEntityBlock
 	m	(Lff;III)V	e	onPlace
 c	dv	dv
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	dw	dw
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	dx	ConnectionThread
 	m	(Leh;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V	<init>	<init>
 		p	2	string	name
@@ -675,25 +675,25 @@ c	ea	ea
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	eb	net/minecraft/world/LightingType
 	f	I	c	defaultLight
 c	ec	net/minecraft/FuckingUselessPieceOfShit
 c	ed	ed
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
 c	ee	net/minecraft/world/block/properties/FluidProperties
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()Z	d	isFluid
 c	ef	GlowstoneClusterPlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	eg	eg
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	eh	ConnectionHandler
@@ -708,7 +708,7 @@ c	ek	ek
 	m	()I	a	getSize
 	m	(Lad;)V	b	saveToTag
 	m	()Ljava/lang/String;	b	getDisplay
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lad;)V	a	loadTag
 	m	(I)Lik;	a	getStack
 c	el	net/minecraft/util/Box
@@ -797,7 +797,7 @@ c	eo	DungeonPlacer
 		p	1	random	random
 	m	(Ljava/util/Random;)Lik;	a	pickLoot
 		p	1	random	random
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ep	net/minecraft/world/entity/Entity
 	f	Ljava/util/Random;	W	random
 	m	(DDDFF)V	b	b
@@ -905,16 +905,16 @@ c	ep	net/minecraft/world/entity/Entity
 		p	1	ad2	tag
 	f	I	ah	chunkY
 c	eq	eq
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	er	er
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
 c	es	net/minecraft/util/nbt/ListTag
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	b	size
 	m	(I)Lhz;	a	get
 	m	(Ljava/io/DataOutput;)V	a	write
@@ -939,14 +939,14 @@ c	et	net/minecraft/world/block/StairBlock
 	f	Lgu;	a	base
 	m	(I)I	a	getTextureId
 c	eu	eu
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	ew	ew
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	ex	net/minecraft/world/chunk/ChunkWorld
@@ -958,7 +958,7 @@ c	ex	net/minecraft/world/chunk/ChunkWorld
 	m	(III)Lkz;	c	getPropetiesAt
 c	ey	ey
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	ez	net/minecraft/util/nbt/DoubleTag
@@ -966,7 +966,7 @@ c	ez	net/minecraft/util/nbt/DoubleTag
 	f	D	a	value
 	m	(Ljava/io/DataOutput;)V	a	write
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fa	net/minecraft/world/item/AxeItem
 	f	[Lgu;	bb	breakable
 c	fb	FurnaceBlockEntity
@@ -1095,7 +1095,7 @@ c	ff	net/minecraft/world/World
 	f	Ljava/lang/String;	w	worldName
 	m	(IIII)V	b	setMetaThenUpdate
 c	fg	SwampBiome
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fh	MonsterEntity
 c	fi	ServerPlayerEntity
 	m	(Lep;I)V	c	b
@@ -1166,7 +1166,7 @@ c	fr	net/minecraft/network/NetworkHandler
 	m	(Ljava/lang/String;[Ljava/lang/Object;)V	a	disconnect
 	m	(Lhb;)V	a	onTimeUpdate
 		p	1	hb	packet
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fs	net/minecraft/world/entity/SkeletonEntity
 	m	(Lad;)V	a	storeTag
 	m	(Lad;)V	b	loadFromTag
@@ -1175,11 +1175,11 @@ c	fs	net/minecraft/world/entity/SkeletonEntity
 	m	()I	g	itemDrop
 	m	()Ljava/lang/String;	d	idleSound
 c	ft	PlainsBiome
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fu	fu
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fv	fv
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fx	net/minecraft/world/chunk/ChunkFileLoader
 	m	(II)Ljava/io/File;	a	getFileForChunk
 		p	2	n2	z
@@ -1199,9 +1199,9 @@ c	fx	net/minecraft/world/chunk/ChunkFileLoader
 	f	Z	b	createFolders
 	m	(Lff;Lkw;)V	a	save
 c	fy	CactusPlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	fz	fz
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ga	net/minecraft/world/item/DiscItem
 	m	(Lik;Lgp;Lff;IIII)Z	a	useOnBlock
 	f	Ljava/lang/String;	a	song
@@ -1219,7 +1219,7 @@ c	gc	gc
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	gd	net/minecraft/world/entity/CreeperEntity
 	m	()V	b_	tick
 	m	(Lad;)V	a	storeTag
@@ -1228,7 +1228,7 @@ c	gd	net/minecraft/world/entity/CreeperEntity
 	m	()Ljava/lang/String;	e	hurtSound
 	m	()I	g	itemDrop
 c	ge	NotchWhyIsThereASecondGlowstoneClusterPlacerIJustWantToKnowWhy
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	gg	gg
 	f	I	b	size
 	m	(Ljava/util/Random;I)V	<init>	<init>
@@ -1252,13 +1252,13 @@ c	gh	HandshakeNetworkHandler
 		p	3	string	name
 c	gi	gi
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Lfr;)V	a	send
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	gj	gj
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -1415,7 +1415,7 @@ c	gm	SignInitPacket
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	gn	net/minecraft/world/block/SignBlock
 	m	()Lbg;	a_	createBlockEntity
@@ -1444,13 +1444,13 @@ c	gq	net/minecraft/util/nbt/ShortTag
 	m	()B	a	getId
 	f	S	a	value
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	gr	net/minecraft/unpackaged/SessionLockedException
 c	gs	gs
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 c	gt	net/minecraft/world/entity/MonsterEntity
 	m	()Z	a	isSpawnable
@@ -1691,7 +1691,7 @@ c	gu	net/minecraft/world/block/Block
 	f	Lcp;	e	WOOD_TYPE
 	f	Lgu;	aF	LADDER
 c	gv	gv
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	gw	net/minecraft/world/entity/SlimeEntity
 	m	()I	g	itemDrop
 	m	(Lad;)V	b	loadFromTag
@@ -1708,13 +1708,13 @@ c	gx	net/minecraft/world/block/BookshelfBlock
 c	gz	net/minecraft/world/block/SaplingBlock
 	m	(Lff;IIILjava/util/Random;)V	a	randomTick
 c	ha	ha
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	hb	TimeUpdatePacket
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	hc	net/minecraft/world/entity/ZombieEntity
 	m	()Ljava/lang/String;	e	hurtSound
 	m	()Ljava/lang/String;	f	deathSound
@@ -1746,7 +1746,7 @@ c	hg	net/minecraft/world/item/SignItem
 	m	(Lik;Lgp;Lff;IIII)Z	a	useOnBlock
 c	hh	net/minecraft/util/nbt/ByteArrayTag
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()B	a	getId
 	m	(Ljava/io/DataOutput;)V	a	write
 	f	[B	a	bytes
@@ -1823,12 +1823,12 @@ c	hm	ItemSelectionPacket
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	hn	hn
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	hp	ItemSelectPacket
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -1836,7 +1836,7 @@ c	hp	ItemSelectPacket
 		p	3	ik	stack
 	f	Lik;	c	stack
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
 c	hr	net/minecraft/world/block/FarmlandBlock
@@ -1857,7 +1857,7 @@ c	hu	TorchBlock
 c	hw	RedstoneItem
 	m	(Lik;Lgp;Lff;IIII)Z	a	useOnBlock
 c	hx	hx
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
@@ -1875,7 +1875,7 @@ c	hz	net/minecraft/util/nbt/Tag
 	m	(Lhz;Ljava/io/DataOutput;)V	a	writeToOutput
 	m	()Ljava/lang/String;	c	name
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Ljava/lang/String;	a	name
 	m	(B)Lhz;	a	newTagFromId
 	m	(Ljava/io/DataOutput;)V	a	write
@@ -1884,7 +1884,7 @@ c	ia	LargeOakPlacer
 	f	Lff;	c	world
 	m	([I[II)V	a	a
 		p	3	n	block
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(IIIFBI)V	a	a
 		p	6	n4	block
 	f	Ljava/util/Random;	b	random
@@ -1898,7 +1898,7 @@ c	ib	net/minecraft/util/MathHelper
 	m	(F)F	b	cos
 	m	(D)F	a	sqrt
 	m	(D)I	b	ceil
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ic	EggEntity
 	m	(Lff;Llb;)V	<init>	<init>
 		p	1	ff2	world
@@ -1934,11 +1934,11 @@ c	id	PaintingType
 	f	Ljava/lang/String;	y	name
 	f	I	z	width
 c	ie	SugarcanePlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ig	ig
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	ih	net/minecraft/world/inventory/PlayerInventory
@@ -2005,7 +2005,7 @@ c	im	net/minecraft/world/entity/EntityRegistry
 	f	Ljava/util/Map;	c	idToClass
 	f	Ljava/util/Map;	d	classToId
 	m	(Ljava/lang/String;Lff;)Lep;	a	createEntityFromName
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Ljava/util/Map;	a	nameToClass
 	f	Ljava/util/Map;	b	classToName
 	m	(Lep;)Ljava/lang/String;	b	toName
@@ -2016,10 +2016,10 @@ c	in	in
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 c	io	io
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ip	net/minecraft/util/BlockPos
 	f	I	b	y
 	f	I	c	z
@@ -2040,16 +2040,16 @@ c	ir	net/minecraft/world/chunk/ChunkSection
 c	is	is
 	m	()I	a	getSize
 	m	(I)Lik;	a	getStack
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()Ljava/lang/String;	b	getDisplay
 c	it	it
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 c	iv	iv
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	iw	net/minecraft/world/block/TransparentBlock
 	m	(Ljw;IIII)Z	a	b
 	m	()Z	a	isFullBlock
@@ -2069,7 +2069,7 @@ c	ja	ja
 	m	()I	a	getSize
 	m	(I)Lik;	a	getStack
 	m	(Lad;)V	b	saveToTag
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lad;)V	a	loadTag
 c	jb	net/minecraft/world/entity/FallingBlockEntity
 	m	()V	b_	tick
@@ -2079,14 +2079,14 @@ c	jc	jc
 	m	()I	a	getSize
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 c	jd	net/minecraft/world/block/FenceBlock
 	m	()Z	a	isFullBlock
 c	je	je
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	jf	jf
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	jh	net/minecraft/world/entity/ChickenEntity
 	m	(Lad;)V	a	storeTag
 	f	I	al	eggLayTime
@@ -2098,25 +2098,25 @@ c	jh	net/minecraft/world/entity/ChickenEntity
 c	ji	ji
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
 c	jj	PumpkinPlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	jk	InventoryUpdatePacket
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	jl	jl
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	jm	jm
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	jn	net/minecraft/util/nbt/StringTag
 	f	Ljava/lang/String;	a	value
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()B	a	getId
 	m	(Ljava/io/DataOutput;)V	a	write
 c	jo	net/minecraft/world/block/SpongeBlock
@@ -2158,7 +2158,7 @@ c	jp	Biome
 		p	0	double1	temperature
 	f	Ljp;	b	SWAMPLAND
 	f	Ljp;	d	FOREST
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Ljp;	f	SHRUBLAND
 c	jr	TimeoutWatcher
 	f	Lbs;	a	queue
@@ -2189,7 +2189,7 @@ c	ju	net/minecraft/network/packet/Packet
 		p	1	fr2	networking
 	m	(I)Lju;	a	getPacket
 	f	J	j	initTime
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(ILjava/lang/Class;)V	a	register
 c	jv	OverworldFluidPlacer
 	f	I	a	id
@@ -2208,9 +2208,9 @@ c	jx	net/minecraft/world/block/LeverBlock
 	m	(Lff;III)V	e	onPlace
 	m	(Lff;III)V	b	onBreak
 c	jy	FirePlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ka	net/minecraft/unpackaged/ProbablyGenerator
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Lff;)V	<init>	<init>
 		p	1	ff	world
 c	kb	net/minecraft/world/entity/PigZombieEntity
@@ -2246,7 +2246,7 @@ c	kf	StatsModule
 	f	[I	a	memoryUsageHistory
 	m	(Ljava/awt/Graphics;)V	paint	paint
 		p	1	graphics	graphics
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()V	a	update
 	m	(Lkf;)V	a	updare
 		p	0	kf2	StatsModule
@@ -2275,7 +2275,7 @@ c	kj	GameplayNetworkHandler
 	m	(Ljava/lang/String;)V	a	disconnect
 		p	1	string	reason
 c	kk	SmallTreePlacer
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	kl	net/minecraft/world/block/NetherrackBlock
 c	km	net/minecraft/world/block/DoorBlock
 	m	(ILjava/util/Random;)I	a	getDroppedItem
@@ -2283,11 +2283,11 @@ c	km	net/minecraft/world/block/DoorBlock
 	m	(Lff;IIII)V	b	onNeighborUpdated
 	m	(Lff;III)Lel;	d	getCollisionBox
 c	kn	kn
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	ko	net/minecraft/world/block/entity/SignBlockEntity
 	m	(Lad;)V	a	loadTag
 	m	(Lad;)V	b	saveToTag
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	[Ljava/lang/String;	e	rows
 c	kp	net/minecraft/world/entity/MinecartEntity
 	m	(Lad;)V	a	storeTag
@@ -2302,7 +2302,7 @@ c	kq	net/minecraft/util/nbt/EndTag
 	m	()B	a	getId
 	m	(Ljava/io/DataOutput;)V	a	write
 	m	(Ljava/io/DataInput;)V	a	read
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	kr	kr
 	m	(II)Z	a	isChunkLoaded
 	m	(Lkw;)V	b	b
@@ -2391,7 +2391,7 @@ c	kw	net/minecraft/world/chunk/Chunk
 	m	(IIII)I	c	getLight
 c	kx	net/minecraft/network/packet/DisconnectPacket
 	m	(Lfr;)V	a	send
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()I	a	getSize
 	m	(Ljava/io/DataInputStream;)V	a	read
 	m	(Ljava/io/DataOutputStream;)V	a	write
@@ -2405,7 +2405,7 @@ c	ky	net/minecraft/world/block/SlabBlock
 	m	(I)I	a	getTextureId
 c	kz	net/minecraft/world/block/properties/BlockProperties
 	f	Lkz;	w	PUMPKIN
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Lkz;	o	GLASS
 	f	Lkz;	r	ICE
 	f	Lkz;	t	SNOW
@@ -2457,7 +2457,7 @@ c	ld	SugarcaneItem
 		p	1	n	id
 	f	I	a	blockId
 c	le	net/minecraft/world/block/properties/AirBlockProperties
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 c	lf	net/minecraft/world/inventory/Inventory
 	m	()I	a	getSize
 	m	(I)Lik;	a	getStack
@@ -2476,12 +2476,12 @@ c	lk	net/minecraft/world/block/GlowstoneBlock
 c	ll	PingPacket
 	m	(Lfr;)V	a	send
 	m	()I	a	getSize
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	(Ljava/io/DataOutputStream;)V	a	write
 	m	(Ljava/io/DataInputStream;)V	a	read
 c	net/minecraft/server/MinecraftServer	net/minecraft/server/MinecraftServer
 	f	Lhk;	f	playerManager
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	m	()Z	d	start
 	m	(Ljava/lang/String;)Ljava/io/File;	a	getFile
 		p	1	string	path
