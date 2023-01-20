@@ -376,7 +376,7 @@ c	d	net/minecraft/client/resources/TexturePack
 	m	(Lnet/minecraft/client/Minecraft;)V	b	b
 		p	1		minecraft
 	f	Ljava/lang/String;	a	name
-	m	()V	<init>	Book
+	m	()V	<init>	<init>
 	f	Ljava/lang/String;	b	description
 	m	()V	b	close
 	m	()V	a	open
