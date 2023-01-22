@@ -1,6 +1,0 @@
-CLASS cs fj
-	FIELD a server Lnet/minecraft/server/MinecraftServer;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 server
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a playDisc (Ljava/lang/String;III)V

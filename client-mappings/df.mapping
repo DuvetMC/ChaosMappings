@@ -1,3 +1,0 @@
-CLASS df
-	METHOD a render (Lkv;FFFFFF)V
-	METHOD q_ tick ()V

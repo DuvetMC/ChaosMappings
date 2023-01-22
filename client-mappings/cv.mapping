@@ -1,3 +1,0 @@
-CLASS cv
-	METHOD compareTo (Ljava/lang/Object;)I
-		ARG 1 other

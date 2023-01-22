@@ -1,4 +1,0 @@
-CLASS eg
-	FIELD a entity Ljw;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 other

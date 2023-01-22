@@ -1,3 +1,0 @@
-CLASS dn
-	METHOD <init> (I)V
-		ARG 1 id
