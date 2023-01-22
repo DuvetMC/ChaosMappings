@@ -1,0 +1,17 @@
+CLASS gj net/minecraft/network/packet/EntityVelocityPacket
+	FIELD a uid I
+	FIELD b velocityX I
+	FIELD c velocityY I
+	FIELD d velocityZ I
+	METHOD <init> <init> ()V
+	METHOD <init> (IDDD)V
+		ARG 1 uid
+		ARG 2 velocityX
+		ARG 4 velocityY
+		ARG 6 velocityZ
+	METHOD <init> (Lep;)V
+		ARG 1 entity
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

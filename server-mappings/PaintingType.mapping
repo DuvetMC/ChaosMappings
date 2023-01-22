@@ -2,6 +2,9 @@ CLASS id PaintingType
 	FIELD A height I
 	FIELD B u I
 	FIELD C v I
+	FIELD r KOTLIN_BE_DAMNED Lid;
+	FIELD s PIRACY Lid;
+	FIELD x COPYRIGHT_INFRINGEMENT Lid;
 	FIELD y name Ljava/lang/String;
 	FIELD z width I
 	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IIII)V

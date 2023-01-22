@@ -1,0 +1,38 @@
+CLASS jp net/minecraft/world/biome/Biome
+	FIELD a RAINFOREST Ljp;
+	FIELD b SWAMPLAND Ljp;
+	FIELD c SEASONAL_FOREST Ljp;
+	FIELD d FOREST Ljp;
+	FIELD e SAVANNA Ljp;
+	FIELD f SHRUBLAND Ljp;
+	FIELD g TAIGA Ljp;
+	FIELD h DESERT Ljp;
+	FIELD i PLAINS Ljp;
+	FIELD j ICE_DESERT Ljp;
+	FIELD k TAUNDRA Ljp;
+	FIELD l NETHER Ljp;
+	FIELD m name Ljava/lang/String;
+	FIELD n color I
+	FIELD o surface B
+	FIELD p topsoil B
+	FIELD q clientColor I
+	FIELD r hostileMobs [Ljava/lang/Class;
+	FIELD s passiveMobs [Ljava/lang/Class;
+	FIELD t biomeLookupTable [Ljp;
+	METHOD <init> <init> ()V
+	METHOD a initializeTableAndBiomes ()V
+	METHOD a sampleBiome (DD)Ljp;
+		ARG 0 temperature
+		ARG 2 humidity
+	METHOD a sampleBiome (FF)Ljp;
+		ARG 0 temperature
+		ARG 1 humidity
+	METHOD a clientColor (I)Ljp;
+		ARG 1 color
+	METHOD a name (Ljava/lang/String;)Ljp;
+		ARG 1 name
+	METHOD a getSpawnableMobs (Lkt;)[Ljava/lang/Class;
+		ARG 1 mobType
+	METHOD b getBiome ()Ljp;
+	METHOD b color (I)Ljp;
+		ARG 1 color

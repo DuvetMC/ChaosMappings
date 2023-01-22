@@ -1,0 +1,7 @@
+CLASS kc net/minecraft/recipe/ShapedRecipeManager$1
+	FIELD a manager Lhd;
+	METHOD <init> (Lhd;)V
+		ARG 1 manager
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 a
+		ARG 2 b

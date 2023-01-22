@@ -4,13 +4,41 @@ CLASS fr net/minecraft/network/NetworkHandler
 		ARG 1 packet
 	METHOD a initializeHandshake (Laj;)V
 		ARG 1 packet
+	METHOD a (Lbh;)V
+		ARG 1 packet
 	METHOD a onChatMessage (Lbr;)V
 		ARG 1 packet
+	METHOD a (Lcs;)V
+		ARG 1 packet
 	METHOD a onPlayerUpdate (Ld;)V
+		ARG 1 packet
 	METHOD a updateWorldSpawn (Lda;)V
-	METHOD a sendPacket (Led;)V
+		ARG 1 packet
+	METHOD a (Ldd;)V
+		ARG 1 packet
+	METHOD a (Lde;)V
+		ARG 1 packet
+	METHOD a (Ldl;)V
+		ARG 1 packet
+	METHOD a (Ldv;)V
+		ARG 1 packet
 	METHOD a updateChunk (Leg;)V
+		ARG 1 packet
+	METHOD a (Ler;)V
+		ARG 1 packet
+	METHOD a (Leu;)V
+		ARG 1 packet
+	METHOD a (Lf;)V
+		ARG 1 packet
+	METHOD a (Lgc;)V
+		ARG 1 packet
+	METHOD a (Lgi;)V
+		ARG 1 packet
+	METHOD a updateEntityVelocity (Lgj;)V
+		ARG 1 packet
 	METHOD a onSignInit (Lgm;)V
+		ARG 1 packet
+	METHOD a (Lgs;)V
 		ARG 1 packet
 	METHOD a handleLogin (Lh;)V
 		ARG 1 packet
@@ -20,10 +48,21 @@ CLASS fr net/minecraft/network/NetworkHandler
 		ARG 1 packet
 	METHOD a onItemSelect (Lhp;)V
 		ARG 1 packet
+	METHOD a (Lhx;)V
+		ARG 1 packet
+	METHOD a (Lig;)V
+		ARG 1 packet
+	METHOD a (Lin;)V
+		ARG 1 packet
 	METHOD a spawnEntity (Lit;)V
+		ARG 1 packet
 	METHOD a disconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 		ARG 1 reason
 		ARG 2 exceptions
+	METHOD a (Ljc;)V
+		ARG 1 packet
+	METHOD a (Lji;)V
+		ARG 1 packet
 	METHOD a onInventoryUpdate (Ljk;)V
 		ARG 1 packet
 	METHOD a onUnknown (Lju;)V
@@ -31,7 +70,10 @@ CLASS fr net/minecraft/network/NetworkHandler
 	METHOD a onDisconnect (Lkx;)V
 		ARG 1 packet
 	METHOD a createItemStackEntity (Lo;)V
-	METHOD a onPlayerUpdate (Lr;)V
+		ARG 1 packet
+	METHOD a (Lr;)V
 		ARG 1 packet
 	METHOD a onEntityEvent (Lv;)V
+		ARG 1 packet
+	METHOD a (Lx;)V
 		ARG 1 packet

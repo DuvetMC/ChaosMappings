@@ -1,7 +1,10 @@
 CLASS lf net/minecraft/world/inventory/Inventory
 	METHOD a getSize ()I
 	METHOD a getStack (I)Lik;
-		ARG 1 index
+		ARG 1 slot
+	METHOD a takeItemsFromStack (II)Lik;
+		ARG 1 slot
+		ARG 2 count
 	METHOD a setStack (ILik;)V
 		ARG 1 slot
 		ARG 2 stack

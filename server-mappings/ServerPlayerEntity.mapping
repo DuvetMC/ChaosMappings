@@ -1,11 +1,14 @@
 CLASS fi ServerPlayerEntity
 	FIELD a connection Lkj;
+	FIELD bE syncedHearts I
+	FIELD bH inventoryId I
 	FIELD b server Lnet/minecraft/server/MinecraftServer;
 	FIELD c networking Lkv;
 	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lff;Ljava/lang/String;Lkv;)V
 		ARG 1 server
 		ARG 2 world
 		ARG 3 name
+	METHOD R incrementInventoryId ()V
 	METHOD b_ tick ()V
 	METHOD c heal (I)V
 	METHOD c b (Lep;I)V

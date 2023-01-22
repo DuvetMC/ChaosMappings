@@ -1,0 +1,5 @@
+CLASS l net/minecraft/server/GuiPlayerList
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b ticks I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server

@@ -1,0 +1,4 @@
+CLASS aq net/minecraft/recipe/StewRecipes
+	METHOD <init> <init> ()V
+	METHOD a registerRecipes (Lhd;)V
+		ARG 1 manager

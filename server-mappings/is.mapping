@@ -1,5 +1,0 @@
-CLASS is is
-	METHOD <init> <init> ()V
-	METHOD a getSize ()I
-	METHOD a getStack (I)Lik;
-	METHOD b getDisplay ()Ljava/lang/String;
