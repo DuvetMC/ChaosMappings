@@ -11,7 +11,7 @@ tasks {
             ConvertMappingsCommand.run(
                 "enigma",
                 project.file("client-mappings").toPath(),
-                "tinyv2:official:named",
+                "tinyv2:intermediary:named",
                 project.file("build/mappings/client.tiny").toPath()
             )
         }
@@ -33,7 +33,7 @@ tasks {
             ConvertMappingsCommand.run(
                 "enigma",
                 project.file("server-mappings").toPath(),
-                "tinyv2:official:named",
+                "tinyv2:intermediary:named",
                 project.file("build/mappings/server.tiny").toPath()
             )
         }
