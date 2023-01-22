@@ -1,0 +1,8 @@
+CLASS iz net/minecraft/world/block/SnowLayerBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD a b (Ljw;IIII)Z
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;

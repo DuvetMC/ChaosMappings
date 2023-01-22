@@ -1,0 +1,14 @@
+CLASS fb net/minecraft/client/options/Options
+	FIELD k isSlider Z
+	FIELD l defaultValue Z
+	FIELD m langKey Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 langKey
+		ARG 4 isSlider
+		ARG 5 defaultValue
+	METHOD a isSlider ()Z
+	METHOD a fromId (I)Lfb;
+		ARG 0 id
+	METHOD b getDefault ()Z
+	METHOD c id ()I
+	METHOD d getLangKey ()Ljava/lang/String;

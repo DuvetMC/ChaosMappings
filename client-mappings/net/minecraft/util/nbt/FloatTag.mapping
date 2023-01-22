@@ -1,0 +1,4 @@
+CLASS h net/minecraft/util/nbt/FloatTag
+	FIELD a value F
+	METHOD <init> <init> (F)V
+		ARG 1 f

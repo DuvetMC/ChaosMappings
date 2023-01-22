@@ -1,0 +1,12 @@
+CLASS ap PlayerChunk
+	FIELD b players Ljava/util/List;
+	FIELD c x I
+	FIELD d y I
+	FIELD e pos Llj;
+	METHOD <init> <init> (Ljg;II)V
+		ARG 2 x
+		ARG 3 y
+	METHOD a addPlayer (Lfi;)V
+		ARG 1 serverPlayerEntity
+	METHOD b removePlayer (Lfi;)V
+		ARG 1 serverPlayerEntity

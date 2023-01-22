@@ -1,0 +1,2 @@
+CLASS dn net/minecraft/world/entity/SkeletonEntity
+	FIELD a defaultStack Lfy;

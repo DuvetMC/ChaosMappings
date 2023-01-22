@@ -1,0 +1,33 @@
+CLASS qv net/minecraft/world/block/FireBlock
+	FIELD a flamability [I
+	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 textureId
+	METHOD a setBurnTime (III)V
+		ARG 1 id
+	METHOD a a (Ldd;IIIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 random
+	METHOD c isFlamable (Lpz;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g g (Ldd;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h isSupported (Ldd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i i (Ldd;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

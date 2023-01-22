@@ -1,0 +1,3 @@
+CLASS fd net/minecraft/world/block/PumpkinBlock
+	METHOD a getTextureId (I)I
+	METHOD e onPlace (Lff;III)V

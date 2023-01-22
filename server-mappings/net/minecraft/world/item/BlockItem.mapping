@@ -1,0 +1,4 @@
+CLASS cf net/minecraft/world/item/BlockItem
+	FIELD a blockId I
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

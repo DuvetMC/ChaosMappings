@@ -1,0 +1,14 @@
+CLASS dn net/minecraft/world/block/FluidBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getTextureId (I)I
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD a b (Ljw;IIII)Z
+	METHOD b getUpdateRate ()I
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD b c (Ljw;III)I
+	METHOD c e (Ljw;III)Lbn;
+	METHOD d getCollisionBox (Lff;III)Lel;
+	METHOD e onPlace (Lff;III)V
+	METHOD g h (Lff;III)I

@@ -1,0 +1,6 @@
+CLASS hy NaturallySpawningEntity
+	METHOD a isSpawnable ()Z
+	METHOD a a (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

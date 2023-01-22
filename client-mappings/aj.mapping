@@ -1,0 +1,11 @@
+CLASS aj aj
+	METHOD a loadChunk (Ldd;II)Lhk;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+	METHOD a save (Ldd;Lhk;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b b (Ldd;Lhk;)V
+		ARG 1 world
+		ARG 2 chunk

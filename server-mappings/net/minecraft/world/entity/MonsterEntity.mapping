@@ -1,0 +1,5 @@
+CLASS gt net/minecraft/world/entity/MonsterEntity
+	METHOD a isSpawnable ()Z
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V

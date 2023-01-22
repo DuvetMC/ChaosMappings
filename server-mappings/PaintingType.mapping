@@ -1,0 +1,12 @@
+CLASS id PaintingType
+	FIELD A height I
+	FIELD B u I
+	FIELD C v I
+	FIELD y name Ljava/lang/String;
+	FIELD z width I
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 name
+		ARG 4 width
+		ARG 5 height
+		ARG 6 u
+		ARG 7 v

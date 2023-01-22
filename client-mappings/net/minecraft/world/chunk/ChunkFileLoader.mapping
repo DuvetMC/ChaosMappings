@@ -1,0 +1,12 @@
+CLASS nj net/minecraft/world/chunk/ChunkFileLoader
+	FIELD a chunks Ljava/io/File;
+	METHOD a getFileForChunk (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 y
+	METHOD a loadChunkFromTag (Ldd;Ljd;)Lhk;
+		ARG 0 world
+		ARG 1 tag
+	METHOD a saveToTag (Lhk;Ldd;Ljd;)V
+		ARG 1 chunk
+		ARG 2 world
+		ARG 3 tag

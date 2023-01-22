@@ -1,0 +1,14 @@
+CLASS gp net/minecraft/world/entity/PlayerEntity
+	FIELD an inventory Lih;
+	FIELD ar score I
+	FIELD aw name Ljava/lang/String;
+	FIELD ax dimension I
+	METHOD M getHeldItem ()Lik;
+	METHOD a storeTag (Lad;)V
+	METHOD a addItem (Lik;Z)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V
+	METHOD c b (Lep;I)V
+	METHOD g interactWithEntity (Lep;)V
+	METHOD h attackEntity (Lep;)V
+	METHOD l remove ()V

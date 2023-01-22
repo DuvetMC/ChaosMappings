@@ -1,0 +1,4 @@
+CLASS fo BlotchPlacer
+	FIELD a block I
+	METHOD <init> <init> (II)V
+		ARG 1 block

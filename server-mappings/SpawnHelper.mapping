@@ -1,0 +1,8 @@
+CLASS ci SpawnHelper
+	METHOD <init> <init> ()V
+	METHOD a tickMobSpawning (Lff;)I
+		ARG 0 world
+	METHOD a pickRandomBlock (Lff;II)Lip;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z

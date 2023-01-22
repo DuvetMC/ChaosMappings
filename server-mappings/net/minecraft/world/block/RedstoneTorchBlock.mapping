@@ -1,0 +1,7 @@
+CLASS cu net/minecraft/world/block/RedstoneTorchBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD b getUpdateRate ()I
+	METHOD b onBreak (Lff;III)V
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD e onPlace (Lff;III)V

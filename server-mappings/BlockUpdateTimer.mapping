@@ -1,0 +1,19 @@
+CLASS cv BlockUpdateTimer
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d block I
+	FIELD e nextTickTimee J
+	FIELD f increment J
+	FIELD g id J
+	METHOD <init> <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD a setNextTickTime (J)Lcv;
+		ARG 1 nextTickTime
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+		ARG 1 other
+	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 other

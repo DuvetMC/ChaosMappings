@@ -1,0 +1,4 @@
+CLASS cd NetherLavaPlacer
+	FIELD a block I
+	METHOD <init> <init> (I)V
+		ARG 1 block

@@ -1,0 +1,4 @@
+CLASS if net/minecraft/world/MultiplayerWorld
+	FIELD B networking Lio;
+	METHOD <init> <init> (Lio;JI)V
+		ARG 1 networking

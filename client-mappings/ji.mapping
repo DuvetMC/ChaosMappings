@@ -1,0 +1,10 @@
+CLASS ji ji
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a interactWithEntity (Leh;Lmm;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD b attackEntity (Leh;Lmm;)V
+		ARG 1 player
+		ARG 2 entity

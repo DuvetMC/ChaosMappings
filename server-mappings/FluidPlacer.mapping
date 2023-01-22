@@ -1,0 +1,4 @@
+CLASS dg FluidPlacer
+	FIELD a block I
+	METHOD <init> <init> (I)V
+		ARG 1 block

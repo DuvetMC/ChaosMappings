@@ -1,0 +1,15 @@
+CLASS eu net/minecraft/world/entity/ItemEntity
+	FIELD a stack Lfy;
+	FIELD b age I
+	FIELD c pickupCooldown I
+	FIELD f health I
+	METHOD <init> <init> (Ldd;DDDLfy;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 stack
+	METHOD h h (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

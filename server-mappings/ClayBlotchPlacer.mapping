@@ -1,0 +1,2 @@
+CLASS j ClayBlotchPlacer
+	FIELD a block I

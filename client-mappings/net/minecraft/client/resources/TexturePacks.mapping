@@ -1,0 +1,12 @@
+CLASS fn net/minecraft/client/resources/TexturePacks
+	FIELD a loadedPack Ld;
+	FIELD b packList Ljava/util/List;
+	FIELD c defaultPack Ld;
+	FIELD e client Lnet/minecraft/client/Minecraft;
+	FIELD g loadedName Ljava/lang/String;
+	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 rootDir
+	METHOD a loadTexturePacks ()V
+	METHOD a load (Ld;)Z
+		ARG 1 pack

@@ -1,0 +1,11 @@
+CLASS ao NetherPortalBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD a b (Ljw;IIII)Z
+	METHOD a_ a_ (Lff;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;

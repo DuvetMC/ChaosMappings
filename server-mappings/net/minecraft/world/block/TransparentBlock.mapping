@@ -1,0 +1,3 @@
+CLASS iw net/minecraft/world/block/TransparentBlock
+	METHOD a isFullBlock ()Z
+	METHOD a b (Ljw;IIII)Z

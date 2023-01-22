@@ -1,0 +1,8 @@
+CLASS dx ConnectionThread
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b connectionHandler Leh;
+	METHOD <init> <init> (Leh;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 handler
+		ARG 2 name
+		ARG 3 server
+	METHOD run run ()V

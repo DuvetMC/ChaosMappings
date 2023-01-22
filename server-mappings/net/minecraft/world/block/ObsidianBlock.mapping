@@ -1,0 +1,3 @@
+CLASS fe net/minecraft/world/block/ObsidianBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I

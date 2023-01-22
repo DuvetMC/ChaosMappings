@@ -1,0 +1,9 @@
+CLASS br net/minecraft/network/packet/ChatPacket
+	FIELD a value Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

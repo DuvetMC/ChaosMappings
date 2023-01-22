@@ -1,0 +1,14 @@
+CLASS qe net/minecraft/world/particle/ParticleEntity
+	FIELD b textureId I
+	FIELD i sizeZ F
+	FIELD j sizeY F
+	FIELD k sizeX F
+	METHOD <init> <init> (Ldd;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 mx
+		ARG 10 my
+		ARG 12 mz
+	METHOD a render (Ljf;FFFFFF)V

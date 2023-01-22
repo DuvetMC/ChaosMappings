@@ -1,0 +1,147 @@
+CLASS ed net/minecraft/world/item/Item
+	FIELD A DIAMOND_AXE Led;
+	FIELD B STICK Led;
+	FIELD C BOWL Led;
+	FIELD D MUSHROOM_STEW Led;
+	FIELD E GOLDEN_SWORD Led;
+	FIELD F GOLDEN_SHOVEL Led;
+	FIELD G GOLDEN_PICKAXE Led;
+	FIELD H GOLDEN_AXE Led;
+	FIELD I STRING Led;
+	FIELD J FEATHER Led;
+	FIELD K GUNPOWDER Led;
+	FIELD L WOODEN_HOE Led;
+	FIELD M STONE_HOE Led;
+	FIELD N IRON_HOE Led;
+	FIELD O DIAMOND_HOE Led;
+	FIELD P GOLD_HOE Led;
+	FIELD Q WHEAT_SEEDS Led;
+	FIELD R WHEAT Led;
+	FIELD S BREAD Led;
+	FIELD T LEATHER_HELMET Led;
+	FIELD U LEATHER_CHESTPLATE Led;
+	FIELD V LEATHER_LEGGINGS Led;
+	FIELD W LEATHER_BOOTS Led;
+	FIELD X CHAINMAIL_HELMET Led;
+	FIELD Y CHAINMAIL_CHESTPLATE Led;
+	FIELD Z CHAINMAIL_LEGGINGS Led;
+	FIELD aA REDSTONE Led;
+	FIELD aB SNOWBALL Led;
+	FIELD aC BOAT Led;
+	FIELD aD LEATHER Led;
+	FIELD aE MILK Led;
+	FIELD aF BRICK Led;
+	FIELD aG CLAY Led;
+	FIELD aH SUGAR_CANE Led;
+	FIELD aI PAPER Led;
+	FIELD aJ BOOK Led;
+	FIELD aK SLIME_BALL Led;
+	FIELD aL CHEST_MINECART Led;
+	FIELD a translationKey Ljava/lang/String;
+	FIELD aM FURNACE_MINECART Led;
+	FIELD aN EGG Led;
+	FIELD aO COMPASS Led;
+	FIELD aP FISHING_ROD Led;
+	FIELD aQ CLOCK Led;
+	FIELD aR GLOWSTONE_DUST Led;
+	FIELD aS RAW_FISH Led;
+	FIELD aT COOCKED_FISH Led;
+	FIELD aU OGG_13 Led;
+	FIELD aV OGG_CAT Led;
+	FIELD aW id I
+	FIELD aX maxStackSize I
+	FIELD aY maxDurability I
+	FIELD aZ textureId I
+	FIELD aa CHAINMAIL_BOOTS Led;
+	FIELD ab IRON_HELMET Led;
+	FIELD ac IRON_CHESTPLATE Led;
+	FIELD ad IRON_LEGGINGS Led;
+	FIELD ae IRON_BOOTS Led;
+	FIELD af DIAMOND_HELMET Led;
+	FIELD ag DIAMOND_CHESTPLATE Led;
+	FIELD ah DIAMOND_LEGGINGS Led;
+	FIELD ai DIAMOND_BOOTS Led;
+	FIELD aj GOLD_HELMET Led;
+	FIELD ak GOLD_CHESTPLATE Led;
+	FIELD al GOLD_LEGGINGS Led;
+	FIELD am GOLD_BOOTS Led;
+	FIELD an FLINT Led;
+	FIELD ao PORKCHOP Led;
+	FIELD ap COOKED_PORKCHOP Led;
+	FIELD aq PAINTING Led;
+	FIELD ar GOLDEN_APPLE Led;
+	FIELD as SIGN Led;
+	FIELD at WOODEN_DOOR Led;
+	FIELD au BUCKET Led;
+	FIELD av WATER_BUCKET Led;
+	FIELD aw LAVA_BUCKET Led;
+	FIELD ax MINECART Led;
+	FIELD ay SADDLE Led;
+	FIELD az IRON_DOOR Led;
+	FIELD b random Ljava/util/Random;
+	FIELD c ITEMS [Led;
+	FIELD d IRON_SHOVEL Led;
+	FIELD e IRON_PICKAXE Led;
+	FIELD f IRON_AXE Led;
+	FIELD g FLINT_AND_STEEL Led;
+	FIELD h APPLE Led;
+	FIELD i BOW Led;
+	FIELD j ARROW Led;
+	FIELD k COAL Led;
+	FIELD l DIAMOND Led;
+	FIELD m IRON_INGOT Led;
+	FIELD n GOLD_INGOT Led;
+	FIELD o IRON_SWORD Led;
+	FIELD p WOODEN_SWORD Led;
+	FIELD q WOODEN_SHOVEL Led;
+	FIELD r WOODEN_PICKAXE Led;
+	FIELD s WOODEN_AXE Led;
+	FIELD t STONE_SWORD Led;
+	FIELD u STONE_SHOVEL Led;
+	FIELD v STONE_PICKAXE Led;
+	FIELD w STONE_AXE Led;
+	FIELD x DIAMOND_SWORD Led;
+	FIELD y DIAMOND_SHOVEL Led;
+	FIELD z DIAMOND_PICKAXE Led;
+	METHOD <init> <init> (I)V
+		ARG 1 id
+	METHOD a getTranslationKey ()Ljava/lang/String;
+	METHOD a setTextureId (I)Led;
+	METHOD a a (Lfy;)I
+		ARG 1 stack
+	METHOD a postMine (Lfy;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD a use (Lfy;Ldd;Leh;)Lfy;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD a useOnBlock (Lfy;Leh;Ldd;IIII)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 direction
+	METHOD a postHit (Lfy;Lhp;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD a breakMultiplier (Lfy;Lof;)F
+		COMMENT Idk if this is an accurate name
+		ARG 1 stack
+		ARG 2 block
+	METHOD a setName (Ljava/lang/String;)Led;
+		ARG 1 name
+	METHOD a getAttackStrength (Lmm;)I
+		ARG 1 entity
+	METHOD a canBreak (Lof;)Z
+		ARG 1 block
+	METHOD b b (Lfy;Lhp;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD d getStackSize ()I
+	METHOD e getMaxdurability ()I

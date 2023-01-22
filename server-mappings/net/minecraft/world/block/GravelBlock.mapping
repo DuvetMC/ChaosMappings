@@ -1,0 +1,2 @@
+CLASS p net/minecraft/world/block/GravelBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I

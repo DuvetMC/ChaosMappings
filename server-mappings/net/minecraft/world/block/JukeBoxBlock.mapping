@@ -1,0 +1,3 @@
+CLASS fp net/minecraft/world/block/JukeBoxBlock
+	METHOD a getTextureId (I)I
+	METHOD a onBreakBlock (Lff;IIIIF)V

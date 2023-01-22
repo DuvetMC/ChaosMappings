@@ -1,0 +1,2 @@
+CLASS hg net/minecraft/world/item/SignItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

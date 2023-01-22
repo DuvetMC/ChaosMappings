@@ -1,0 +1,2 @@
+CLASS jd net/minecraft/world/block/FenceBlock
+	METHOD a isFullBlock ()Z

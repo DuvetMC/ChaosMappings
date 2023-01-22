@@ -1,0 +1,2 @@
+CLASS hw RedstoneItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

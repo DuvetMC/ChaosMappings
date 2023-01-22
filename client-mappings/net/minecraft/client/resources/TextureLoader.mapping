@@ -1,0 +1,19 @@
+CLASS gd net/minecraft/client/resources/TextureLoader
+	FIELD h options Lha;
+	FIELD k packs Lfn;
+	METHOD <init> <init> (Lfn;Lha;)V
+		ARG 1 packs
+		ARG 2 options
+	METHOD a deleteImage (I)V
+	METHOD a uploadImage (Ljava/awt/image/BufferedImage;)I
+		ARG 1 bufferedImage
+	METHOD a a (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 bufferedImage
+	METHOD a loadImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+		ARG 1 inputStream
+	METHOD a getTextureId (Ljava/lang/String;)I
+	METHOD b reload ()V
+	METHOD b bindTexture (I)V
+		ARG 1 textureId
+	METHOD b b (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 bufferedImage

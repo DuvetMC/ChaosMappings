@@ -1,0 +1,4 @@
+CLASS c net/minecraft/world/block/ChestBlock
+	METHOD a getTextureId (I)I
+	METHOD a_ createBlockEntity ()Lbg;
+	METHOD b onBreak (Lff;III)V

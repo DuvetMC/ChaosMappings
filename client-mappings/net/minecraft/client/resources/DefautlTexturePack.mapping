@@ -1,0 +1,2 @@
+CLASS ka net/minecraft/client/resources/DefautlTexturePack
+	FIELD f image Ljava/awt/image/BufferedImage;

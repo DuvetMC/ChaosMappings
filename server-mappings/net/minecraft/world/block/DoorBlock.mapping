@@ -1,0 +1,5 @@
+CLASS km net/minecraft/world/block/DoorBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;

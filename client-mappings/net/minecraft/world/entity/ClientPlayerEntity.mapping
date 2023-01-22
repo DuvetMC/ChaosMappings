@@ -1,0 +1,5 @@
+CLASS bs net/minecraft/world/entity/ClientPlayerEntity
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Ldd;Leg;I)V
+		ARG 1 minecraft
+		ARG 2 world

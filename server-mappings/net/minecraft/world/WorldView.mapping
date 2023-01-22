@@ -1,0 +1,5 @@
+CLASS jw net/minecraft/world/WorldView
+	METHOD a getBlock (III)I
+	METHOD b getBlockId (III)I
+	METHOD c getPropetiesAt (III)Lkz;
+	METHOD d isFullBlock (III)Z

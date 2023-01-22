@@ -1,0 +1,2 @@
+CLASS ej net/minecraft/world/block/StoneBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I

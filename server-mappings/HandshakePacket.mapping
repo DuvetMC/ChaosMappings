@@ -1,0 +1,17 @@
+CLASS aj HandshakePacket
+	FIELD a protocolVersion I
+	FIELD b username Ljava/lang/String;
+	FIELD c playerKey Ljava/lang/String;
+	FIELD d seed J
+	FIELD e dimensionId B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;IJB)V
+		ARG 1 username
+		ARG 2 playerKey
+		ARG 3 protocolVersion
+		ARG 4 seed
+		ARG 6 dimensionId
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

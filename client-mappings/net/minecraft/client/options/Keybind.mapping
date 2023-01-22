@@ -1,0 +1,6 @@
+CLASS kt net/minecraft/client/options/Keybind
+	FIELD a name Ljava/lang/String;
+	FIELD b scancode I
+	METHOD <init> <init> (Ljava/lang/String;I)V
+		ARG 1 name
+		ARG 2 scancode

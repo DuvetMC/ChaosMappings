@@ -1,0 +1,4 @@
+CLASS ka net/minecraft/unpackaged/ProbablyGenerator
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lff;)V
+		ARG 1 world

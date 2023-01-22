@@ -1,0 +1,4 @@
+CLASS jb net/minecraft/world/entity/FallingBlockEntity
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V

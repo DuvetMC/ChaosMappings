@@ -1,0 +1,6 @@
+CLASS bl net/minecraft/world/block/RailBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;
+	METHOD e onPlace (Lff;III)V

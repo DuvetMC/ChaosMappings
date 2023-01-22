@@ -1,0 +1,3 @@
+CLASS az net/minecraft/world/block/FlowingFluidBlock
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD e onPlace (Lff;III)V

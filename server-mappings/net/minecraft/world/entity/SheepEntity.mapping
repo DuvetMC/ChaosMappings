@@ -1,0 +1,6 @@
+CLASS dh net/minecraft/world/entity/SheepEntity
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD d idleSound ()Ljava/lang/String;
+	METHOD e hurtSound ()Ljava/lang/String;
+	METHOD f deathSound ()Ljava/lang/String;

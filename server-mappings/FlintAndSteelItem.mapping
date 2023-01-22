@@ -1,0 +1,2 @@
+CLASS kg FlintAndSteelItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

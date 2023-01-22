@@ -1,0 +1,4 @@
+CLASS cn cn
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server

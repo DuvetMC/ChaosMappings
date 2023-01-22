@@ -1,0 +1,9 @@
+CLASS cw net/minecraft/unpackaged/Explosion
+	FIELD a fire Z
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e entity Lep;
+	FIELD f power F
+	FIELD h random Ljava/util/Random;
+	FIELD i world Lff;

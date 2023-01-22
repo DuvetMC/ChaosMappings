@@ -1,0 +1,2 @@
+CLASS lk net/minecraft/world/block/GlowstoneBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I

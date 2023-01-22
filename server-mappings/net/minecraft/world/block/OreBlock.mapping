@@ -1,0 +1,3 @@
+CLASS k net/minecraft/world/block/OreBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I

@@ -1,0 +1,22 @@
+CLASS ic EggEntity
+	FIELD a shake I
+	FIELD aj owner Llb;
+	FIELD ak despawnTimer I
+	FIELD b blockX I
+	FIELD c blockY I
+	FIELD d blockZ I
+	FIELD e inBlock I
+	FIELD f inGround Z
+	METHOD <init> <init> (Lff;Llb;)V
+		ARG 1 world
+		ARG 2 owner
+	METHOD a setInitialVelocity (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 amount
+		ARG 8 variance
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b attack (Lgp;)V
+	METHOD b_ tick ()V

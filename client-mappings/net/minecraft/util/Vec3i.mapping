@@ -1,0 +1,13 @@
+CLASS b net/minecraft/util/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d packed I
+	METHOD <init> <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a add (Lb;)F
+		ARG 1 other
+	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 other

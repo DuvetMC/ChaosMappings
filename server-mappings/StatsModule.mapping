@@ -1,0 +1,10 @@
+CLASS kf StatsModule
+	FIELD a memoryUsageHistory [I
+	FIELD b currentBar I
+	FIELD c infoLines [Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD a update ()V
+	METHOD a updare (Lkf;)V
+		ARG 0 StatsModule
+	METHOD paint paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics

@@ -1,0 +1,11 @@
+CLASS l net/minecraft/util/Localization
+	FIELD a instance Ll;
+	FIELD b properties Ljava/util/Properties;
+	METHOD a getLocalization ()Ll;
+	METHOD a translate (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD a translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 objects
+	METHOD b translateItem (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 id

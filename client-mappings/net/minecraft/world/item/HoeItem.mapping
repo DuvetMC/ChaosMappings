@@ -1,0 +1,4 @@
+CLASS hd net/minecraft/world/item/HoeItem
+	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 type

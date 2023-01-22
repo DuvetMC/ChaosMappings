@@ -1,0 +1,9 @@
+CLASS hp ItemSelectPacket
+	FIELD c stack Lik;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IILik;)V
+		ARG 3 stack
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

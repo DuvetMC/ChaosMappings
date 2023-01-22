@@ -1,0 +1,9 @@
+CLASS ck NetherChunkGenerator
+	FIELD h random Ljava/util/Random;
+	FIELD n world Lff;
+	METHOD <init> <init> (Lff;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a isChunkLoaded (II)Z
+	METHOD b getChunk (II)Lkw;
+	METHOD b generateBaseTerrain (II[B)V

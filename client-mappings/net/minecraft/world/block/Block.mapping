@@ -1,0 +1,284 @@
+CLASS of net/minecraft/world/block/Block
+	FIELD A FLOWING_WATER Lof;
+	FIELD B STILL_WATER Lof;
+	FIELD C FLOWING_LAVA Lof;
+	FIELD D STILL_LAVA Lof;
+	FIELD E SAND Lof;
+	FIELD F GRAVEL Lof;
+	FIELD G GOLD_ORE Lof;
+	FIELD H IRON_ORE Lof;
+	FIELD I COAL_ORE Lof;
+	FIELD J OAK_LOG Lof;
+	FIELD K LEAVES Lan;
+	FIELD L SPONGE Lof;
+	FIELD M GLASS Lof;
+	FIELD N FILLER_BLOCK_21 Lof;
+	FIELD O FILLER_BLOCK_22 Lof;
+	FIELD P FILLER_BLOCK_23 Lof;
+	FIELD Q FILLER_BLOCK_24 Lof;
+	FIELD R FILLER_BLOCK_25 Lof;
+	FIELD S FILLER_BLOCK_26 Lof;
+	FIELD T FILLER_BLOCK_27 Lof;
+	FIELD U FILLER_BLOCK_28 Lof;
+	FIELD V FILLER_BLOCK_29 Lof;
+	FIELD W FILLER_BLOCK_30 Lof;
+	FIELD X FILLER_BLOCK_31 Lof;
+	FIELD Y FILLER_BLOCK_32 Lof;
+	FIELD Z FILLER_BLOCK_33 Lof;
+	FIELD aA FARMLAND Lof;
+	FIELD aB FURNACE Lof;
+	FIELD aC LIT_FURNACE Lof;
+	FIELD aD SIGN Lof;
+	FIELD aE OAK_DOOR Lof;
+	FIELD aF LADDER Lof;
+	FIELD aG RAIL Lof;
+	FIELD aH STONE_BRICK_STAIRS Lof;
+	FIELD aI WALL_SIGN Lof;
+	FIELD aJ LEVER Lof;
+	FIELD aK STONE_PRESSURE_PLATE Lof;
+	FIELD aL IRON_DOOR Lof;
+	FIELD aM WOODEN_PRESSURE_PLATE Lof;
+	FIELD aN REDSTONE_ORE Lof;
+	FIELD aO GLOWING_REDSTONE_ORE Lof;
+	FIELD aP REDSTONE_TORCH Lof;
+	FIELD aQ ENABLED_REDSTONE_TORCH Lof;
+	FIELD aR STONE_BUTTON Lof;
+	FIELD aS SNOW_LAYER Lof;
+	FIELD aT ICE Lof;
+	FIELD aU SNOW Lof;
+	FIELD aV CACTUS Lof;
+	FIELD aW CLAY Lof;
+	FIELD aX SUGARCANE Lof;
+	FIELD aY JUKEBOX Lof;
+	FIELD aZ FENCE Lof;
+	FIELD aa FILLER_BLOCK_34 Lof;
+	FIELD ab WOOL Lof;
+	FIELD ac FILLER_BLOCK_36 Lof;
+	FIELD ad DANDELION Loz;
+	FIELD ae ROSE Loz;
+	FIELD af BROWN_MUSHROOM Loz;
+	FIELD ag RED_MUSHROOM Loz;
+	FIELD ah GOLD_BLOCK Lof;
+	FIELD ai IRON_BLOCK Lof;
+	FIELD aj STONE_SLAB Lof;
+	FIELD ak STONE_DOUBLE_SLAB Lof;
+	FIELD al BRICKS Lof;
+	FIELD am TNT Lof;
+	FIELD an BOOKSHELF Lof;
+	FIELD ao MOSSY_STONE Lof;
+	FIELD ap OBSIDIAN Lof;
+	FIELD aq TORCH Lof;
+	FIELD ar FIRE Lqv;
+	FIELD as MONSTER_SPAWNER Lof;
+	FIELD at OAK_STAIRS Lof;
+	FIELD au CHEST Lof;
+	FIELD av REDSTONE_DUST Lof;
+	FIELD aw DIAMOND_ORE Lof;
+	FIELD ax DIAMOND_BLOCK Lof;
+	FIELD ay CRAFTING_TABLE Lof;
+	FIELD az WHEAT Lof;
+	FIELD ba PUMPKIN Lof;
+	FIELD bb NETHERRACK Lof;
+	FIELD bc SOUL_SAND Lof;
+	FIELD bd GLOWSTONE Lof;
+	FIELD be PORTAL Ly;
+	FIELD bf JACK_O_LANTERN Lof;
+	FIELD bg textureId I
+	FIELD bh id I
+	FIELD bi hardness F
+	FIELD bj explosionResistance F
+	FIELD bk minX D
+	FIELD bl minY D
+	FIELD bm minZ D
+	FIELD bn maxX D
+	FIELD bo maxY D
+	FIELD bp maxZ D
+	FIELD bq blockType Lbk;
+	FIELD bs properties Lhl;
+	FIELD bt slipperiness F
+	FIELD d REDSTONE_TYPE Lbk;
+	FIELD e WOOD_TYPE Lbk;
+	FIELD f GRAVEL_TYPE Lbk;
+	FIELD g GRASS_TYPE Lbk;
+	FIELD h STONE_BLOCK_TYPE Lbk;
+	FIELD i IRON_TYPE Lbk;
+	FIELD j GLASS_TYPE Lbk;
+	FIELD k WOOL_TYPE Lbk;
+	FIELD l SAND_TYPE Lbk;
+	FIELD m BLOCKS [Lof;
+	FIELD n randomTickable [Z
+	FIELD o isFullBlock [Z
+	FIELD p hasBlockEntity [Z
+	FIELD q meta [I
+	FIELD s LUMINOSITIES [I
+	FIELD t STONE Lof;
+	FIELD u GRASS Lph;
+	FIELD v DIRT Lof;
+	FIELD w COBBLESTONE Lof;
+	FIELD x OAK_PLANKS Lof;
+	FIELD y OAK_SAPLING Lof;
+	FIELD z BEDROCK Lof;
+	METHOD <init> <init> (IILhl;)V
+		ARG 1 id
+		ARG 2 textureId
+		ARG 3 properties
+	METHOD <init> <init> (ILhl;)V
+		ARG 1 id
+		ARG 2 properties
+	METHOD a isFullBlock ()Z
+	METHOD a setLightAmount (F)Lof;
+		ARG 1 light
+	METHOD a setBoundingBox (FFFFFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a getTextureId (I)I
+		ARG 1 direction
+	METHOD a getTextureId (II)I
+		ARG 1 id
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a setBlockType (Lbk;)Lof;
+		ARG 1 blockType
+	METHOD a a (Ldd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (Ldd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 sourceBlock
+	METHOD a onBreakBlock (Ldd;IIIIF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 blockId
+		ARG 6 chance
+	METHOD a a (Ldd;IIILar;Lar;)Lom;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a a (Ldd;IIILct;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 box
+		ARG 6 arrayList
+	METHOD a a (Ldd;IIILhp;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD a randomTick (Ldd;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a setName (Ljava/lang/String;)Lof;
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a a (Lmm;)F
+		ARG 1 entity
+	METHOD a a (Lpz;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getTextureId (Lpz;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b isSolid ()Z
+	METHOD b explosionResistence (F)Lof;
+		ARG 1 baseAmount
+	METHOD b onBreak (Ldd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b b (Ldd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b emitParticle (Ldd;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD b b (Ldd;IIILmm;)V
+		ARG 1 world
+		ARG 5 entity
+	METHOD b b (Lpz;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b b (Lpz;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD b randomlyTicks (Z)V
+		ARG 1 value
+	METHOD b_ onBreakBlock (Ldd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 blockId
+	METHOD c hardness (F)Lof;
+		ARG 1 baseAmount
+	METHOD c onExplode (Ldd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getUpdateRate ()I
+	METHOD d opacity (I)Lof;
+	METHOD d getCollisionBox (Ldd;III)Lct;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d onUseBlock (Ldd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD d d (Lpz;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e onPlace (Ldd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f f (Ldd;III)Lct;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g canPlace (Ldd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

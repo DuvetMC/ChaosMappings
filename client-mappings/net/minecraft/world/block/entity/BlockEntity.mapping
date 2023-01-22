@@ -1,0 +1,17 @@
+CLASS jw net/minecraft/world/block/entity/BlockEntity
+	FIELD a idToClass Ljava/util/Map;
+	FIELD b classToId Ljava/util/Map;
+	FIELD e world Ldd;
+	FIELD f x I
+	FIELD g y I
+	FIELD h z I
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 blockEntity
+		ARG 1 id
+	METHOD a loadTag (Ljd;)V
+		ARG 1 tag
+	METHOD b saveToTag (Ljd;)V
+		ARG 1 tag
+	METHOD c loadFromTag (Ljd;)Ljw;
+		ARG 0 tag
+	METHOD f getBlockId ()I

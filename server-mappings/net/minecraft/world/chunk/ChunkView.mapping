@@ -1,0 +1,13 @@
+CLASS cg net/minecraft/world/chunk/ChunkView
+	METHOD a isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a generateChunk (Lcg;II)V
+		ARG 1 chunk
+		ARG 2 x
+		ARG 3 z
+	METHOD a a (ZLke;)Z
+		ARG 2 listener
+	METHOD b getChunk (II)Lkw;
+		ARG 1 x
+		ARG 2 z

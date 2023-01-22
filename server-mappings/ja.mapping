@@ -1,0 +1,7 @@
+CLASS ja ja
+	METHOD <init> <init> ()V
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD a loadTag (Lad;)V
+	METHOD b getDisplay ()Ljava/lang/String;
+	METHOD b saveToTag (Lad;)V

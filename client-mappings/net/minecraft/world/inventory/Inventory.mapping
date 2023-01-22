@@ -1,0 +1,9 @@
+CLASS hs net/minecraft/world/inventory/Inventory
+	METHOD a a (ILfy;)V
+		ARG 2 stack
+	METHOD a_ a_ (Leh;)Z
+		ARG 1 player
+	METHOD c getSize ()I
+	METHOD c getStack (I)Lfy;
+		ARG 1 index
+	METHOD d getDisplay ()Ljava/lang/String;

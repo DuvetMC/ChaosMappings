@@ -1,0 +1,2 @@
+CLASS km net/minecraft/util/nbt/IntTag
+	FIELD a value I

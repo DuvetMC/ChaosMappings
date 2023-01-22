@@ -1,0 +1,5 @@
+CLASS kr kr
+	METHOD a isChunkLoaded (II)Z
+	METHOD b getChunk (II)Lkw;
+	METHOD b b (Lkw;)V
+		ARG 1 chunk
