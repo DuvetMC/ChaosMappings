@@ -1,3 +1,7 @@
 CLASS fm net/minecraft/world/entity/NaturallySpawningEntity
-	METHOD a a (Lmm;F)V
+	METHOD a (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (Lmm;F)V
 		ARG 1 entity

@@ -1,4 +1,4 @@
-CLASS iy iy
+CLASS iy FancyBlock
 	FIELD a isFancy Z
 	METHOD <init> <init> (IILhl;Z)V
 		ARG 1 id
