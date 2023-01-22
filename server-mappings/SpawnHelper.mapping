@@ -1,8 +1,7 @@
-CLASS ci SpawnHelper
-	METHOD <init> <init> ()V
-	METHOD a tickMobSpawning (Lff;)I
-		ARG 0 world
-	METHOD a pickRandomBlock (Lff;II)Lip;
+CLASS bb SpawnHelper
+	METHOD a pickRandomBlock (Lcp;II)Lly;
 		ARG 0 world
 		ARG 1 x
 		ARG 2 z
+	METHOD a tickMobSpawning (Lcp;ZZ)I
+		ARG 0 world

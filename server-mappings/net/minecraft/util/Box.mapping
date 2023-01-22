@@ -1,4 +1,4 @@
-CLASS el net/minecraft/util/Box
+CLASS cg net/minecraft/util/Box
 	FIELD a minX D
 	FIELD b minY D
 	FIELD c minZ D
@@ -7,7 +7,7 @@ CLASS el net/minecraft/util/Box
 	FIELD f maxZ D
 	FIELD g INSTANCES Ljava/util/List;
 	FIELD h LAST_INSTANCE I
-	METHOD <init> <init> (DDDDDD)V
+	METHOD <init> (DDDDDD)V
 		ARG 1 minX
 		ARG 3 minY
 		ARG 5 minZ
@@ -15,24 +15,24 @@ CLASS el net/minecraft/util/Box
 		ARG 9 maxY
 		ARG 11 maxZ
 	METHOD a dropCache ()V
-	METHOD a create (DDDDDD)Lel;
-	METHOD a b (Lbn;)Z
-	METHOD a intersects (Lel;)Z
+	METHOD a create (DDDDDD)Lcg;
+	METHOD a b (Lao;)Z
+	METHOD a intersects (Lcg;)Z
 		ARG 1 other
-	METHOD b asCached ()Lel;
-	METHOD b expand (DDD)Lel;
-	METHOD b cached (DDDDDD)Lel;
-	METHOD b c (Lbn;)Z
-	METHOD b set (Lel;)V
-	METHOD c set (DDDDDD)Lel;
+	METHOD b asCached ()Lcg;
+	METHOD b expand (DDD)Lcg;
+	METHOD b cached (DDDDDD)Lcg;
+	METHOD b c (Lao;)Z
+	METHOD b set (Lcg;)V
+	METHOD c set (DDDDDD)Lcg;
 		ARG 1 minX
 		ARG 3 minY
 		ARG 5 minZ
 		ARG 7 maxX
 		ARG 9 maxY
 		ARG 11 maxZ
-	METHOD c d (Lbn;)Z
-	METHOD d offset (DDD)Lel;
+	METHOD c d (Lao;)Z
+	METHOD d offset (DDD)Lcg;
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z

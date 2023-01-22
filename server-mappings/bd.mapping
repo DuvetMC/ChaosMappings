@@ -1,0 +1,5 @@
+CLASS bd
+	METHOD a updateLoadedChunks (I)V
+		ARG 1 loadedChunks
+	METHOD a updateStatusA (Ljava/lang/String;)V
+	METHOD b updateStatusB (Ljava/lang/String;)V

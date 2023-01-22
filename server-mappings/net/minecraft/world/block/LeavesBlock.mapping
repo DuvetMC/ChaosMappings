@@ -1,7 +1,19 @@
-CLASS bi net/minecraft/world/block/LeavesBlock
+CLASS aj net/minecraft/world/block/LeavesBlock
 	METHOD a isFullBlock ()Z
 	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+		ARG 1 meta
+		ARG 2 random
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD g decay (Lff;III)V
+		ARG 1 random
+	METHOD b onBreak (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g decay (Lcp;III)V

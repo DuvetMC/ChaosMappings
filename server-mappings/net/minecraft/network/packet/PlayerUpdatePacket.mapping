@@ -1,4 +1,4 @@
-CLASS d net/minecraft/network/packet/PlayerUpdatePacket
+CLASS gp net/minecraft/network/packet/PlayerUpdatePacket
 	FIELD a id I
 	FIELD b name Ljava/lang/String;
 	FIELD c x I
@@ -7,8 +7,9 @@ CLASS d net/minecraft/network/packet/PlayerUpdatePacket
 	FIELD f yaw B
 	FIELD g pitch B
 	FIELD h heldItem I
-	METHOD <init> <init> ()V
-	METHOD a getSize ()I
-	METHOD a send (Lfr;)V
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a (Lkj;)V
+		ARG 1 handler

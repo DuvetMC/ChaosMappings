@@ -1,0 +1,4 @@
+CLASS af
+	METHOD a storeTag (Lks;)V
+	METHOD b loadFromTag (Lks;)V
+	METHOD c isSpawnable ()Z

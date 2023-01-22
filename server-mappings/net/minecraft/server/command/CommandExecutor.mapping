@@ -1,4 +1,0 @@
-CLASS fn net/minecraft/server/command/CommandExecutor
-	METHOD b respond (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD c getCommandExecutorName ()Ljava/lang/String;

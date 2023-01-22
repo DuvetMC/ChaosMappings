@@ -1,3 +1,0 @@
-CLASS qm OverworldChunkGenerator
-	FIELD j random Ljava/util/Random;
-	FIELD p world Ldd;

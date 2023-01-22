@@ -1,2 +1,13 @@
-CLASS aq net/minecraft/world/block/RedstoneOreBlock
-	FIELD a lit Z
+CLASS ax net/minecraft/world/block/RedstoneOreBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a randomTick (Ldt;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD d getUpdateRate ()I

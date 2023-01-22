@@ -1,7 +1,0 @@
-CLASS df net/minecraft/world/block/SugarcaneBlock
-	METHOD a isFullBlock ()Z
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD d getCollisionBox (Lff;III)Lel;
-	METHOD f canPlace (Lff;III)Z

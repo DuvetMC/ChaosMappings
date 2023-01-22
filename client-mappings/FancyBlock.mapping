@@ -1,6 +1,0 @@
-CLASS iy FancyBlock
-	FIELD a isFancy Z
-	METHOD <init> <init> (IILhl;Z)V
-		ARG 1 id
-		ARG 2 textureId
-		ARG 3 properties

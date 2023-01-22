@@ -1,5 +1,0 @@
-CLASS nl net/minecraft/world/item/DiscItem
-	FIELD a song Ljava/lang/String;
-	METHOD <init> <init> (ILjava/lang/String;)V
-		ARG 1 id
-		ARG 2 song

@@ -1,6 +1,19 @@
-CLASS gk net/minecraft/world/block/FallingBlock
+CLASS dl net/minecraft/world/block/FallingBlock
 	FIELD a generatingWorld Z
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a onNeighborUpdated (Lcp;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD b getUpdateRate ()I
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD e onPlace (Lff;III)V
+	METHOD e onPlace (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

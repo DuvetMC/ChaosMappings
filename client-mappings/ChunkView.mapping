@@ -1,0 +1,11 @@
+CLASS ao ChunkView
+	METHOD a loadChunk (Ldt;II)Lit;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a save (Ldt;Lit;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b (Ldt;Lit;)V
+		ARG 1 world
+		ARG 2 chunk

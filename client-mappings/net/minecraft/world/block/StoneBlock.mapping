@@ -1,3 +1,4 @@
-CLASS cs net/minecraft/world/block/StoneBlock
-	METHOD <init> <init> (II)V
-		ARG 1 slot
+CLASS dh net/minecraft/world/block/StoneBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random

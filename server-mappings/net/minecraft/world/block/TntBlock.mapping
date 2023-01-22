@@ -1,6 +1,0 @@
-CLASS ah net/minecraft/world/block/TntBlock
-	METHOD a getTextureId (I)I
-	METHOD a b (Lff;IIII)V
-	METHOD a getDroppedItemCount (Ljava/util/Random;)I
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD c onExplode (Lff;III)V

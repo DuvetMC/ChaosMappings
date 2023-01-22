@@ -1,8 +1,0 @@
-CLASS kx kx
-	FIELD a block Lof;
-	METHOD <init> <init> (Ldd;DDDDDDLof;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 14 block

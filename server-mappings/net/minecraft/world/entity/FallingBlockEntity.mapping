@@ -1,4 +1,8 @@
-CLASS jb net/minecraft/world/entity/FallingBlockEntity
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V
+CLASS fh net/minecraft/world/entity/FallingBlockEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD f_ tick ()V

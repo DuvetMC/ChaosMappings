@@ -1,3 +1,0 @@
-CLASS il net/minecraft/world/block/OreBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id

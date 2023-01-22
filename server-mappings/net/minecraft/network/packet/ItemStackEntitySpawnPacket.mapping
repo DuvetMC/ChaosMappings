@@ -1,4 +1,4 @@
-CLASS o net/minecraft/network/packet/ItemStackEntitySpawnPacket
+CLASS gz net/minecraft/network/packet/ItemStackEntitySpawnPacket
 	FIELD a uid I
 	FIELD b x I
 	FIELD c y I
@@ -8,10 +8,11 @@ CLASS o net/minecraft/network/packet/ItemStackEntitySpawnPacket
 	FIELD g velocityZ B
 	FIELD h item I
 	FIELD i amount I
-	METHOD <init> <init> ()V
-	METHOD <init> <init> (Lhe;)V
+	METHOD <init> (Lea;)V
 		ARG 1 entity
-	METHOD a getSize ()I
-	METHOD a send (Lfr;)V
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a (Lkj;)V
+		ARG 1 handler

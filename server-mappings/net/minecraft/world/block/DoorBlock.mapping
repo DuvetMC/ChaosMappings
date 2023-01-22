@@ -1,5 +1,23 @@
-CLASS km net/minecraft/world/block/DoorBlock
+CLASS fx net/minecraft/world/block/DoorBlock
+	METHOD <init> (ILge;)V
+		ARG 1 id
+		ARG 2 properties
 	METHOD a isFullBlock ()Z
 	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD d getCollisionBox (Lff;III)Lel;
+		ARG 1 meta
+		ARG 2 random
+	METHOD a canPlaceAt (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (Lcp;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getCollisionBox (Lcp;III)Lcg;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

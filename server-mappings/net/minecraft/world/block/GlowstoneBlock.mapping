@@ -1,2 +1,8 @@
-CLASS lk net/minecraft/world/block/GlowstoneBlock
+CLASS gm net/minecraft/world/block/GlowstoneBlock
+	METHOD <init> (IILge;)V
+		ARG 1 id
+		ARG 2 textureId
+		ARG 3 properties
 	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random

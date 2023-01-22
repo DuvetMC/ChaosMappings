@@ -1,6 +1,11 @@
-CLASS eo DungeonPlacer
-	METHOD <init> <init> ()V
-	METHOD a pickLoot (Ljava/util/Random;)Lik;
+CLASS ch DungeonPlacer
+	METHOD a generate (Lcp;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a pickLoot (Ljava/util/Random;)Ley;
 		ARG 1 random
 	METHOD b pickMob (Ljava/util/Random;)Ljava/lang/String;
 		ARG 1 random

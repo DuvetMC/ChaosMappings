@@ -1,4 +1,8 @@
-CLASS bt net/minecraft/world/block/MobSpawnerBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 textureId
+CLASS cd net/minecraft/world/block/MobSpawnerBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a_ createBlockEntity ()Lll;

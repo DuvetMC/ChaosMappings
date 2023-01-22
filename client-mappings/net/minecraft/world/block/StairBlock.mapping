@@ -1,5 +1,0 @@
-CLASS mr net/minecraft/world/block/StairBlock
-	FIELD a base Lof;
-	METHOD <init> <init> (ILof;)V
-		ARG 1 id
-		ARG 2 base

@@ -1,3 +1,0 @@
-CLASS kt MobType
-	FIELD c clazz Ljava/lang/Class;
-	FIELD d mobCap I

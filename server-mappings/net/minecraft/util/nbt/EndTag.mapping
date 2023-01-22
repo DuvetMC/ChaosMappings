@@ -1,5 +1,4 @@
-CLASS kq net/minecraft/util/nbt/EndTag
-	METHOD <init> <init> ()V
+CLASS ga net/minecraft/util/nbt/EndTag
 	METHOD a getId ()B
 	METHOD a read (Ljava/io/DataInput;)V
 	METHOD a write (Ljava/io/DataOutput;)V

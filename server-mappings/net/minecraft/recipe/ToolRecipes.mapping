@@ -1,6 +1,5 @@
-CLASS gv net/minecraft/recipe/ToolRecipes
+CLASS dt net/minecraft/recipe/ToolRecipes
 	FIELD a PATTERNS [[Ljava/lang/String;
 	FIELD b INPUTS_TO_OUTPUTS [[Ljava/lang/Object;
-	METHOD <init> <init> ()V
-	METHOD a registerRecipes (Lhd;)V
+	METHOD a registerRecipes (Leb;)V
 		ARG 1 manager

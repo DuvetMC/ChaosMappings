@@ -1,1 +1,13 @@
-CLASS ca net/minecraft/world/entity/SheepEntity
+CLASS cl net/minecraft/world/entity/SheepEntity
+	METHOD <init> (Ldt;)V
+		ARG 1 world
+	METHOD a storeTag (Lks;)V
+		ARG 1 tag
+	METHOD a hurt (Lom;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b loadFromTag (Lks;)V
+		ARG 1 tag
+	METHOD f idleSound ()Ljava/lang/String;
+	METHOD g hurtSound ()Ljava/lang/String;
+	METHOD h_ deathSound ()Ljava/lang/String;

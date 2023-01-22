@@ -1,2 +1,12 @@
-CLASS jd net/minecraft/world/block/FenceBlock
+CLASS fj net/minecraft/world/block/FenceBlock
 	METHOD a isFullBlock ()Z
+	METHOD a canPlaceAt (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getCollisionBox (Lcp;III)Lcg;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,22 +1,31 @@
-CLASS ih net/minecraft/world/inventory/PlayerInventory
-	FIELD a inventory [Lik;
-	FIELD b armor [Lik;
+CLASS ex net/minecraft/world/inventory/PlayerInventory
+	FIELD a inventory [Ley;
+	FIELD b armor [Ley;
 	FIELD c selected I
-	FIELD e player Lgp;
-	FIELD f stack Lik;
-	METHOD <init> <init> (Lgp;)V
+	FIELD e player Ldp;
+	FIELD f stack Ley;
+	METHOD <init> (Ldp;)V
 		ARG 1 player
-	METHOD a getSize ()I
-	METHOD a getStack (I)Lik;
-	METHOD a getAttackStrength (Lep;)I
-	METHOD a writeTag (Les;)Les;
-	METHOD a addItem (Lik;)Z
-	METHOD b getDisplay ()Ljava/lang/String;
+	METHOD a takeItemsFromStack (II)Ley;
+		ARG 1 slot
+		ARG 2 count
+	METHOD a setStack (ILey;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a addItem (Ley;)Z
+	METHOD a getAttackStrength (Ljw;)I
+	METHOD a writeTag (Ljx;)Ljx;
+	METHOD a_ (Ldp;)Z
+		ARG 1 playerEntity
+	METHOD b getHeldItem ()Ley;
 	METHOD b contains (I)Z
 		ARG 1 item
-	METHOD b readTag (Les;)V
+	METHOD b readTag (Ljx;)V
+	METHOD c getDisplay ()Ljava/lang/String;
+	METHOD c getItem (Ley;)I
+		ARG 1 index
+	METHOD c_ getStack (I)Ley;
+		ARG 1 slot
 	METHOD d findItem (I)I
 		ARG 1 item
-	METHOD e getHeldItem ()Lik;
-	METHOD e getItem (I)I
-		ARG 1 index
+	METHOD m_ getSize ()I

@@ -1,1 +1,6 @@
-CLASS db net/minecraft/world/block/ObsidianBlock
+CLASS dr net/minecraft/world/block/ObsidianBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random

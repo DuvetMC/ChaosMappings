@@ -1,2 +1,12 @@
-CLASS ai net/minecraft/world/block/SoulSandBlock
-	METHOD d getCollisionBox (Lff;III)Lel;
+CLASS hn net/minecraft/world/block/SoulSandBlock
+	METHOD a (Lcp;IIILjw;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD d getCollisionBox (Lcp;III)Lcg;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

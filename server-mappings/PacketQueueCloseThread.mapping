@@ -1,5 +1,0 @@
-CLASS jq PacketQueueCloseThread
-	FIELD a queue Lbs;
-	METHOD <init> <init> (Lbs;)V
-		ARG 1 queue
-	METHOD run run ()V

@@ -1,3 +1,4 @@
-CLASS fp net/minecraft/world/block/JukeBoxBlock
+CLASS cy net/minecraft/world/block/JukeBoxBlock
 	METHOD a getTextureId (I)I
-	METHOD a onBreakBlock (Lff;IIIIF)V
+		ARG 1 blockId
+	METHOD a onBreakBlock (Lcp;IIIIF)V

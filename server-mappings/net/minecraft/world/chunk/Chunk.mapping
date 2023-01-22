@@ -1,10 +1,10 @@
-CLASS kw net/minecraft/world/chunk/Chunk
+CLASS gd net/minecraft/world/chunk/Chunk
 	FIELD b blocks [B
 	FIELD c isLoaded Z
-	FIELD d world Lff;
-	FIELD e meta Lir;
-	FIELD f skyLight Lir;
-	FIELD g blockLight Lir;
+	FIELD d world Lcp;
+	FIELD e meta Lma;
+	FIELD f skyLight Lma;
+	FIELD g blockLight Lma;
 	FIELD h heightMap [B
 	FIELD i topOfChunk I
 	FIELD j x I
@@ -13,10 +13,8 @@ CLASS kw net/minecraft/world/chunk/Chunk
 	FIELD m entities [Ljava/util/List;
 	FIELD n terrainPopulated Z
 	FIELD o modified Z
-	FIELD p def2 Z
-	FIELD q def1 Z
-	FIELD r dirty Z
-	FIELD s saveTime J
+	FIELD q dirty Z
+	FIELD r saveTime J
 	METHOD a why ()V
 	METHOD a isChunk (II)Z
 	METHOD a getBlock (III)I
@@ -30,34 +28,34 @@ CLASS kw net/minecraft/world/chunk/Chunk
 		ARG 3 z
 		ARG 4 block
 		ARG 5 meta
-	METHOD a addBlockEntity (IIILbg;)V
+	METHOD a addBlockEntity (IIILhv;)V
 	METHOD a chunkRandom (J)Ljava/util/Random;
-	METHOD a addBlockEntity (Lbg;)V
-	METHOD a getLightLevel (Leb;III)I
-	METHOD a setLightLevel (Leb;IIII)V
-	METHOD a addEntity (Lep;)V
-	METHOD a removeEntity (Lep;I)V
-	METHOD a getEntitiesOutsideBox (Lep;Lel;Ljava/util/List;)V
-	METHOD a getEntitiesOutsideBox (Ljava/lang/Class;Lel;Ljava/util/List;)V
+	METHOD a getLightLevel (Lbx;III)I
+	METHOD a setLightLevel (Lbx;IIII)V
+	METHOD a addBlockEntity (Lhv;)V
+	METHOD a getEntitiesOutsideBox (Ljava/lang/Class;Lcg;Ljava/util/List;)V
+	METHOD a addEntity (Ljw;)V
+	METHOD a removeEntity (Ljw;I)V
+	METHOD a getEntitiesOutsideBox (Ljw;Lcg;Ljava/util/List;)V
+	METHOD b createBlockLight ()V
 	METHOD b getHeight (II)I
 	METHOD b getMeta (III)I
 	METHOD b setMeta (IIII)V
-	METHOD b removeEntity (Lep;)V
-	METHOD c createBlockLight ()V
-	METHOD c c (II)V
+	METHOD b removeEntity (Ljw;)V
+	METHOD c (II)V
 		ARG 1 x
 		ARG 2 z
 	METHOD c isAboveTopBlock (III)Z
 	METHOD c getLight (IIII)I
 	METHOD d onLoad ()V
-	METHOD d getBlockEntity (III)Lbg;
+	METHOD d getBlockEntity (III)Lhv;
 	METHOD e onUnload ()V
 	METHOD e removeBlockEntity (III)V
-	METHOD f f (III)V
+	METHOD f (III)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 y
-	METHOD g g (III)V
+	METHOD g (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

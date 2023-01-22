@@ -1,22 +1,21 @@
-CLASS kz net/minecraft/world/block/properties/BlockProperties
-	FIELD a AIR Lkz;
-	FIELD c WOOD Lkz;
-	FIELD d STONE Lkz;
-	FIELD e IRON Lkz;
-	FIELD f WATER Lkz;
-	FIELD g LAVA Lkz;
-	FIELD h LEAVES Lkz;
-	FIELD k WOOL Lkz;
-	FIELD l FIRE Lkz;
-	FIELD m FALLING Lkz;
-	FIELD n REDSTONE Lkz;
-	FIELD o GLASS Lkz;
-	FIELD r ICE Lkz;
-	FIELD t SNOW Lkz;
-	FIELD v CLAY Lkz;
-	FIELD w PUMPKIN Lkz;
-	FIELD y flammable Z
-	METHOD <init> <init> ()V
+CLASS ge net/minecraft/world/block/properties/BlockProperties
+	FIELD a AIR Lge;
+	FIELD c WOOD Lge;
+	FIELD d STONE Lge;
+	FIELD e IRON Lge;
+	FIELD f WATER Lge;
+	FIELD g LAVA Lge;
+	FIELD h LEAVES Lge;
+	FIELD k WOOL Lge;
+	FIELD l FIRE Lge;
+	FIELD m FALLING Lge;
+	FIELD n REDSTONE Lge;
+	FIELD o GLASS Lge;
+	FIELD r ICE Lge;
+	FIELD t SNOW Lge;
+	FIELD v CLAY Lge;
+	FIELD w PUMPKIN Lge;
+	FIELD z flammable Z
 	METHOD d isFluid ()Z
 	METHOD e isFlammable ()Z
-	METHOD f flammable ()Lkz;
+	METHOD f flammable ()Lge;

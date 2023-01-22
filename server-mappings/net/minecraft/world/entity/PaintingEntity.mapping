@@ -1,4 +1,0 @@
-CLASS ct net/minecraft/world/entity/PaintingEntity
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V

@@ -1,11 +1,5 @@
-CLASS ac net/minecraft/util/tag/TagUtil
-	METHOD a readTag (Ljava/io/DataInput;)Ljd;
-		ARG 0 in
-	METHOD a loadFromInputStream (Ljava/io/InputStream;)Ljd;
-		ARG 0 is
-	METHOD a writeTag (Ljd;Ljava/io/DataOutput;)V
-		ARG 0 tag
-		ARG 1 out
-	METHOD a writeToOutputStream (Ljd;Ljava/io/OutputStream;)V
-		ARG 0 tag
-		ARG 1 os
+CLASS ag net/minecraft/util/tag/TagUtil
+	METHOD a readTag (Ljava/io/DataInput;)Lks;
+	METHOD a loadFromInputStream (Ljava/io/InputStream;)Lks;
+	METHOD a writeTag (Lks;Ljava/io/DataOutput;)V
+	METHOD a writeToOutputStream (Lks;Ljava/io/OutputStream;)V

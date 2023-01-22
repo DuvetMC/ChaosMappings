@@ -1,0 +1,2 @@
+CLASS bs
+	METHOD q_ tick ()V

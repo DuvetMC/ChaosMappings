@@ -2,5 +2,7 @@ CLASS b net/minecraft/util/Vec3i
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
-	FIELD d packed I
+	FIELD j packed I
 	METHOD a add (Lb;)F
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

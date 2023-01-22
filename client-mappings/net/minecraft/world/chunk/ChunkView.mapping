@@ -1,11 +1,13 @@
-CLASS bf net/minecraft/world/chunk/ChunkView
+CLASS bo net/minecraft/world/chunk/ChunkView
 	METHOD a isChunkLoaded (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD a generateChunk (Lbf;II)V
-		ARG 1 view
+	METHOD a generateChunk (Lbo;II)V
+		ARG 1 chunk
 		ARG 2 x
 		ARG 3 z
-	METHOD b getChunk (II)Lhk;
+	METHOD a (ZLta;)Z
+		ARG 2 listener
+	METHOD b getChunk (II)Lit;
 		ARG 1 x
 		ARG 2 z

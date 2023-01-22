@@ -1,7 +1,6 @@
-CLASS ei PlayerLoginHandler
-	FIELD a handshake Laj;
-	FIELD b handler Lgh;
-	METHOD <init> <init> (Lgh;Laj;)V
+CLASS cd PlayerLoginHandler
+	FIELD a handshake Lhm;
+	FIELD b handler Ldj;
+	METHOD <init> (Ldj;Lhm;)V
 		ARG 1 handler
 		ARG 2 handshake
-	METHOD run run ()V

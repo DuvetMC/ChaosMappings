@@ -1,8 +1,13 @@
-CLASS bq net/minecraft/world/entity/SnowballEntity
-	METHOD <init> <init> (Lff;Llb;)V
+CLASS as net/minecraft/world/entity/SnowballEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD <init> (Lcp;Lgh;)V
 		ARG 1 world
 		ARG 2 entity
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b attack (Lgp;)V
-	METHOD b_ tick ()V
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD b attack (Ldp;)V
+		ARG 1 player
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD f_ tick ()V

@@ -1,6 +1,6 @@
-CLASS lc StatsUpdater
-	FIELD a module Lkf;
-	METHOD <init> <init> (Lkf;)V
+CLASS gg StatsUpdater
+	FIELD a module Lft;
+	METHOD <init> (Lft;)V
 		ARG 1 module
-	METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V
+	METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V
 		ARG 1 event

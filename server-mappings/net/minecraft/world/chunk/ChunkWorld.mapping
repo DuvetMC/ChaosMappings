@@ -1,7 +1,13 @@
-CLASS ex net/minecraft/world/chunk/ChunkWorld
+CLASS ck net/minecraft/world/chunk/ChunkWorld
 	FIELD a x I
 	FIELD b z I
 	METHOD a getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD b getBlockId (III)I
-	METHOD c getPropetiesAt (III)Lkz;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getPropetiesAt (III)Lge;
 	METHOD d isFullBlock (III)Z

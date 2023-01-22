@@ -1,12 +1,11 @@
-CLASS hz net/minecraft/util/nbt/Tag
+CLASS ep net/minecraft/util/nbt/Tag
 	FIELD a name Ljava/lang/String;
-	METHOD <init> <init> ()V
 	METHOD a getId ()B
-	METHOD a newTagFromId (B)Lhz;
-	METHOD a writeToOutput (Lhz;Ljava/io/DataOutput;)V
+	METHOD a newTagFromId (B)Lep;
+	METHOD a writeToOutput (Lep;Ljava/io/DataOutput;)V
 	METHOD a read (Ljava/io/DataInput;)V
 	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a setName (Ljava/lang/String;)Lep;
+	METHOD b name ()Ljava/lang/String;
 	METHOD b getTagName (B)Ljava/lang/String;
-	METHOD b readFromInput (Ljava/io/DataInput;)Lhz;
-	METHOD c name ()Ljava/lang/String;
-	METHOD m setName (Ljava/lang/String;)Lhz;
+	METHOD b readFromInput (Ljava/io/DataInput;)Lep;

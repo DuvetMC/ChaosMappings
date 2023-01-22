@@ -1,8 +1,0 @@
-CLASS gn net/minecraft/world/block/SignBlock
-	FIELD a blockEntityClass Ljava/lang/Class;
-	FIELD b standing Z
-	METHOD a isFullBlock ()Z
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a_ createBlockEntity ()Lbg;
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD d getCollisionBox (Lff;III)Lel;

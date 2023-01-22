@@ -1,4 +1,0 @@
-CLASS om om
-	FIELD g entity Lmm;
-	METHOD <init> <init> (Lmm;)V
-		ARG 1 entity

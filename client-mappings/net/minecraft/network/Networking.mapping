@@ -1,5 +1,0 @@
-CLASS ne net/minecraft/network/Networking
-	METHOD a sendPacket (La;)V
-	METHOD a sendPacket (Lcn;)V
-	METHOD b b (Lgu;)V
-		ARG 1 packet

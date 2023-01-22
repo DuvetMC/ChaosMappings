@@ -1,0 +1,11 @@
+CLASS fw
+	METHOD a loadChunk (Lcp;II)Lgd;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a save (Lcp;Lgd;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b (Lcp;Lgd;)V
+		ARG 1 world
+		ARG 2 chunk

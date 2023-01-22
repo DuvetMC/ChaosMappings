@@ -1,18 +1,28 @@
-CLASS lb net/minecraft/world/entity/LivingEntity
-	FIELD aF health I
-	FIELD aQ texture Ljava/lang/String;
-	FIELD aT type Ljava/lang/String;
-	FIELD ba hearts I
-	METHOD a isSpawnable ()Z
+CLASS gh net/minecraft/world/entity/LivingEntity
+	FIELD C health I
+	FIELD M texture Ljava/lang/String;
+	FIELD P type Ljava/lang/String;
+	FIELD W hearts I
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD M kill ()V
+	METHOD a calculateFallDamage (F)V
+		ARG 1 fallDistance
 	METHOD a setBoundingBox (FF)V
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V
-	METHOD c heal (I)V
-	METHOD d idleSound ()Ljava/lang/String;
-	METHOD e hurtSound ()Ljava/lang/String;
-	METHOD f deathSound ()Ljava/lang/String;
-	METHOD g itemDrop ()I
-	METHOD i i (Lep;)Z
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD a hurt (Ljw;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b isSpawnable ()Z
+	METHOD b heal (I)V
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD e idleSound ()Ljava/lang/String;
+	METHOD e i (Ljw;)Z
 		ARG 1 entity
-	METHOD o kill ()V
+	METHOD f hurtSound ()Ljava/lang/String;
+	METHOD f_ tick ()V
+	METHOD g deathSound ()Ljava/lang/String;
+	METHOD h itemDrop ()I
+	METHOD p throwHeight ()F

@@ -1,4 +1,4 @@
-CLASS cp net/minecraft/world/block/BlockType
+CLASS bh net/minecraft/world/block/BlockType
 	FIELD a sound Ljava/lang/String;
 	FIELD b volume F
 	FIELD c pitch F

@@ -1,2 +1,5 @@
-CLASS bu net/minecraft/world/item/SoupItem
-	METHOD a use (Lik;Lff;Lgp;)Lik;
+CLASS at net/minecraft/world/item/SoupItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

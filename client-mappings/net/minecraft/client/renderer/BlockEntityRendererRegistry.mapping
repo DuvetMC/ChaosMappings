@@ -1,8 +1,0 @@
-CLASS hj net/minecraft/client/renderer/BlockEntityRendererRegistry
-	FIELD a instance Lhj;
-	FIELD e textureLoader Lgd;
-	FIELD f world Ldd;
-	FIELD g player Leh;
-	FIELD m classToRenderer Ljava/util/Map;
-	METHOD a a (Ljava/lang/Class;)Lga;
-		ARG 1 clazz

@@ -1,1 +1,5 @@
-CLASS ah net/minecraft/world/item/BucketItem
+CLASS am net/minecraft/world/item/BucketItem
+	METHOD a use (Lgz;Ldt;Lfd;)Lgz;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

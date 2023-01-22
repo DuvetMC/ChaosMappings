@@ -1,2 +1,5 @@
-CLASS bb net/minecraft/world/item/BucketItem
-	METHOD a use (Lik;Lff;Lgp;)Lik;
+CLASS ae net/minecraft/world/item/BucketItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

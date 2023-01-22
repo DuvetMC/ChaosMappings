@@ -1,6 +1,0 @@
-CLASS pv net/minecraft/client/network/ClientPlayNetworkHandler
-	FIELD k networking Lio;
-	FIELD l selectedItem I
-	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Lio;)V
-		ARG 1 minecraft
-		ARG 2 networking

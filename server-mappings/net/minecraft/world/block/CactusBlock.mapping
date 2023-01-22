@@ -1,7 +1,36 @@
-CLASS ba net/minecraft/world/block/CactusBlock
+CLASS ht net/minecraft/world/block/CactusBlock
 	METHOD a isFullBlock ()Z
 	METHOD a getTextureId (I)I
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD d getCollisionBox (Lff;III)Lel;
-	METHOD f canPlace (Lff;III)Z
+		ARG 1 blockId
+	METHOD a canPlaceAt (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (Lcp;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a (Lcp;IIILjw;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD d getCollisionBox (Lcp;III)Lcg;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f canPlace (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

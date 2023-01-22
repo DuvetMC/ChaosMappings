@@ -1,7 +1,12 @@
-CLASS w FancyBlock
-	FIELD a isFancy Z
-	METHOD <init> <init> (IILkz;Z)V
+CLASS hg FancyBlock
+	FIELD b isFancy Z
+	METHOD <init> (IILge;Z)V
 		ARG 3 properties
 		ARG 4 isFancy
 	METHOD a isFullBlock ()Z
-	METHOD a b (Ljw;IIII)Z
+	METHOD a b (Lmw;IIII)Z
+		ARG 1 worldView
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction

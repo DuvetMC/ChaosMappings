@@ -1,5 +1,16 @@
-CLASS gt net/minecraft/world/entity/MonsterEntity
-	METHOD a isSpawnable ()Z
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V
+CLASS ds net/minecraft/world/entity/MonsterEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD a hurt (Ljw;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b isSpawnable ()Z
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD f_ tick ()V

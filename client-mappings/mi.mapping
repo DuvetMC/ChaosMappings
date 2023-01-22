@@ -1,3 +1,0 @@
-CLASS mi mi
-	METHOD a drawText (Ljava/lang/String;III)V
-		ARG 1 text

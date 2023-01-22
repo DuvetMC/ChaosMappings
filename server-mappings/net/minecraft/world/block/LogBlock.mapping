@@ -1,4 +1,0 @@
-CLASS hl net/minecraft/world/block/LogBlock
-	METHOD a getTextureId (I)I
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a getDroppedItemCount (Ljava/util/Random;)I

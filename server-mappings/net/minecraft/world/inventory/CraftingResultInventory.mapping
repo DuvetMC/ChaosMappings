@@ -1,6 +1,0 @@
-CLASS is net/minecraft/world/inventory/CraftingResultInventory
-	FIELD a stacks [Lik;
-	METHOD <init> <init> ()V
-	METHOD a getSize ()I
-	METHOD a getStack (I)Lik;
-	METHOD b getDisplay ()Ljava/lang/String;

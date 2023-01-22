@@ -1,2 +1,0 @@
-CLASS dz SaddleItem
-	METHOD a postHit (Lik;Llb;)V

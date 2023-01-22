@@ -1,6 +1,13 @@
-CLASS dh net/minecraft/world/entity/SheepEntity
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD d idleSound ()Ljava/lang/String;
-	METHOD e hurtSound ()Ljava/lang/String;
-	METHOD f deathSound ()Ljava/lang/String;
+CLASS bp net/minecraft/world/entity/SheepEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD a hurt (Ljw;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD e idleSound ()Ljava/lang/String;
+	METHOD f hurtSound ()Ljava/lang/String;
+	METHOD g deathSound ()Ljava/lang/String;

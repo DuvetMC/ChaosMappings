@@ -1,7 +1,7 @@
-CLASS hd net/minecraft/recipe/ShapedRecipeManager
-	FIELD a INSTANCE Lhd;
+CLASS eb net/minecraft/recipe/ShapedRecipeManager
+	FIELD a INSTANCE Leb;
 	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Lhd;
-	METHOD a addRecipe (Lik;[Ljava/lang/Object;)V
+	METHOD a getInstance ()Leb;
+	METHOD a addRecipe (Ley;[Ljava/lang/Object;)V
 		ARG 1 result
 		ARG 2 recipe

@@ -1,1 +1,14 @@
 CLASS c net/minecraft/world/block/ChestBlock
+	METHOD a getTextureId (I)I
+		ARG 1 blockId
+	METHOD a canPlaceAt (Ldt;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a_ createBlockEntity ()Lll;
+	METHOD b onBreak (Ldt;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

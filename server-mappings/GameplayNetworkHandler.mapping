@@ -1,13 +1,13 @@
-CLASS kj GameplayNetworkHandler
+CLASS fv GameplayNetworkHandler
 	FIELD a LOGGER Ljava/util/logging/Logger;
-	FIELD b queue Lbs;
+	FIELD b queue Lhz;
 	FIELD c closed Z
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
-	FIELD e playerEntity Lfi;
-	FIELD g x D
-	FIELD h y D
-	FIELD i z D
-	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lbs;Lfi;)V
+	FIELD e playerEntity Lcr;
+	FIELD i x D
+	FIELD j y D
+	FIELD k z D
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhz;Lcr;)V
 		ARG 1 server
 		ARG 3 playerEntity
 	METHOD a tick ()V
@@ -17,7 +17,38 @@ CLASS kj GameplayNetworkHandler
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
+	METHOD a onEntityInteraction (La;)V
+		ARG 1 packet
+	METHOD a (Ldr;)V
+		ARG 1 packet
+	METHOD a onItemSelection (Lee;)V
+		ARG 1 packet
+	METHOD a (Len;)V
+		ARG 1 packet
+	METHOD a (Lfi;)V
+		ARG 1 packet
+	METHOD a b (Lfp;)V
+		ARG 1 packet
+	METHOD a (Lgr;)V
+		ARG 1 packet
+	METHOD a onEntityEvent (Lhf;)V
+		ARG 1 packet
+	METHOD a (Lhw;)V
+		ARG 1 packet
+	METHOD a onChatMessage (Lhy;)V
+		ARG 1 packet
+	METHOD a (Lip;)V
+		ARG 1 packet
 	METHOD a disconnect (Ljava/lang/String;)V
 		ARG 1 reason
-	METHOD a b (Lju;)V
-	METHOD b sendPacket (Lju;)V
+	METHOD a disconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 exceptions
+	METHOD a onSignInit (Lkx;)V
+		ARG 1 packet
+	METHOD a onDisconnect (Lnp;)V
+		ARG 1 packet
+	METHOD b sendPacket (Lfp;)V
+	METHOD b respond (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD c getCommandExecutorName ()Ljava/lang/String;

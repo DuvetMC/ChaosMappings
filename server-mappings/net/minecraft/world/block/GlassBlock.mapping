@@ -1,2 +1,3 @@
-CLASS fl net/minecraft/world/block/GlassBlock
+CLASS cu net/minecraft/world/block/GlassBlock
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random

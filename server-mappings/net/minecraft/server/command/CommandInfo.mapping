@@ -1,6 +1,6 @@
-CLASS at net/minecraft/server/command/CommandInfo
+CLASS aa net/minecraft/server/command/CommandInfo
 	FIELD a command Ljava/lang/String;
-	FIELD b executor Lfn;
-	METHOD <init> (Ljava/lang/String;Lfn;)V
+	FIELD b executor Lkh;
+	METHOD <init> (Ljava/lang/String;Lkh;)V
 		ARG 1 command
 		ARG 2 executor

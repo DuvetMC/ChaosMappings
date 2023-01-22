@@ -1,3 +1,8 @@
-CLASS iw net/minecraft/world/block/TransparentBlock
+CLASS fe net/minecraft/world/block/TransparentBlock
 	METHOD a isFullBlock ()Z
-	METHOD a b (Ljw;IIII)Z
+	METHOD a b (Lmw;IIII)Z
+		ARG 1 worldView
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction

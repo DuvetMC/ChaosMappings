@@ -1,3 +1,3 @@
-CLASS bw bw
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a playDisc (Ljava/lang/String;III)V
+CLASS bw
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 other

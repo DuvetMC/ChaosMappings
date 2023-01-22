@@ -1,6 +1,5 @@
-CLASS e net/minecraft/util/nbt/LongTag
+CLASS gq net/minecraft/util/nbt/LongTag
 	FIELD a value J
-	METHOD <init> <init> ()V
 	METHOD a getId ()B
 	METHOD a read (Ljava/io/DataInput;)V
 	METHOD a write (Ljava/io/DataOutput;)V

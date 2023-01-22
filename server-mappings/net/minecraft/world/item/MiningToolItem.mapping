@@ -1,7 +1,16 @@
-CLASS dq net/minecraft/world/item/MiningToolItem
-	FIELD bb breakable [Lgu;
-	FIELD bc breakSpeed F
-	METHOD a getAttackStrength (Lep;)I
-	METHOD a postMine (Lik;IIII)V
-	METHOD a breakMultiplier (Lik;Lgu;)F
-	METHOD a postHit (Lik;Llb;)V
+CLASS bt net/minecraft/world/item/MiningToolItem
+	FIELD bi breakable [Llc;
+	FIELD bj breakSpeed F
+	METHOD a postMine (Ley;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD a postHit (Ley;Lgh;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD a breakMultiplier (Ley;Llc;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD a getAttackStrength (Ljw;)I
