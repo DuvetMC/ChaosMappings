@@ -1,0 +1,6 @@
+CLASS gg net/minecraft/unpackaged/StatsUpdater
+	FIELD a module Lft;
+	METHOD <init> (Lft;)V
+		ARG 1 module
+	METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V
+		ARG 1 event

@@ -1,9 +1,0 @@
-CLASS ft StatsModule
-	FIELD a memoryUsageHistory [I
-	FIELD b currentBar I
-	FIELD c infoLines [Ljava/lang/String;
-	METHOD a update ()V
-	METHOD a updare (Lft;)V
-		ARG 0 StatsModule
-	METHOD paint (Ljava/awt/Graphics;)V
-		ARG 1 graphics
