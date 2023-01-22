@@ -2,5 +2,6 @@ build/
 .vscode/
 .idea/
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.class
 .gradle/
