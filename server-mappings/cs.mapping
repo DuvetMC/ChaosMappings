@@ -1,4 +1,4 @@
-CLASS cs cs
+CLASS cs
 	FIELD e stack Lik;
 	METHOD <init> <init> ()V
 	METHOD a getSize ()I

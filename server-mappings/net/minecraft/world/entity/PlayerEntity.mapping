@@ -5,8 +5,15 @@ CLASS gp net/minecraft/world/entity/PlayerEntity
 	FIELD ax dimension I
 	METHOD M getHeldItem ()Lik;
 	METHOD a storeTag (Lad;)V
+	METHOD a (Lek;)V
+		ARG 1 furnace
 	METHOD a addItem (Lik;Z)V
+		ARG 1 stack
+	METHOD a (Llf;)V
+		ARG 1 inventory
 	METHOD b loadFromTag (Lad;)V
+	METHOD b give (Lik;)V
+		ARG 1 stack
 	METHOD b_ tick ()V
 	METHOD c b (Lep;I)V
 	METHOD g interactWithEntity (Lep;)V

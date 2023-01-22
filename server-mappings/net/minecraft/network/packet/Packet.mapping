@@ -5,9 +5,12 @@ CLASS ju net/minecraft/network/packet/Packet
 	METHOD <init> <init> ()V
 	METHOD a getSize ()I
 	METHOD a getPacket (I)Lju;
+		ARG 0 id
 	METHOD a register (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 packet
 	METHOD a send (Lfr;)V
-		ARG 1 networking
+		ARG 1 handler
 	METHOD a read (Ljava/io/DataInputStream;)V
 		ARG 1 dataInputStream
 	METHOD a write (Ljava/io/DataOutputStream;)V

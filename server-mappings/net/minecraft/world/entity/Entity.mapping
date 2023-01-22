@@ -10,6 +10,7 @@ CLASS ep net/minecraft/world/entity/Entity
 	FIELD Q wz D
 	FIELD W random Ljava/util/Random;
 	FIELD Z fire I
+	FIELD a uidCount I
 	FIELD ad air I
 	FIELD af loaded Z
 	FIELD ag chunkX I
@@ -85,6 +86,8 @@ CLASS ep net/minecraft/world/entity/Entity
 		ARG 8 pitch
 	METHOD c saveIdToTag (Lad;)Z
 		ARG 1 tag
+	METHOD c (Lep;)V
+		ARG 1 entity
 	METHOD d distanceToSquared (DDD)D
 		ARG 1 x
 		ARG 3 y

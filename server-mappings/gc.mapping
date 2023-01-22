@@ -1,5 +1,15 @@
 CLASS gc gc
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d block I
+	FIELD e meta I
 	METHOD <init> <init> ()V
+	METHOD <init> (IIILff;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 world
 	METHOD a getSize ()I
 	METHOD a send (Lfr;)V
 	METHOD a read (Ljava/io/DataInputStream;)V

@@ -1,0 +1,5 @@
+CLASS fz net/minecraft/recipe/MaterialBlockRecipes
+	FIELD a INPUTS_TO_OUTPUTS [[Ljava/lang/Object;
+	METHOD <init> <init> ()V
+	METHOD a registerRecipes (Lhd;)V
+		ARG 1 manager
