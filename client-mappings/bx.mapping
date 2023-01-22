@@ -1,5 +1,0 @@
-CLASS bh bx
-	FIELD a inventory Ljc;
-	METHOD <init> (Ljc;Ljc;)V
-		ARG 1 inventory1
-		ARG 2 inventory2

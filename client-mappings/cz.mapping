@@ -1,2 +1,0 @@
-CLASS cz
-	METHOD a getTextureId (II)I

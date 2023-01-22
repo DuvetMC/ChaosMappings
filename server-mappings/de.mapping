@@ -1,7 +1,0 @@
-CLASS bn de
-	METHOD a (Ljava/io/DataInputStream;)V
-		ARG 1 dataInputStream
-	METHOD a (Ljava/io/DataOutputStream;)V
-		ARG 1 dataOutputStream
-	METHOD a (Lkj;)V
-		ARG 1 handler

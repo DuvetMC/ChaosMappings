@@ -1,2 +1,0 @@
-CLASS gk
-	METHOD a generate (Ldt;Ljava/util/Random;III)Z
