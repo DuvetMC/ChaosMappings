@@ -1,4 +1,4 @@
-CLASS cm SnowballItem
+CLASS cm net/minecraft/world/item/SnowballItem
 	METHOD <init> (I)V
 		ARG 1 id
 	METHOD a use (Lgz;Ldt;Lfd;)Lgz;

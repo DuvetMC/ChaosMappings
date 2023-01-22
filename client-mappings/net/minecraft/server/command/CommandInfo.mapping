@@ -1,3 +1,0 @@
-CLASS de net/minecraft/server/command/CommandInfo
-	METHOD <init> (Ljava/lang/String;Lke;)V
-		ARG 2 executor
