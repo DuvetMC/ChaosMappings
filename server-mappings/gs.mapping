@@ -1,4 +1,5 @@
 CLASS gs gs
+	FIELD e stack Lik;
 	METHOD <init> <init> ()V
 	METHOD a getSize ()I
 	METHOD a send (Lfr;)V

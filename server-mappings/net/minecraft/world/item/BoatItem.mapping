@@ -1,0 +1,2 @@
+CLASS hi net/minecraft/world/item/BoatItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

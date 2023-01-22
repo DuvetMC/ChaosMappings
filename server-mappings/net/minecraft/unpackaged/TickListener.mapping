@@ -1,0 +1,2 @@
+CLASS fc net/minecraft/unpackaged/TickListener
+	METHOD a tick ()V

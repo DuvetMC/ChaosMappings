@@ -1,4 +1,7 @@
 CLASS jl WorldGenerator
 	FIELD a world Lff;
+	FIELD b noiseSampler Lka;
 	FIELD g dimensionId I
 	METHOD <init> <init> ()V
+	METHOD a (Lff;)V
+		ARG 1 world

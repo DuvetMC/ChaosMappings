@@ -3,3 +3,4 @@ CLASS bs net/minecraft/world/entity/ClientPlayerEntity
 	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Ldd;Leg;I)V
 		ARG 1 minecraft
 		ARG 2 world
+		ARG 3 loginState

@@ -1,0 +1,6 @@
+CLASS ag net/minecraft/server/GuiFocusAdapter
+	FIELD a serverGui Lhf;
+	METHOD <init> (Lhf;)V
+		ARG 1 serverGui
+	METHOD focusGained focusGained (Ljava/awt/event/FocusEvent;)V
+		ARG 1 e

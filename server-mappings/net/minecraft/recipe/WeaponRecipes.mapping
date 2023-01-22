@@ -1,0 +1,6 @@
+CLASS jm net/minecraft/recipe/WeaponRecipes
+	FIELD a PATTERNS [[Ljava/lang/String;
+	FIELD b INPUTS_TO_OUTPUTS [[Ljava/lang/Object;
+	METHOD <init> <init> ()V
+	METHOD a registerRecipes (Lhd;)V
+		ARG 1 manager

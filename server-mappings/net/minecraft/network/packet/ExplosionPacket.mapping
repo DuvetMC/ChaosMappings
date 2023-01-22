@@ -1,0 +1,15 @@
+CLASS dl net/minecraft/network/packet/ExplosionPacket
+	FIELD a offsetX D
+	FIELD b offsetY D
+	FIELD c offsetZ D
+	FIELD e blocks Ljava/util/Set;
+	METHOD <init> <init> ()V
+	METHOD <init> (DDDFLjava/util/Set;)V
+		ARG 1 offsetX
+		ARG 3 offsetY
+		ARG 5 offsetZ
+		ARG 8 blocks
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

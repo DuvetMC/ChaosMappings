@@ -5,5 +5,13 @@ CLASS cw net/minecraft/unpackaged/Explosion
 	FIELD d z D
 	FIELD e entity Lep;
 	FIELD f power F
+	FIELD g blocks Ljava/util/Set;
 	FIELD h random Ljava/util/Random;
 	FIELD i world Lff;
+	METHOD <init> (Lff;Lep;DDDF)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 power

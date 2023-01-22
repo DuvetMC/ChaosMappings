@@ -1,7 +1,8 @@
 CLASS hp net/minecraft/world/entity/LivingEntity
 	FIELD J texture Ljava/lang/String;
 	FIELD M type Ljava/lang/String;
-	FIELD T health I
+	FIELD T hearts I
+	FIELD y health I
 	METHOD a isSpawnable ()Z
 	METHOD c heal (I)V
 	METHOD d idleSound ()Ljava/lang/String;

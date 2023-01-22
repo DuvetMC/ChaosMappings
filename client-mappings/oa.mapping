@@ -1,2 +1,7 @@
-CLASS oa oa
-	METHOD b actionBar (Ljava/lang/String;)V
+CLASS oa
+	FIELD g minecraft Lnet/minecraft/client/Minecraft;
+	FIELD i actionBar Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD b nowPlaying (Ljava/lang/String;)V
+		ARG 1 disc

@@ -6,6 +6,7 @@ CLASS dd net/minecraft/world/World
 	FIELD H playerTag Ljd;
 	FIELD L caveSoundTicks I
 	FIELD M collisionCache Ljava/util/List;
+	FIELD a isGenerating Z
 	FIELD b entities Ljava/util/List;
 	FIELD c blockEntities Ljava/util/List;
 	FIELD d players Ljava/util/List;

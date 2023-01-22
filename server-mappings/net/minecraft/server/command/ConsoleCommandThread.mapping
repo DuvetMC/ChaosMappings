@@ -1,0 +1,5 @@
+CLASS cl net/minecraft/server/command/ConsoleCommandThread
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD run run ()V

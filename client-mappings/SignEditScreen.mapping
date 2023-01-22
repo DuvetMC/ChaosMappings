@@ -1,0 +1,4 @@
+CLASS qk SignEditScreen
+	FIELD h blockEntity Lqq;
+	METHOD <init> (Lqq;)V
+		ARG 1 blockEntity

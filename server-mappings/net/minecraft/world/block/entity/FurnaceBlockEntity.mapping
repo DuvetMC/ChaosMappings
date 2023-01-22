@@ -1,0 +1,12 @@
+CLASS ek net/minecraft/world/block/entity/FurnaceBlockEntity
+	FIELD e remainingFuel I
+	FIELD g timeToCook I
+	FIELD h slots [Lik;
+	METHOD <init> <init> ()V
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD a loadTag (Lad;)V
+	METHOD b getDisplay ()Ljava/lang/String;
+	METHOD b getResultId (I)I
+		ARG 1 toSmelt
+	METHOD b saveToTag (Lad;)V

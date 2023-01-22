@@ -1,0 +1,8 @@
+CLASS ae net/minecraft/server/command/GuiCommandListener
+	FIELD a textField Ljavax/swing/JTextField;
+	FIELD b serverGui Lhf;
+	METHOD <init> (Lhf;Ljavax/swing/JTextField;)V
+		ARG 1 serverGui
+		ARG 2 textField
+	METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V
+		ARG 1 e

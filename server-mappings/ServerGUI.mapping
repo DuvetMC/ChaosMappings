@@ -1,5 +1,6 @@
 CLASS hf ServerGUI
 	FIELD a LOGGER Ljava/util/logging/Logger;
 	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	METHOD a getServer (Lhf;)Lnet/minecraft/server/MinecraftServer;
 	METHOD a create (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 0 server

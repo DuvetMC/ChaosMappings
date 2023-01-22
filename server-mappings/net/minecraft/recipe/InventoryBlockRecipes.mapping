@@ -1,0 +1,4 @@
+CLASS jf net/minecraft/recipe/InventoryBlockRecipes
+	METHOD <init> <init> ()V
+	METHOD a registerRecipes (Lhd;)V
+		ARG 1 manager
