@@ -2,3 +2,5 @@ build/
 .vscode/
 .idea/
 *.jar
+*.class
+.gradle/
