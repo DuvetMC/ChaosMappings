@@ -1,4 +1,5 @@
 CLASS ca net/minecraft/world/block/RedstoneTorchBlock
+	METHOD a getTextureId (II)I
 	METHOD a getDroppedItem (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 random
@@ -18,6 +19,7 @@ CLASS ca net/minecraft/world/block/RedstoneTorchBlock
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD b emitParticle (Ldt;IIILjava/util/Random;)V
 	METHOD c d (Ldt;IIII)Z
 		ARG 1 world
 		ARG 2 x

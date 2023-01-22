@@ -6,5 +6,6 @@ CLASS ay net/minecraft/util/Vec3d
 	FIELD e LAST_INSTANCE I
 	METHOD a dropCache ()V
 	METHOD a create (DDD)Lay;
+	METHOD a subtract (Lay;)Lay;
 	METHOD b cached (DDD)Lay;
 	METHOD e set (DDD)Lay;

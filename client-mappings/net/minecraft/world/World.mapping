@@ -1,12 +1,22 @@
 CLASS dt net/minecraft/world/World
 	FIELD G caveSoundTicks I
+	FIELD H collisionCache Ljava/util/List;
 	FIELD a isGenerating Z
+	FIELD b entities Ljava/util/List;
+	FIELD c blockEntities Ljava/util/List;
+	FIELD d players Ljava/util/List;
 	FIELD e skylight I
 	FIELD j difficulty I
+	FIELD k random Ljava/util/Random;
+	FIELD o chunkView Lbo;
 	FIELD t isClient Z
+	FIELD w tickNextTick1 Ljava/util/TreeSet;
+	FIELD x tickNextTick2 Ljava/util/Set;
+	FIELD z lastSaveTime J
 	METHOD <init> (Lrw;Ljava/lang/String;JLsd;)V
 		ARG 2 worldName
 		ARG 3 seed
+	METHOD a locateNearestPlayer (DDDD)Lfd;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a getTopBlock (II)I
 		ARG 1 x
@@ -34,6 +44,7 @@ CLASS dt net/minecraft/world/World
 	METHOD a spawnEntity (Lom;)Z
 	METHOD a (Lom;B)V
 		ARG 1 entity
+	METHOD a locateNearestPlayer (Lom;D)Lfd;
 	METHOD a spawnExplosion (Lom;DDDF)Lna;
 	METHOD a spawnExplosion (Lom;DDDFZ)Lna;
 	METHOD a (Lom;IIIF)Lch;
@@ -44,7 +55,8 @@ CLASS dt net/minecraft/world/World
 	METHOD a playSound (Lom;Ljava/lang/String;FF)V
 	METHOD a saveChunks (ZLta;)V
 		ARG 2 listener
-	METHOD b getChunk2 (II)Lit;
+	METHOD b getChunkByBlockPosition (II)Lit;
+	METHOD b getBlockEntity (III)Lll;
 	METHOD b setBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -74,6 +86,8 @@ CLASS dt net/minecraft/world/World
 	METHOD f entityTick ()V
 	METHOD f getPropetiesAt (III)Liu;
 	METHOD f onUpdateBlock (IIII)V
+	METHOD f addEntity (Lom;)V
+	METHOD g f3EntityCountString ()Ljava/lang/String;
 	METHOD g isChunkLoaded (II)Z
 	METHOD g isFullBlock (III)Z
 	METHOD h isInWorld (III)Z
@@ -91,11 +105,13 @@ CLASS dt net/minecraft/world/World
 		ARG 4 direction
 	METHOD l getLight (III)I
 	METHOD l updateBlock (IIII)V
-	METHOD m isAboveTopBlock2 (III)Z
+	METHOD m isAboveTopBlockAndInWorld (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD n removeBlockEntity (III)V
+	METHOD o quitWorld ()V
+	METHOD o tickRandom_maybe (III)V
 	METHOD p n (III)Z
 		ARG 1 x
 		ARG 2 y

@@ -1,0 +1,19 @@
+CLASS gy net/minecraft/world/inventory/PlayerInventory
+	FIELD a inventory [Lgz;
+	FIELD b armor [Lgz;
+	FIELD c selected I
+	FIELD e player Lfd;
+	METHOD a getSize ()I
+	METHOD a takeItemsFromStack (II)Lgz;
+	METHOD a setStack (ILgz;)V
+	METHOD a addItem (Lgz;)Z
+	METHOD a getAttackStrength (Lom;)I
+	METHOD a writeTag (Loo;)Loo;
+	METHOD b getHeldItem ()Lgz;
+	METHOD b moveCursor (I)V
+	METHOD b readTag (Loo;)V
+	METHOD c getDisplay ()Ljava/lang/String;
+	METHOD c contains (I)Z
+	METHOD c_ getStack (I)Lgz;
+	METHOD d getArmorSlot (I)Lgz;
+	METHOD f findItem (I)I

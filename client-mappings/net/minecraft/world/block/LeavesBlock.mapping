@@ -1,5 +1,7 @@
 CLASS at net/minecraft/world/block/LeavesBlock
+	FIELD c baseTextureId I
 	METHOD a isFullBlock ()Z
+	METHOD a getTextureId (II)I
 	METHOD a getDroppedItem (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 random
@@ -11,6 +13,7 @@ CLASS at net/minecraft/world/block/LeavesBlock
 		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
 		ARG 1 random
+	METHOD a updateTextureId (Z)V
 	METHOD b onBreak (Ldt;III)V
 		ARG 1 world
 		ARG 2 x

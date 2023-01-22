@@ -1,4 +1,4 @@
-CLASS ao ChunkView
+CLASS ao aj
 	METHOD a loadChunk (Ldt;II)Lit;
 		ARG 1 world
 		ARG 2 x

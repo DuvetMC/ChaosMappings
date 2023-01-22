@@ -1,0 +1,2 @@
+CLASS es
+	METHOD a generate (Ldt;Ljava/util/Random;III)Z

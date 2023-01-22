@@ -7,7 +7,8 @@ CLASS dm net/minecraft/network/packet/PlayerInitPacket
 		ARG 9 yaw
 		ARG 10 pitch
 		ARG 11 newPlayer
-	METHOD a (Ljava/io/DataInputStream;)V
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
 		ARG 1 dataInputStream
-	METHOD a (Ljava/io/DataOutputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
 		ARG 1 dataOutputStream

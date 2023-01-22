@@ -1,0 +1,4 @@
+CLASS fb net/minecraft/network/LoginState
+	FIELD a BLOCKS Ljava/util/List;
+	FIELD b username Ljava/lang/String;
+	FIELD c token Ljava/lang/String;

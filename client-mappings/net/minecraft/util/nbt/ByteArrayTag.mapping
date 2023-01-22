@@ -1,0 +1,5 @@
+CLASS ft net/minecraft/util/nbt/ByteArrayTag
+	FIELD a bytes [B
+	METHOD a getId ()B
+	METHOD a read (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V

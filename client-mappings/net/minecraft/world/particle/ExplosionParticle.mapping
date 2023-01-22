@@ -1,0 +1,3 @@
+CLASS fh net/minecraft/world/particle/ExplosionParticle
+	METHOD a render (Lkv;FFFFFF)V
+	METHOD q_ tick ()V

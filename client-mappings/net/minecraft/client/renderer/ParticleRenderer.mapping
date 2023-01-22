@@ -1,0 +1,9 @@
+CLASS cn net/minecraft/client/renderer/ParticleRenderer
+	FIELD a world Ldt;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textureLoader Lhf;
+	FIELD d random Ljava/util/Random;
+	METHOD a spawnBlockParticles (III)V
+	METHOD a setWorld (Ldt;)V
+	METHOD a addParticle (Lsv;)V
+	METHOD b count ()Ljava/lang/String;

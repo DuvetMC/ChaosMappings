@@ -1,0 +1,10 @@
+CLASS fs net/minecraft/world/entity/ItemEntity
+	FIELD a stack Lgz;
+	FIELD b age I
+	FIELD c pickupCooldown I
+	FIELD f health I
+	METHOD a storeTag (Lks;)V
+	METHOD a takeDamage (Lom;I)Z
+	METHOD b attack (Lfd;)V
+	METHOD b loadFromTag (Lks;)V
+	METHOD q_ tick ()V

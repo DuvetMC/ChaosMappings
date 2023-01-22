@@ -6,6 +6,7 @@ CLASS c net/minecraft/world/block/ChestBlock
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD a getTextureId (Lso;IIII)I
 	METHOD a_ createBlockEntity ()Lll;
 	METHOD b onBreak (Ldt;III)V
 		ARG 1 world
