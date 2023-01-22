@@ -1,3 +1,0 @@
-CLASS dy net/minecraft/world/block/ClayBlock
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a getDroppedItemCount (Ljava/util/Random;)I

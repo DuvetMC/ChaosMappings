@@ -1,2 +1,6 @@
-CLASS bn net/minecraft/world/block/entity/MobSpawnerBlockEntity
-	FIELD b defaultEntity Ljava/lang/String;
+CLASS bx net/minecraft/world/block/entity/MobSpawnerBlockEntity
+	FIELD h defaultEntity Ljava/lang/String;
+	METHOD a loadTag (Lks;)V
+		ARG 1 tag
+	METHOD b saveToTag (Lks;)V
+		ARG 1 tag

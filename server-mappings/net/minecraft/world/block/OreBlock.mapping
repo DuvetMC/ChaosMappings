@@ -1,3 +1,6 @@
-CLASS k net/minecraft/world/block/OreBlock
+CLASS gw net/minecraft/world/block/OreBlock
 	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random

@@ -1,3 +1,15 @@
-CLASS fd net/minecraft/world/block/PumpkinBlock
+CLASS co net/minecraft/world/block/PumpkinBlock
 	METHOD a getTextureId (I)I
-	METHOD e onPlace (Lff;III)V
+		ARG 1 blockId
+	METHOD a canPlaceAt (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a (Lcp;IIILgh;)V
+		ARG 1 world
+	METHOD e onPlace (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,11 +1,11 @@
-CLASS bd ChunkView
-	METHOD a loadChunk (Lff;II)Lkw;
+CLASS ag ChunkView
+	METHOD a loadChunk (Lcp;II)Lgd;
 		ARG 1 world
 		ARG 2 x
 		ARG 3 z
-	METHOD a save (Lff;Lkw;)V
+	METHOD a save (Lcp;Lgd;)V
 		ARG 1 world
 		ARG 2 chunk
-	METHOD b b (Lff;Lkw;)V
+	METHOD b (Lcp;Lgd;)V
 		ARG 1 world
 		ARG 2 chunk

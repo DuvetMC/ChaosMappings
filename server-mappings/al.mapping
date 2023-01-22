@@ -1,0 +1,5 @@
+CLASS al
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 other
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

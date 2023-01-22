@@ -1,7 +1,0 @@
-CLASS kh OverworldChunkGenerator
-	FIELD j random Ljava/util/Random;
-	FIELD p world Lff;
-	METHOD a isChunkLoaded (II)Z
-	METHOD a a (II[B[Ljp;)V
-		ARG 3 blocks
-	METHOD b getChunk (II)Lkw;

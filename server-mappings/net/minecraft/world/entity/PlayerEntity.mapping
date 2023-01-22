@@ -1,21 +1,29 @@
-CLASS gp net/minecraft/world/entity/PlayerEntity
-	FIELD an inventory Lih;
-	FIELD ar score I
-	FIELD aw name Ljava/lang/String;
-	FIELD ax dimension I
-	METHOD M getHeldItem ()Lik;
-	METHOD a storeTag (Lad;)V
-	METHOD a (Lek;)V
-		ARG 1 furnace
-	METHOD a addItem (Lik;Z)V
+CLASS dp net/minecraft/world/entity/PlayerEntity
+	FIELD i inventory Lex;
+	FIELD m score I
+	FIELD r name Ljava/lang/String;
+	FIELD s dimension I
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD B getEyeHeight ()D
+	METHOD C remove ()V
+	METHOD a addItem (Ley;Z)V
 		ARG 1 stack
-	METHOD a (Llf;)V
+	METHOD a (Lgk;)V
 		ARG 1 inventory
-	METHOD b loadFromTag (Lad;)V
-	METHOD b give (Lik;)V
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD a (Ljt;)V
+		ARG 1 furnace
+	METHOD a hurt (Ljw;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b give (Ley;)V
 		ARG 1 stack
-	METHOD b_ tick ()V
-	METHOD c b (Lep;I)V
-	METHOD g interactWithEntity (Lep;)V
-	METHOD h attackEntity (Lep;)V
-	METHOD l remove ()V
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD c interactWithEntity (Ljw;)V
+	METHOD d attackEntity (Ljw;)V
+	METHOD f_ tick ()V
+	METHOD p throwHeight ()F
+	METHOD z getHeldItem ()Ley;

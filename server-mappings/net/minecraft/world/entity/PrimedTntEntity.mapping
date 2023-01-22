@@ -1,5 +1,0 @@
-CLASS cx net/minecraft/world/entity/PrimedTntEntity
-	FIELD a fuse I
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V

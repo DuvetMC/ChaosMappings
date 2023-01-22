@@ -1,16 +1,16 @@
-CLASS jp net/minecraft/world/biome/Biome
-	FIELD a RAINFOREST Ljp;
-	FIELD b SWAMPLAND Ljp;
-	FIELD c SEASONAL_FOREST Ljp;
-	FIELD d FOREST Ljp;
-	FIELD e SAVANNA Ljp;
-	FIELD f SHRUBLAND Ljp;
-	FIELD g TAIGA Ljp;
-	FIELD h DESERT Ljp;
-	FIELD i PLAINS Ljp;
-	FIELD j ICE_DESERT Ljp;
-	FIELD k TAUNDRA Ljp;
-	FIELD l NETHER Ljp;
+CLASS fo net/minecraft/world/biome/Biome
+	FIELD a RAINFOREST Lfo;
+	FIELD b SWAMPLAND Lfo;
+	FIELD c SEASONAL_FOREST Lfo;
+	FIELD d FOREST Lfo;
+	FIELD e SAVANNA Lfo;
+	FIELD f SHRUBLAND Lfo;
+	FIELD g TAIGA Lfo;
+	FIELD h DESERT Lfo;
+	FIELD i PLAINS Lfo;
+	FIELD j ICE_DESERT Lfo;
+	FIELD k TAUNDRA Lfo;
+	FIELD l NETHER Lfo;
 	FIELD m name Ljava/lang/String;
 	FIELD n color I
 	FIELD o surface B
@@ -18,21 +18,20 @@ CLASS jp net/minecraft/world/biome/Biome
 	FIELD q clientColor I
 	FIELD r hostileMobs [Ljava/lang/Class;
 	FIELD s passiveMobs [Ljava/lang/Class;
-	FIELD t biomeLookupTable [Ljp;
-	METHOD <init> <init> ()V
+	FIELD u biomeLookupTable [Lfo;
 	METHOD a initializeTableAndBiomes ()V
-	METHOD a sampleBiome (DD)Ljp;
+	METHOD a sampleBiome (DD)Lfo;
 		ARG 0 temperature
 		ARG 2 humidity
-	METHOD a sampleBiome (FF)Ljp;
+	METHOD a sampleBiome (FF)Lfo;
 		ARG 0 temperature
 		ARG 1 humidity
-	METHOD a clientColor (I)Ljp;
+	METHOD a clientColor (I)Lfo;
 		ARG 1 color
-	METHOD a name (Ljava/lang/String;)Ljp;
-		ARG 1 name
-	METHOD a getSpawnableMobs (Lkt;)[Ljava/lang/Class;
+	METHOD a getSpawnableMobs (Lgc;)[Ljava/lang/Class;
 		ARG 1 mobType
-	METHOD b getBiome ()Ljp;
-	METHOD b color (I)Ljp;
+	METHOD a name (Ljava/lang/String;)Lfo;
+		ARG 1 name
+	METHOD b getBiome ()Lfo;
+	METHOD b color (I)Lfo;
 		ARG 1 color

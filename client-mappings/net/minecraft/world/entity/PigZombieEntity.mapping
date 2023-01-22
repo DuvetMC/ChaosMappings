@@ -1,3 +1,0 @@
-CLASS qi net/minecraft/world/entity/PigZombieEntity
-	FIELD a anger I
-	FIELD c defaultStack Lfy;

@@ -1,1 +1,7 @@
-CLASS z net/minecraft/world/entity/GiantEntity
+CLASS hi net/minecraft/world/entity/GiantEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

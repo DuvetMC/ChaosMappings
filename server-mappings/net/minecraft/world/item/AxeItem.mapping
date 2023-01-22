@@ -1,2 +1,0 @@
-CLASS fa net/minecraft/world/item/AxeItem
-	FIELD bb breakable [Lgu;

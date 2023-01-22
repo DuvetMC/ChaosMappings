@@ -1,5 +1,0 @@
-CLASS qx net/minecraft/world/block/SlabBlock
-	FIELD a isDoubleSlab Z
-	METHOD <init> <init> (IZ)V
-		ARG 1 id
-		ARG 2 isDoubleSlab

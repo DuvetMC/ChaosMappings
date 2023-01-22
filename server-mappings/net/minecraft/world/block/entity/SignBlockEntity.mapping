@@ -1,5 +1,0 @@
-CLASS ko net/minecraft/world/block/entity/SignBlockEntity
-	FIELD e rows [Ljava/lang/String;
-	METHOD <init> <init> ()V
-	METHOD a loadTag (Lad;)V
-	METHOD b saveToTag (Lad;)V

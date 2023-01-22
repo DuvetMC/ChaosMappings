@@ -1,5 +1,9 @@
-CLASS li net/minecraft/world/entity/PlayerArrowEntity
-	FIELD b owner Lgp;
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b_ tick ()V
+CLASS gl net/minecraft/world/entity/PlayerArrowEntity
+	FIELD b owner Ldp;
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD f_ tick ()V

@@ -1,8 +1,9 @@
-CLASS jk net/minecraft/network/packet/InventoryUpdatePacket
-	METHOD <init> <init> ()V
+CLASS fn net/minecraft/network/packet/InventoryUpdatePacket
 	METHOD <init> (ILjava/util/List;)V
 		ARG 2 items
-	METHOD a getSize ()I
-	METHOD a send (Lfr;)V
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a (Lkj;)V
+		ARG 1 handler

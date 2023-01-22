@@ -1,0 +1,3 @@
+CLASS cc
+	METHOD a storeTag (Lks;)V
+	METHOD b loadFromTag (Lks;)V

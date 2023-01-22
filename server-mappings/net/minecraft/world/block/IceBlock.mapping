@@ -1,5 +1,20 @@
-CLASS t net/minecraft/world/block/IceBlock
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+CLASS hd net/minecraft/world/block/IceBlock
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
-	METHOD a b (Ljw;IIII)Z
-	METHOD b onBreak (Lff;III)V
+		ARG 1 random
+	METHOD a b (Lmw;IIII)Z
+		ARG 1 worldView
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD b onBreak (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

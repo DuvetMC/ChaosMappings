@@ -1,7 +1,17 @@
-CLASS ja ja
-	METHOD <init> <init> ()V
-	METHOD a getSize ()I
-	METHOD a getStack (I)Lik;
-	METHOD a loadTag (Lad;)V
-	METHOD b getDisplay ()Ljava/lang/String;
-	METHOD b saveToTag (Lad;)V
+CLASS fg ja
+	METHOD a takeItemsFromStack (II)Ley;
+		ARG 1 slot
+		ARG 2 count
+	METHOD a setStack (ILey;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a loadTag (Lhj;)V
+		ARG 1 tag
+	METHOD a_ (Ldp;)Z
+		ARG 1 playerEntity
+	METHOD b saveToTag (Lhj;)V
+		ARG 1 tag
+	METHOD c getDisplay ()Ljava/lang/String;
+	METHOD c_ getStack (I)Ley;
+		ARG 1 slot
+	METHOD m_ getSize ()I

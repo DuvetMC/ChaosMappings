@@ -1,2 +1,0 @@
-CLASS di SeedItem
-	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

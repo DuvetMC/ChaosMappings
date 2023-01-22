@@ -1,0 +1,5 @@
+CLASS ab
+	METHOD a isFullBlock ()Z
+	METHOD a onNeighborUpdated (Ldt;IIII)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD d getCollisionBox (Ldt;III)Ldi;

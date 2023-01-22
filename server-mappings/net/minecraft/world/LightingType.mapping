@@ -1,2 +1,2 @@
-CLASS eb net/minecraft/world/LightingType
+CLASS bx net/minecraft/world/LightingType
 	FIELD c defaultLight I

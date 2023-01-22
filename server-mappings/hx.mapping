@@ -1,4 +1,4 @@
-CLASS hx hx
+CLASS en hx
 	FIELD a x D
 	FIELD b headY D
 	FIELD c z D
@@ -6,8 +6,9 @@ CLASS hx hx
 	FIELD e yaw F
 	FIELD f pitch F
 	FIELD g newPlayer Z
-	METHOD <init> <init> ()V
-	METHOD a getSize ()I
-	METHOD a send (Lfr;)V
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a (Lkj;)V
+		ARG 1 handler

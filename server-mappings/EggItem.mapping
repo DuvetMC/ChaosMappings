@@ -1,2 +1,7 @@
-CLASS g EggItem
-	METHOD a use (Lik;Lff;Lgp;)Lik;
+CLASS gs EggItem
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

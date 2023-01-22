@@ -1,4 +1,0 @@
-CLASS qh net/minecraft/world/entity/ServerPlayerEntity
-	METHOD <init> <init> (Ldd;Ljava/lang/String;)V
-		ARG 1 world
-		ARG 2 skinId

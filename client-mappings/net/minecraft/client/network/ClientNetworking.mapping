@@ -1,9 +1,0 @@
-CLASS io net/minecraft/client/network/ClientNetworking
-	FIELD b random Ljava/util/Random;
-	FIELD e minecraft Lnet/minecraft/client/Minecraft;
-	FIELD f world Lif;
-	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
-		ARG 1 minecraft
-		ARG 2 address
-		ARG 3 port
-	METHOD a sendPacket (Lgu;)V

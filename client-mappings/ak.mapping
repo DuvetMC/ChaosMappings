@@ -1,0 +1,17 @@
+CLASS ak
+	METHOD a getSize ()I
+	METHOD a takeItemsFromStack (II)Lgz;
+		ARG 1 slot
+		ARG 2 count
+	METHOD a setStack (ILgz;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a loadTag (Lks;)V
+		ARG 1 tag
+	METHOD a_ (Lfd;)Z
+		ARG 1 playerEntity
+	METHOD b saveToTag (Lks;)V
+		ARG 1 tag
+	METHOD c getDisplay ()Ljava/lang/String;
+	METHOD c_ getStack (I)Lgz;
+		ARG 1 slot

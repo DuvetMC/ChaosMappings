@@ -1,0 +1,34 @@
+CLASS gb
+	METHOD a why ()V
+	METHOD a isChunk (II)Z
+	METHOD a getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlock (IIII)Z
+	METHOD a setBlock (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+		ARG 5 meta
+	METHOD a addBlockEntity (IIILhv;)V
+	METHOD a chunkRandom (J)Ljava/util/Random;
+	METHOD a getLightLevel (Lbx;III)I
+	METHOD a setLightLevel (Lbx;IIII)V
+	METHOD a addBlockEntity (Lhv;)V
+	METHOD a getEntitiesOutsideBox (Ljava/lang/Class;Lcg;Ljava/util/List;)V
+	METHOD a addEntity (Ljw;)V
+	METHOD a removeEntity (Ljw;I)V
+	METHOD a getEntitiesOutsideBox (Ljw;Lcg;Ljava/util/List;)V
+	METHOD b createBlockLight ()V
+	METHOD b getHeight (II)I
+	METHOD b getMeta (III)I
+	METHOD b setMeta (IIII)V
+	METHOD b removeEntity (Ljw;)V
+	METHOD c isAboveTopBlock (III)Z
+	METHOD c getLight (IIII)I
+	METHOD d onLoad ()V
+	METHOD d getBlockEntity (III)Lhv;
+	METHOD e onUnload ()V
+	METHOD e removeBlockEntity (III)V

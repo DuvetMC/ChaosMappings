@@ -1,5 +1,6 @@
-CLASS cq net/minecraft/world/block/entity/MobSpawnerBlockEntity
-	FIELD f defaultEntity Ljava/lang/String;
-	METHOD <init> <init> ()V
-	METHOD a loadTag (Lad;)V
-	METHOD b saveToTag (Lad;)V
+CLASS bi net/minecraft/world/block/entity/MobSpawnerBlockEntity
+	FIELD h defaultEntity Ljava/lang/String;
+	METHOD a loadTag (Lhj;)V
+		ARG 1 tag
+	METHOD b saveToTag (Lhj;)V
+		ARG 1 tag

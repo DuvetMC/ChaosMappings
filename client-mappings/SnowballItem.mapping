@@ -1,0 +1,7 @@
+CLASS cm SnowballItem
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a use (Lgz;Ldt;Lfd;)Lgz;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

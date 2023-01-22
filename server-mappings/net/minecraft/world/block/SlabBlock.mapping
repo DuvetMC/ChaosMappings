@@ -1,8 +1,0 @@
-CLASS ky net/minecraft/world/block/SlabBlock
-	FIELD a isDoubleSlab Z
-	METHOD a isFullBlock ()Z
-	METHOD a getTextureId (I)I
-	METHOD a getDroppedItem (ILjava/util/Random;)I
-	METHOD a b (Ljw;IIII)Z
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD e onPlace (Lff;III)V

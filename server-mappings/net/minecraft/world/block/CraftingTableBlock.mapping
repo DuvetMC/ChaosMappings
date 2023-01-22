@@ -1,2 +1,3 @@
-CLASS fk net/minecraft/world/block/CraftingTableBlock
+CLASS ct net/minecraft/world/block/CraftingTableBlock
 	METHOD a getTextureId (I)I
+		ARG 1 blockId

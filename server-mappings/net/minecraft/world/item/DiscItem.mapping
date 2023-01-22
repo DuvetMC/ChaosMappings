@@ -1,3 +1,0 @@
-CLASS ga net/minecraft/world/item/DiscItem
-	FIELD a song Ljava/lang/String;
-	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

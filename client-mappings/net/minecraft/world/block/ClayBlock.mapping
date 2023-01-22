@@ -1,4 +1,0 @@
-CLASS lz net/minecraft/world/block/ClayBlock
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 textureId

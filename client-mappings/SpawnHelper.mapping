@@ -1,0 +1,7 @@
+CLASS br SpawnHelper
+	METHOD a pickRandomBlock (Ldt;II)Lrm;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD a tickMobSpawning (Ldt;ZZ)I
+		ARG 0 world

@@ -1,8 +1,13 @@
-CLASS bp net/minecraft/world/entity/CowEntity
-	METHOD a storeTag (Lad;)V
-	METHOD a onPlayerInteract (Lgp;)Z
-	METHOD b loadFromTag (Lad;)V
-	METHOD d idleSound ()Ljava/lang/String;
-	METHOD e hurtSound ()Ljava/lang/String;
-	METHOD f deathSound ()Ljava/lang/String;
-	METHOD g itemDrop ()I
+CLASS ar net/minecraft/world/entity/CowEntity
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD a onPlayerInteract (Ldp;)Z
+		ARG 1 player
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD e idleSound ()Ljava/lang/String;
+	METHOD f hurtSound ()Ljava/lang/String;
+	METHOD g deathSound ()Ljava/lang/String;
+	METHOD h itemDrop ()I

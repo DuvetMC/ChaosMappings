@@ -1,7 +1,16 @@
-CLASS ce net/minecraft/world/item/MiningToolItem
-	FIELD bb breakable [Lof;
-	FIELD bc breakSpeed F
-	METHOD <init> <init> (III[Lof;)V
-		ARG 1 id
-		ARG 3 level
-		ARG 4 breakable
+CLASS cp net/minecraft/world/item/MiningToolItem
+	FIELD bi breakable [Lqk;
+	FIELD bj breakSpeed F
+	METHOD a postMine (Lgz;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD a postHit (Lgz;Liz;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD a breakMultiplier (Lgz;Lqk;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD a getAttackStrength (Lom;)I

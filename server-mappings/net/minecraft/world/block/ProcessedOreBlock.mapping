@@ -1,2 +1,3 @@
-CLASS n net/minecraft/world/block/ProcessedOreBlock
+CLASS g net/minecraft/world/block/ProcessedOreBlock
 	METHOD a getTextureId (I)I
+		ARG 1 blockId

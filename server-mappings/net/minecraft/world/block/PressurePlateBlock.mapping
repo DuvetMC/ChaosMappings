@@ -1,8 +1,46 @@
-CLASS bo net/minecraft/world/block/PressurePlateBlock
+CLASS aq net/minecraft/world/block/PressurePlateBlock
 	METHOD a isFullBlock ()Z
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a canPlaceAt (Lcp;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (Lcp;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a (Lcp;IIILjw;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
 	METHOD b getUpdateRate ()I
-	METHOD b onBreak (Lff;III)V
-	METHOD b onNeighborUpdated (Lff;IIII)V
-	METHOD d getCollisionBox (Lff;III)Lel;
-	METHOD e onPlace (Lff;III)V
+	METHOD b onBreak (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c d (Lcp;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 direction
+	METHOD d getCollisionBox (Lcp;III)Lcg;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e onPlace (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

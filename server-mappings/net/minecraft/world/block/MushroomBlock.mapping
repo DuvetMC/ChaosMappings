@@ -1,3 +1,0 @@
-CLASS fq net/minecraft/world/block/MushroomBlock
-	METHOD b canPlantOn (I)Z
-	METHOD f canPlace (Lff;III)Z

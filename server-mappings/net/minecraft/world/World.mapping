@@ -1,120 +1,111 @@
-CLASS ff net/minecraft/world/World
-	FIELD F lastSaveTime J
-	FIELD G chunkView Lcg;
-	FIELD H player Lad;
-	FIELD L caveSoundTicks I
+CLASS cp net/minecraft/world/World
+	FIELD G caveSoundTicks I
 	FIELD a isGenerating Z
 	FIELD c blockEntities Ljava/util/List;
 	FIELD d players Ljava/util/List;
-	FIELD e worldTime J
-	FIELD f skylight I
-	FIELD k difficulty I
-	FIELD l random Ljava/util/Random;
-	FIELD m spawnX I
-	FIELD n spawnY I
-	FIELD o spawnZ I
-	FIELD q generator Ljl;
-	FIELD s worldsFolder Ljava/io/File;
-	FIELD t worldFile Ljava/io/File;
-	FIELD u seed J
-	FIELD v sizeOnDisk J
-	FIELD w worldName Ljava/lang/String;
-	FIELD z isClient Z
-	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;JLjl;)V
-		ARG 1 worldsFolder
+	FIELD e skylight I
+	FIELD j difficulty I
+	FIELD k random Ljava/util/Random;
+	FIELD m generator Lmn;
+	FIELD t isClient Z
+	FIELD z lastSaveTime J
+	METHOD <init> (Lmi;Ljava/lang/String;JLmn;)V
 		ARG 2 worldName
 		ARG 3 seed
-		ARG 5 generator
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z
 	METHOD a getBlock (III)I
-	METHOD a setBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-		ARG 4 id
 	METHOD a setBlock (IIIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 block
 		ARG 5 meta
-	METHOD a addBlockEntity (IIILbg;)V
+	METHOD a addBlockEntity (IIILhv;)V
 	METHOD a getLight (IIIZ)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a getLight (Leb;III)I
-	METHOD a setLight (Leb;IIIIII)V
-	METHOD a spawnEntity (Lep;)Z
-	METHOD a (Lep;B)V
+	METHOD a getLight (Lbx;III)I
+	METHOD a setLight (Lbx;IIIIII)V
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;III)V
+	METHOD a addEntities (Ljava/util/List;)V
+	METHOD a spawnEntity (Ljw;)Z
+	METHOD a (Ljw;B)V
 		ARG 1 entity
-	METHOD a spawnExplosion (Lep;DDDF)Lcw;
-	METHOD a spawnExplosion (Lep;DDDFZ)Lcw;
-	METHOD a a (Lep;IIIF)Ldc;
+	METHOD a spawnExplosion (Ljw;DDDF)Lis;
+	METHOD a spawnExplosion (Ljw;DDDFZ)Lis;
+	METHOD a (Ljw;IIIF)Lbm;
 		ARG 1 entity
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a playSound (Lep;Ljava/lang/String;FF)V
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a playSound (Ljava/lang/String;III)V
-	METHOD a addEntities (Ljava/util/List;)V
-	METHOD a saveChunks (ZLke;)V
+	METHOD a playSound (Ljw;Ljava/lang/String;FF)V
+	METHOD a saveChunks (ZLne;)V
 		ARG 2 listener
-	METHOD b getChunk2 (II)Lkw;
+	METHOD b getChunk2 (II)Lgd;
 	METHOD b getBlockId (III)I
-	METHOD b setMetaThenUpdate (IIII)V
-	METHOD b setBlockThenUpdate (IIIII)Z
-	METHOD b getEntitiesInBox (Lep;Lel;)Ljava/util/List;
-	METHOD b removeEntities (Ljava/util/List;)V
-	METHOD c entityTick ()V
-	METHOD c getChunk (II)Lkw;
-	METHOD c getPropetiesAt (III)Lkz;
-	METHOD c setMeta (IIII)Z
-	METHOD d getHeight (II)I
 		ARG 1 x
-		ARG 2 z
-	METHOD d isFullBlock (III)Z
-	METHOD d setBlockThenUpdate (IIII)Z
-	METHOD d removeEntity (Lep;)V
-	METHOD e isAir (III)Z
-	METHOD e onUpdateBlock (IIII)V
-	METHOD f isChunkLoaded (II)Z
-	METHOD f isInWorld (III)Z
-	METHOD g updateNeighbors (IIII)V
-	METHOD h checkSessionLock ()V
-	METHOD h isAboveTopBlock (III)Z
-	METHOD h h (IIII)V
+		ARG 2 y
+		ARG 3 z
+	METHOD b setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD b setBlockThenUpdate (IIIII)Z
+	METHOD b removeEntities (Ljava/util/List;)V
+	METHOD b getEntitiesInBox (Ljw;Lcg;)Ljava/util/List;
+	METHOD c getChunk (II)Lgd;
+	METHOD c getPropetiesAt (III)Lge;
+	METHOD c setMetaThenUpdate (IIII)V
+	METHOD c h (IIIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 block
-	METHOD i saveWorld ()V
-	METHOD i getLight (III)I
-	METHOD i i (IIII)Z
+	METHOD d entityTick ()V
+	METHOD d getHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD d isFullBlock (III)Z
+	METHOD d setMeta (IIII)Z
+	METHOD d removeEntity (Ljw;)V
+	METHOD e isAir (III)Z
+	METHOD e setBlockThenUpdate (IIII)Z
+	METHOD f isChunkLoaded (II)Z
+	METHOD f isInWorld (III)Z
+	METHOD f onUpdateBlock (IIII)V
+	METHOD h updateNeighbors (IIII)V
+	METHOD i isAboveTopBlock (III)Z
+	METHOD i (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 direction
-	METHOD j isAboveTopBlock2 (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD j j (IIII)Z
+	METHOD j getLight (III)I
+	METHOD j (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 direction
+	METHOD k isAboveTopBlock2 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD k updateBlock (IIII)V
-	METHOD m removeBlockEntity (III)V
-	METHOD n n (III)Z
+	METHOD n removeBlockEntity (III)V
+	METHOD o n (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD o o (III)Z
+	METHOD p o (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

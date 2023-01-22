@@ -1,2 +1,0 @@
-CLASS ks PaintingItem
-	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

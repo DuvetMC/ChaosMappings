@@ -1,6 +1,0 @@
-CLASS po po
-	FIELD a world Ldd;
-	METHOD a a (Ldd;)V
-		ARG 1 world
-	METHOD a a (Ljava/io/File;)Laj;
-		ARG 1 worldDir

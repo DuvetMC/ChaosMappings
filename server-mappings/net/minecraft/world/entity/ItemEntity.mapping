@@ -1,17 +1,27 @@
-CLASS he net/minecraft/world/entity/ItemEntity
-	FIELD a stack Lik;
+CLASS ea net/minecraft/world/entity/ItemEntity
+	FIELD a stack Ley;
 	FIELD b age I
 	FIELD c pickupCooldown I
 	FIELD d rotationOffset F
 	FIELD f health I
-	METHOD <init> <init> (Lff;DDDLik;)V
+	METHOD <init> (Lcp;)V
+		ARG 1 world
+	METHOD <init> (Lcp;DDDLey;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 stack
-	METHOD a storeTag (Lad;)V
-	METHOD b loadFromTag (Lad;)V
-	METHOD b attack (Lgp;)V
-	METHOD b_ tick ()V
+	METHOD a hurt (I)V
+		ARG 1 amount
+	METHOD a storeTag (Lhj;)V
+		ARG 1 tag
+	METHOD a hurt (Ljw;I)Z
+		ARG 1 attacker
+		ARG 2 amount
+	METHOD b attack (Ldp;)V
+		ARG 1 player
+	METHOD b loadFromTag (Lhj;)V
+		ARG 1 tag
+	METHOD f_ tick ()V
 	METHOD g h (DDD)Z

@@ -1,2 +1,2 @@
-CLASS cl net/minecraft/world/LightingType
+CLASS cx net/minecraft/world/LightingType
 	FIELD c defaultLight I

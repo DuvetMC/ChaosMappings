@@ -1,2 +1,0 @@
-CLASS as net/minecraft/world/block/properties/FlowerBlockProperties
-	METHOD <init> <init> ()V

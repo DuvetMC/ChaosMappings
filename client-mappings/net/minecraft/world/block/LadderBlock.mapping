@@ -1,1 +1,20 @@
-CLASS cd net/minecraft/world/block/LadderBlock
+CLASS co net/minecraft/world/block/LadderBlock
+	METHOD a isFullBlock ()Z
+	METHOD a canPlaceAt (Ldt;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborUpdated (Ldt;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD d getCollisionBox (Ldt;III)Ldi;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d onUseBlock (Ldt;IIII)V

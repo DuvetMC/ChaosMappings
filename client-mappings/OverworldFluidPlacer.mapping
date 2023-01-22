@@ -1,4 +1,0 @@
-CLASS py OverworldFluidPlacer
-	FIELD a id I
-	METHOD <init> (I)V
-		ARG 1 id

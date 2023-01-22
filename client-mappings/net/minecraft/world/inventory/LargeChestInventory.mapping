@@ -1,8 +1,0 @@
-CLASS jk net/minecraft/world/inventory/LargeChestInventory
-	FIELD a name Ljava/lang/String;
-	FIELD b left Lhs;
-	FIELD c right Lhs;
-	METHOD <init> <init> (Ljava/lang/String;Lhs;Lhs;)V
-		ARG 1 name
-		ARG 2 left
-		ARG 3 right

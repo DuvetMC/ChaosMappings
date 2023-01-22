@@ -1,6 +1,0 @@
-CLASS ez net/minecraft/util/nbt/DoubleTag
-	FIELD a value D
-	METHOD <init> <init> ()V
-	METHOD a getId ()B
-	METHOD a read (Ljava/io/DataInput;)V
-	METHOD a write (Ljava/io/DataOutput;)V

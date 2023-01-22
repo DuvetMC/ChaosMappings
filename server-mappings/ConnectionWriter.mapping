@@ -1,4 +1,0 @@
-CLASS jt ConnectionWriter
-	FIELD a clientConnection Lbs;
-	METHOD <init> <init> (Lbs;Ljava/lang/String;)V
-		ARG 2 name

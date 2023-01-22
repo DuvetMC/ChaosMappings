@@ -1,3 +1,15 @@
-CLASS az net/minecraft/world/block/FlowingFluidBlock
-	METHOD a randomTick (Lff;IIILjava/util/Random;)V
-	METHOD e onPlace (Lff;III)V
+CLASS hs net/minecraft/world/block/FlowingFluidBlock
+	METHOD <init> (ILge;)V
+		ARG 1 id
+		ARG 2 properties
+	METHOD a randomTick (Lcp;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD e onPlace (Lcp;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

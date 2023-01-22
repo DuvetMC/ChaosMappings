@@ -1,2 +1,0 @@
-CLASS ht net/minecraft/world/entity/PlayerArrowEntity
-	FIELD b owner Leh;

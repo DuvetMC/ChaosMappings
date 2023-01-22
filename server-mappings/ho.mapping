@@ -1,6 +1,0 @@
-CLASS ho ho
-	FIELD c server Lnet/minecraft/server/MinecraftServer;
-	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 server
-	METHOD a a (Lep;)V
-		ARG 1 entity

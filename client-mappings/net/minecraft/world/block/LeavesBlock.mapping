@@ -1,12 +1,19 @@
-CLASS an net/minecraft/world/block/LeavesBlock
-	FIELD b baseTextureId I
-	METHOD <init> <init> (II)V
-		ARG 1 id
-		ARG 2 textureId
-	METHOD a updateTextureId (Z)V
-		ARG 1 isFancy
-	METHOD h decay (Ldd;III)V
+CLASS at net/minecraft/world/block/LeavesBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
+	METHOD a randomTick (Ldt;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+		ARG 5 random
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD b onBreak (Ldt;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h decay (Ldt;III)V

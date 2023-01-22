@@ -1,5 +1,0 @@
-CLASS at at
-	METHOD a renderParticles (Lmm;DDDFF)V
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z

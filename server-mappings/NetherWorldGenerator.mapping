@@ -1,2 +1,0 @@
-CLASS io NetherWorldGenerator
-	METHOD <init> <init> ()V

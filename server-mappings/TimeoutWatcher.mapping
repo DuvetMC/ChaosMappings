@@ -1,3 +1,0 @@
-CLASS jr TimeoutWatcher
-	FIELD a queue Lbs;
-	METHOD run run ()V

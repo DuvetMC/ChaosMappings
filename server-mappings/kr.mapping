@@ -1,5 +1,15 @@
-CLASS kr kr
+CLASS fz kr
 	METHOD a isChunkLoaded (II)Z
-	METHOD b getChunk (II)Lkw;
-	METHOD b b (Lkw;)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a generateChunk (Lay;II)V
+		ARG 1 chunk
+		ARG 2 x
+		ARG 3 z
+	METHOD a (ZLne;)Z
+		ARG 2 listener
+	METHOD b getChunk (II)Lgd;
+		ARG 1 x
+		ARG 2 z
+	METHOD b (Lgd;)V
 		ARG 1 chunk

@@ -1,6 +1,15 @@
-CLASS dc net/minecraft/world/block/PumpkinBlock
-	FIELD a lit Z
-	METHOD <init> <init> (IIZ)V
-		ARG 1 id
-		ARG 2 textureId
-		ARG 3 lit
+CLASS ds net/minecraft/world/block/PumpkinBlock
+	METHOD a getTextureId (I)I
+		ARG 1 blockId
+	METHOD a canPlaceAt (Ldt;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a (Ldt;IIILiz;)V
+		ARG 1 world
+	METHOD e onPlace (Ldt;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,9 +1,0 @@
-CLASS br ScreenMaybe
-	COMMENT please check if this is actually screen before proceeding (remove javadoc afterward)
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;
-	METHOD a (Lnet/minecraft/client/Minecraft;II)V
-		ARG 1 minecraft
-	METHOD b drawBackground (I)V
-	METHOD d pollMouseAndKeys ()V
-	METHOD e pollMouse ()V
-	METHOD f pollKeys ()V

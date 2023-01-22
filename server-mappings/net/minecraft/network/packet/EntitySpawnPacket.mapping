@@ -1,4 +1,4 @@
-CLASS it net/minecraft/network/packet/EntitySpawnPacket
+CLASS fd net/minecraft/network/packet/EntitySpawnPacket
 	FIELD a uid I
 	FIELD b id B
 	FIELD c x I
@@ -6,10 +6,11 @@ CLASS it net/minecraft/network/packet/EntitySpawnPacket
 	FIELD e z I
 	FIELD f yaw B
 	FIELD g pitch B
-	METHOD <init> <init> ()V
-	METHOD <init> <init> (Llb;)V
+	METHOD <init> (Lgh;)V
 		ARG 1 entity
-	METHOD a getSize ()I
-	METHOD a send (Lfr;)V
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a (Lkj;)V
+		ARG 1 handler

@@ -1,2 +1,4 @@
-CLASS p net/minecraft/world/block/GravelBlock
+CLASS ha net/minecraft/world/block/GravelBlock
 	METHOD a getDroppedItem (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 random
