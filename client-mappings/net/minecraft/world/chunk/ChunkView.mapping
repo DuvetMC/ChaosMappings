@@ -2,7 +2,7 @@ CLASS bf net/minecraft/world/chunk/ChunkView
 	METHOD a isChunkLoaded (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD a a (Lbf;II)V
+	METHOD a generateChunk (Lbf;II)V
 		ARG 1 view
 		ARG 2 x
 		ARG 3 z

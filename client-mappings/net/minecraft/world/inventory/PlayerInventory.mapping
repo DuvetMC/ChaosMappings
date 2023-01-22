@@ -3,6 +3,7 @@ CLASS fx net/minecraft/world/inventory/PlayerInventory
 	FIELD b armor [Lfy;
 	FIELD c selected I
 	FIELD e player Leh;
+	FIELD f stack Lfy;
 	METHOD <init> <init> (Leh;)V
 		ARG 1 player
 	METHOD a getHeldItem ()Lfy;
@@ -18,13 +19,14 @@ CLASS fx net/minecraft/world/inventory/PlayerInventory
 		ARG 1 block
 	METHOD b contains (I)Z
 		ARG 1 item
-	METHOD b b (Lfy;)V
+	METHOD b (Lfy;)V
 		ARG 1 stack
 	METHOD b readTag (Lmo;)V
 		ARG 1 tag
 	METHOD b b (Lof;)Z
 		ARG 1 block
 	METHOD d getArmorSlot (I)Lfy;
+		ARG 1 slot
 	METHOD f findItem (I)I
 		ARG 1 item
 	METHOD g getItem (I)I
