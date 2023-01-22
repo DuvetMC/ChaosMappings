@@ -1,7 +1,8 @@
 CLASS da ed
-	METHOD a (Ljava/io/DataInputStream;)V
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
 		ARG 1 dataInputStream
-	METHOD a (Ljava/io/DataOutputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
 		ARG 1 dataOutputStream
-	METHOD a (Lpe;)V
+	METHOD a send (Lpe;)V
 		ARG 1 handler

@@ -1,6 +1,8 @@
 CLASS ds net/minecraft/world/block/PumpkinBlock
+	FIELD a lit Z
 	METHOD a getTextureId (I)I
 		ARG 1 blockId
+	METHOD a getTextureId (II)I
 	METHOD a canPlaceAt (Ldt;III)Z
 		ARG 1 world
 		ARG 2 x

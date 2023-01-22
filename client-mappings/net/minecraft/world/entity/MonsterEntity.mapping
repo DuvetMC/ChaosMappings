@@ -1,0 +1,6 @@
+CLASS fi net/minecraft/world/entity/MonsterEntity
+	METHOD a storeTag (Lks;)V
+	METHOD a takeDamage (Lom;I)Z
+	METHOD b loadFromTag (Lks;)V
+	METHOD c isSpawnable ()Z
+	METHOD q_ tick ()V

@@ -1,0 +1,8 @@
+CLASS gn net/minecraft/client/resources/TexturePacks
+	FIELD a loadedPack Le;
+	FIELD b packList Ljava/util/List;
+	FIELD c defaultPack Le;
+	FIELD e client Lnet/minecraft/client/Minecraft;
+	FIELD g loadedName Ljava/lang/String;
+	METHOD a loadTexturePacks ()V
+	METHOD a load (Le;)Z

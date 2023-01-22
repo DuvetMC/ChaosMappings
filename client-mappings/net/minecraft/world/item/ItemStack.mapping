@@ -1,0 +1,14 @@
+CLASS gz net/minecraft/world/item/ItemStack
+	FIELD a amount I
+	FIELD c item I
+	FIELD d durability I
+	METHOD a getItem ()Lex;
+	METHOD a postMine (IIII)V
+	METHOD a postHit (Liz;)V
+	METHOD a writeData (Lks;)Lks;
+	METHOD a getAttackStrength (Lom;)I
+	METHOD b damage (I)V
+	METHOD b readData (Lks;)V
+	METHOD b canBreak (Lqk;)Z
+	METHOD c getMaxStack ()I
+	METHOD j getMaxDurability ()I

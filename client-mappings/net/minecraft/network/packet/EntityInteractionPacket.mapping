@@ -1,7 +1,0 @@
-CLASS a net/minecraft/network/packet/EntityInteractionPacket
-	METHOD a (Ljava/io/DataInputStream;)V
-		ARG 1 dataInputStream
-	METHOD a (Ljava/io/DataOutputStream;)V
-		ARG 1 dataOutputStream
-	METHOD a (Lpe;)V
-		ARG 1 handler

@@ -2,6 +2,7 @@ CLASS bu net/minecraft/world/block/BlockType
 	FIELD a sound Ljava/lang/String;
 	FIELD b volume F
 	FIELD c pitch F
+	METHOD a breakSound ()Ljava/lang/String;
 	METHOD b volume ()F
 	METHOD c pitch ()F
 	METHOD d stepSound ()Ljava/lang/String;

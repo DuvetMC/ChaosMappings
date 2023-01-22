@@ -3,7 +3,7 @@ CLASS cl net/minecraft/world/entity/SheepEntity
 		ARG 1 world
 	METHOD a storeTag (Lks;)V
 		ARG 1 tag
-	METHOD a hurt (Lom;I)Z
+	METHOD a takeDamage (Lom;I)Z
 		ARG 1 attacker
 		ARG 2 amount
 	METHOD b loadFromTag (Lks;)V

@@ -1,4 +1,5 @@
 CLASS ax net/minecraft/world/block/RedstoneOreBlock
+	FIELD a lit Z
 	METHOD a getDroppedItem (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 random
@@ -10,4 +11,5 @@ CLASS ax net/minecraft/world/block/RedstoneOreBlock
 		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
 		ARG 1 random
+	METHOD b emitParticle (Ldt;IIILjava/util/Random;)V
 	METHOD d getUpdateRate ()I

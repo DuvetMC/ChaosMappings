@@ -1,0 +1,11 @@
+CLASS gl net/minecraft/util/nbt/Tag
+	FIELD a name Ljava/lang/String;
+	METHOD a getId ()B
+	METHOD a newTagFromId (B)Lgl;
+	METHOD a writeToOutput (Lgl;Ljava/io/DataOutput;)V
+	METHOD a read (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a setName (Ljava/lang/String;)Lgl;
+	METHOD b name ()Ljava/lang/String;
+	METHOD b getTagName (B)Ljava/lang/String;
+	METHOD b readFromInput (Ljava/io/DataInput;)Lgl;

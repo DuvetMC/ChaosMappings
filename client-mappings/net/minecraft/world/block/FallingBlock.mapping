@@ -1,0 +1,6 @@
+CLASS ew net/minecraft/world/block/FallingBlock
+	FIELD a generatingWorld Z
+	METHOD a onNeighborUpdated (Ldt;IIII)V
+	METHOD a randomTick (Ldt;IIILjava/util/Random;)V
+	METHOD d getUpdateRate ()I
+	METHOD e onPlace (Ldt;III)V

@@ -1,0 +1,14 @@
+CLASS fd net/minecraft/world/entity/PlayerEntity
+	FIELD f inventory Lgy;
+	FIELD j score I
+	FIELD o name Ljava/lang/String;
+	FIELD p dimension I
+	METHOD D getHeldItem ()Lgz;
+	METHOD F getEyeHeight ()D
+	METHOD H remove ()V
+	METHOD a addItem (Lgz;Z)V
+	METHOD a storeTag (Lks;)V
+	METHOD a takeDamage (Lom;I)Z
+	METHOD b loadFromTag (Lks;)V
+	METHOD d attackEntity (Lom;)V
+	METHOD q_ tick ()V

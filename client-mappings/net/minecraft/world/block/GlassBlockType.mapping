@@ -1,0 +1,2 @@
+CLASS ac net/minecraft/world/block/GlassBlockType
+	METHOD a breakSound ()Ljava/lang/String;

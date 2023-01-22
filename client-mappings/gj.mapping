@@ -1,0 +1,5 @@
+CLASS gj
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a send (Lpe;)V

@@ -1,0 +1,9 @@
+CLASS eo net/minecraft/world/entity/BoatEntity
+	METHOD a setPositionAndRotation (DDDFFI)V
+	METHOD a onPlayerInteract (Lfd;)Z
+	METHOD a storeTag (Lks;)V
+	METHOD a takeDamage (Lom;I)Z
+	METHOD b loadFromTag (Lks;)V
+	METHOD k_ i_ ()F
+	METHOD l getRideHeight ()D
+	METHOD q_ tick ()V

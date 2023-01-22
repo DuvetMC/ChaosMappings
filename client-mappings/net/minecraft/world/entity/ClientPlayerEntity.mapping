@@ -1,0 +1,4 @@
+CLASS cc net/minecraft/world/entity/ClientPlayerEntity
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a storeTag (Lks;)V
+	METHOD b loadFromTag (Lks;)V
