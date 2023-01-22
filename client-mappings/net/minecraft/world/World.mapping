@@ -36,6 +36,7 @@ CLASS dt net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD a cast (Lay;Lay;)Lqu;
 	METHOD a getLight (Lcx;III)I
 	METHOD a setLight (Lcx;IIIIII)V
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V

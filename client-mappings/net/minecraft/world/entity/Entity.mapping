@@ -1,0 +1,4 @@
+CLASS om net/minecraft/world/entity/Entity
+	FIELD aE enttiy Ldt;
+	METHOD <init> (Ldt;)V
+		ARG 1 world

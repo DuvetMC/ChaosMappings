@@ -1,0 +1,5 @@
+CLASS tm net/minecraft/client/sound/SoundManager
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD g initialized Z
+	METHOD a playSound (Ljava/lang/String;FF)V
+	METHOD d init ()V
