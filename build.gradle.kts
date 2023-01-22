@@ -9,6 +9,14 @@ tasks.jar {
     enabled = false
 }
 
+val clientMappingsJar = layout.buildDirectory.file("libs/ChaosMappings-$version-client.jar")
+val clientMappingsArtifact = artifacts.add("archives", clientMappingsJar.get().asFile) {
+    type = "jar"
+}
+val serverMappingsJar = layout.buildDirectory.file("libs/ChaosMappings-$version-server.jar")
+val serverMappingsArtifact = artifacts.add("archives", serverMappingsJar.get().asFile) {
+    type = "jar"
+}
 publishing {
     repositories {
         maven {
@@ -19,7 +27,8 @@ publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             groupId = "org.duvetmc"
-            from(components["java"])
+            artifact(clientMappingsArtifact)
+            artifact(serverMappingsArtifact)
             pom {
                 organization {
                     url.set("https://github.com/DuvetMC")
