@@ -1,0 +1,9 @@
+CLASS eh net/minecraft/unpackaged/DoorItem
+	METHOD a useOnBlock (Ley;Ldp;Lcp;IIII)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 direction

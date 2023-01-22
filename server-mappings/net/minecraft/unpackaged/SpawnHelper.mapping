@@ -1,0 +1,7 @@
+CLASS bb net/minecraft/unpackaged/SpawnHelper
+	METHOD a pickRandomBlock (Lcp;II)Lly;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD a tickMobSpawning (Lcp;ZZ)I
+		ARG 0 world

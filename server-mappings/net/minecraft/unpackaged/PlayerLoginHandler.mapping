@@ -1,0 +1,6 @@
+CLASS cd net/minecraft/unpackaged/PlayerLoginHandler
+	FIELD a handshake Lhm;
+	FIELD b handler Ldj;
+	METHOD <init> (Ldj;Lhm;)V
+		ARG 1 handler
+		ARG 2 handshake

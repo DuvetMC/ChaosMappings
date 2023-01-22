@@ -1,0 +1,4 @@
+CLASS ia net/minecraft/unpackaged/Placer
+	METHOD a place (Lcp;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 random
