@@ -1,0 +1,2 @@
+CLASS qk net/minecraft/world/block/Block
+	FIELD m BLOCKS [Lqk;

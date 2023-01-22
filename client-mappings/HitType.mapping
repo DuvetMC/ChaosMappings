@@ -1,0 +1,3 @@
+CLASS hd HitType
+	FIELD a BLOCK Lhd;
+	FIELD b ENTITY Lhd;

@@ -1,0 +1,9 @@
+CLASS ky
+	FIELD a client Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 client
+	METHOD a (Ldt;)V
+		ARG 1 world
+	METHOD a interactWithEntity (Lfd;Lom;)V
+		ARG 1 player
+	METHOD b attackEntity (Lfd;Lom;)V

@@ -1,0 +1,26 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD B texturePacks Lgn;
+	FIELD a INSTANCE Lnet/minecraft/client/Minecraft;
+	FIELD e world Ldt;
+	FIELD g player Lcc;
+	FIELD i particleRenderer Lcn;
+	FIELD j loginState Lfb;
+	FIELD l canvas Ljava/awt/Canvas;
+	FIELD q handler Lcb;
+	FIELD w rayCast Lqu;
+	FIELD y applet Lnet/minecraft/client/MinecraftApplet;
+	FIELD z soundManager Ltm;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 minecraftApplet
+	METHOD a init ()V
+	METHOD a handleMouseButton (I)V
+		ARG 1 mouseButton
+	METHOD a handleMenuInput (Lcb;)V
+		ARG 1 handler
+	METHOD c printOglError (Ljava/lang/String;)V
+		ARG 1 error
+	METHOD j tickInput ()V
+	METHOD run run ()V
+	METHOD y getOsType ()Lls;

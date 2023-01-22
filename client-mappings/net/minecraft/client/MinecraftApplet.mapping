@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+	FIELD b client Lnet/minecraft/client/Minecraft;
