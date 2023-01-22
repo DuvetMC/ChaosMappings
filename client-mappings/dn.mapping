@@ -1,0 +1,5 @@
+CLASS dn
+	METHOD a getBlock (III)I
+	METHOD e getBlockId (III)I
+	METHOD f getPropetiesAt (III)Liu;
+	METHOD g isFullBlock (III)Z

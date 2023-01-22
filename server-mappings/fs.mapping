@@ -1,4 +1,4 @@
-CLASS fs 1
+CLASS fs
 	FIELD a manager Leb;
 	METHOD <init> (Leb;)V
 		ARG 1 manager
