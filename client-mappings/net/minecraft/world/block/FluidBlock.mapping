@@ -1,0 +1,16 @@
+CLASS lt net/minecraft/world/block/FluidBlock
+	METHOD c c (Lpz;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e e (Lpz;III)Lar;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 n3
+	METHOD h h (Ldd;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

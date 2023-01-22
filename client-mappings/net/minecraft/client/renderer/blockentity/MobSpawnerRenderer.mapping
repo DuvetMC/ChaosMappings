@@ -1,0 +1,2 @@
+CLASS v net/minecraft/client/renderer/blockentity/MobSpawnerRenderer
+	FIELD b entityCache Ljava/util/Map;

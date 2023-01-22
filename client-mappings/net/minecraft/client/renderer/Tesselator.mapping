@@ -1,0 +1,59 @@
+CLASS jf net/minecraft/client/renderer/Tesselator
+	FIELD B size I
+	FIELD a instance Ljf;
+	FIELD c useVboIfAvailable Z
+	FIELD d byteBuf Ljava/nio/ByteBuffer;
+	FIELD e intBuf Ljava/nio/IntBuffer;
+	FIELD f floatBuf Ljava/nio/FloatBuffer;
+	FIELD i u D
+	FIELD j v D
+	FIELD k color I
+	FIELD l colorSet Z
+	FIELD m textureSet Z
+	FIELD n normalSet Z
+	FIELD s x D
+	FIELD t y D
+	FIELD u z D
+	FIELD v normal I
+	FIELD w active Z
+	FIELD x vboAvailable Z
+	METHOD <init> <init> (I)V
+		ARG 1 size
+	METHOD a flush ()V
+	METHOD a uv (DD)V
+		ARG 1 x
+		ARG 3 y
+	METHOD a color (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a start (I)V
+	METHOD a packedColor (II)V
+		ARG 1 color
+		ARG 2 alpha
+	METHOD a color (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 alpha
+	METHOD b start ()V
+	METHOD b offset (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b normal (FFF)V
+	METHOD b packedColor (I)V
+		ARG 1 color
+	METHOD c offset (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

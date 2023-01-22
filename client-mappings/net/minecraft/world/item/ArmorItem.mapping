@@ -1,0 +1,10 @@
+CLASS oy net/minecraft/world/item/ArmorItem
+	FIELD a level I
+	FIELD bb type I
+	FIELD bc protection I
+	FIELD be protectionModifier [I
+	FIELD bf durabilityModifier [I
+	METHOD <init> <init> (IIII)V
+		ARG 1 id
+		ARG 2 level
+		ARG 4 type

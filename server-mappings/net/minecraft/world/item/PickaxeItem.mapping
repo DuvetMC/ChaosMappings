@@ -1,0 +1,3 @@
+CLASS ax net/minecraft/world/item/PickaxeItem
+	FIELD bc level I
+	METHOD a canBreak (Lgu;)Z

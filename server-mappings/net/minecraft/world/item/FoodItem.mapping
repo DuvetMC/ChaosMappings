@@ -1,0 +1,3 @@
+CLASS lg net/minecraft/world/item/FoodItem
+	FIELD a saturation I
+	METHOD a use (Lik;Lff;Lgp;)Lik;

@@ -1,0 +1,2 @@
+CLASS fl net/minecraft/world/block/GlassBlock
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I

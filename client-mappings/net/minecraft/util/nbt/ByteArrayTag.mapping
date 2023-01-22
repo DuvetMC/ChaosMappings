@@ -1,0 +1,4 @@
+CLASS ev net/minecraft/util/nbt/ByteArrayTag
+	FIELD a bytes [B
+	METHOD <init> <init> ([B)V
+		ARG 1 bytes

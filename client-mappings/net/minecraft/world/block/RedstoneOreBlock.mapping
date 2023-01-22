@@ -1,0 +1,2 @@
+CLASS aq net/minecraft/world/block/RedstoneOreBlock
+	FIELD a lit Z

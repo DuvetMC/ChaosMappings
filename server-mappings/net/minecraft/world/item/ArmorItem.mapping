@@ -1,0 +1,6 @@
+CLASS ii net/minecraft/world/item/ArmorItem
+	FIELD a level I
+	FIELD bb type I
+	FIELD bc protection I
+	FIELD be protectionModifier [I
+	FIELD bf durabilityModifier [I

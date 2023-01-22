@@ -1,0 +1,22 @@
+CLASS ih net/minecraft/world/inventory/PlayerInventory
+	FIELD a inventory [Lik;
+	FIELD b armor [Lik;
+	FIELD c selected I
+	FIELD e player Lgp;
+	FIELD f stack Lik;
+	METHOD <init> <init> (Lgp;)V
+		ARG 1 player
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD a getAttackStrength (Lep;)I
+	METHOD a writeTag (Les;)Les;
+	METHOD a addItem (Lik;)Z
+	METHOD b getDisplay ()Ljava/lang/String;
+	METHOD b contains (I)Z
+		ARG 1 item
+	METHOD b readTag (Les;)V
+	METHOD d findItem (I)I
+		ARG 1 item
+	METHOD e getHeldItem ()Lik;
+	METHOD e getItem (I)I
+		ARG 1 index

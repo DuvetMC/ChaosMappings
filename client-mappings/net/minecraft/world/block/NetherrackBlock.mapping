@@ -1,0 +1,3 @@
+CLASS qp net/minecraft/world/block/NetherrackBlock
+	METHOD <init> <init> (II)V
+		ARG 1 id

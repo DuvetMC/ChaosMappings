@@ -1,0 +1,7 @@
+CLASS av net/minecraft/world/inventory/LargeChestInventory
+	FIELD a name Ljava/lang/String;
+	FIELD b left Llf;
+	FIELD c right Llf;
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD b getDisplay ()Ljava/lang/String;

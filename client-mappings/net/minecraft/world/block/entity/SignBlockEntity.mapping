@@ -1,0 +1,3 @@
+CLASS qq net/minecraft/world/block/entity/SignBlockEntity
+	FIELD a rows [Ljava/lang/String;
+	FIELD b currentlyEditing I

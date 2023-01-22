@@ -1,0 +1,2 @@
+CLASS bu net/minecraft/world/item/SoupItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

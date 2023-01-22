@@ -1,0 +1,7 @@
+CLASS cs cs
+	FIELD e stack Lik;
+	METHOD <init> <init> ()V
+	METHOD a getSize ()I
+	METHOD a send (Lfr;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

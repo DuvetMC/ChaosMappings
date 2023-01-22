@@ -1,0 +1,2 @@
+CLASS kk SmallTreePlacer
+	METHOD <init> <init> ()V

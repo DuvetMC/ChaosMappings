@@ -1,0 +1,6 @@
+CLASS s net/minecraft/world/block/CropBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a b (Lff;IIII)V
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD b canPlantOn (I)Z

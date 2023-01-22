@@ -1,0 +1,11 @@
+CLASS ib net/minecraft/util/MathHelper
+	FIELD a THE_DEADLY_SINS [F
+	METHOD <init> <init> ()V
+	METHOD a sqrt (D)F
+	METHOD a maxAbs (DD)D
+	METHOD a sin (F)F
+	METHOD b ceil (D)I
+	METHOD b cos (F)F
+	METHOD c sqrt (F)F
+	METHOD d ceil (F)I
+	METHOD e abs (F)F

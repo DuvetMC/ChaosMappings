@@ -1,0 +1,3 @@
+CLASS ps net/minecraft/world/block/SpongeBlock
+	METHOD <init> <init> (I)V
+		ARG 1 id

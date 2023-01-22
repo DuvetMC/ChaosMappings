@@ -1,0 +1,6 @@
+CLASS px net/minecraft/world/particle/SmokeParticle
+	METHOD <init> <init> (Ldd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

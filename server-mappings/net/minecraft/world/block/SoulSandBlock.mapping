@@ -1,0 +1,2 @@
+CLASS ai net/minecraft/world/block/SoulSandBlock
+	METHOD d getCollisionBox (Lff;III)Lel;

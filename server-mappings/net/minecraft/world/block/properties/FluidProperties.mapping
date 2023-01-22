@@ -1,0 +1,3 @@
+CLASS ee net/minecraft/world/block/properties/FluidProperties
+	METHOD <init> <init> ()V
+	METHOD d isFluid ()Z

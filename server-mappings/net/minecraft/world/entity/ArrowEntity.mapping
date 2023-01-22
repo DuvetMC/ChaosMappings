@@ -1,0 +1,13 @@
+CLASS en net/minecraft/world/entity/ArrowEntity
+	FIELD a shake I
+	FIELD aj inGround Z
+	FIELD b owner Llb;
+	FIELD c blockX I
+	FIELD d blockY I
+	FIELD e blockZ I
+	FIELD f inBlock I
+	METHOD a setVelocity (DDDFF)V
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b attack (Lgp;)V
+	METHOD b_ tick ()V

@@ -1,0 +1,63 @@
+CLASS kw net/minecraft/world/chunk/Chunk
+	FIELD b blocks [B
+	FIELD c isLoaded Z
+	FIELD d world Lff;
+	FIELD e meta Lir;
+	FIELD f skyLight Lir;
+	FIELD g blockLight Lir;
+	FIELD h heightMap [B
+	FIELD i topOfChunk I
+	FIELD j x I
+	FIELD k z I
+	FIELD l blockEntites Ljava/util/Map;
+	FIELD m entities [Ljava/util/List;
+	FIELD n terrainPopulated Z
+	FIELD o modified Z
+	FIELD p def2 Z
+	FIELD q def1 Z
+	FIELD r dirty Z
+	FIELD s saveTime J
+	METHOD a why ()V
+	METHOD a isChunk (II)Z
+	METHOD a getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlock (IIII)Z
+	METHOD a setBlock (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+		ARG 5 meta
+	METHOD a addBlockEntity (IIILbg;)V
+	METHOD a chunkRandom (J)Ljava/util/Random;
+	METHOD a addBlockEntity (Lbg;)V
+	METHOD a getLightLevel (Leb;III)I
+	METHOD a setLightLevel (Leb;IIII)V
+	METHOD a addEntity (Lep;)V
+	METHOD a removeEntity (Lep;I)V
+	METHOD a getEntitiesOutsideBox (Lep;Lel;Ljava/util/List;)V
+	METHOD a getEntitiesOutsideBox (Ljava/lang/Class;Lel;Ljava/util/List;)V
+	METHOD b getHeight (II)I
+	METHOD b getMeta (III)I
+	METHOD b setMeta (IIII)V
+	METHOD b removeEntity (Lep;)V
+	METHOD c createBlockLight ()V
+	METHOD c c (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD c isAboveTopBlock (III)Z
+	METHOD c getLight (IIII)I
+	METHOD d onLoad ()V
+	METHOD d getBlockEntity (III)Lbg;
+	METHOD e onUnload ()V
+	METHOD e removeBlockEntity (III)V
+	METHOD f f (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
+	METHOD g g (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

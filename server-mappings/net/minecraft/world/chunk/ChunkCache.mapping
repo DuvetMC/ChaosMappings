@@ -1,0 +1,10 @@
+CLASS kd net/minecraft/world/chunk/ChunkCache
+	FIELD a x I
+	FIELD b z I
+	FIELD c defaultChunk Lkw;
+	FIELD d parent Lcg;
+	FIELD f chunks [Lkw;
+	FIELD g world Lff;
+	FIELD h currentChunk Lkw;
+	METHOD a isChunkLoaded (II)Z
+	METHOD b getChunk (II)Lkw;

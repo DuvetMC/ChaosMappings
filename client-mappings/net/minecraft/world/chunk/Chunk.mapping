@@ -1,0 +1,117 @@
+CLASS hk net/minecraft/world/chunk/Chunk
+	FIELD b blocks [B
+	FIELD c isLoaded Z
+	FIELD d world Ldd;
+	FIELD e meta Lpe;
+	FIELD f skyLight Lpe;
+	FIELD g blockLight Lpe;
+	FIELD h heightMap [B
+	FIELD i topOfChunk I
+	FIELD j x I
+	FIELD k z I
+	FIELD l blockEntites Ljava/util/Map;
+	FIELD m entities [Ljava/util/List;
+	FIELD n terrainPopulated Z
+	FIELD o modified Z
+	FIELD p def2 Z
+	FIELD q def1 Z
+	FIELD r dirty Z
+	METHOD <init> <init> (Ldd;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD <init> <init> (Ldd;[BII)V
+		ARG 1 world
+		ARG 2 blocks
+		ARG 3 x
+		ARG 4 z
+	METHOD a why ()V
+	METHOD a isChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD a a (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 meta
+	METHOD a addBlockEntity (IIILjw;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD a chunkRandom (J)Ljava/util/Random;
+		ARG 1 seed
+	METHOD a getLightLevel (Lcl;III)I
+		ARG 1 lightingType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setLightLevel (Lcl;IIII)V
+		ARG 1 lightingType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 level
+	METHOD a getEntitiesOutsideBox (Ljava/lang/Class;Lct;Ljava/util/List;)V
+		ARG 1 entityType
+		ARG 2 box
+		ARG 3 entityList
+	METHOD a addBlockEntity (Ljw;)V
+		ARG 1 blockEntity
+	METHOD a addEntity (Lmm;)V
+		ARG 1 entity
+	METHOD a removeEntity (Lmm;I)V
+		ARG 1 entity
+		ARG 2 chunkY
+	METHOD a getEntitiesOutsideBox (Lmm;Lct;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 box
+		ARG 3 entityList
+	METHOD b createHeightMap ()V
+	METHOD b getHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD b getMeta (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setMeta (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD b removeEntity (Lmm;)V
+		ARG 1 entity
+	METHOD c isAboveTopBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getLight (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d createBlockLight ()V
+	METHOD d getBlockEntity (III)Ljw;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e onLoad ()V
+	METHOD e removeBlockEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f onUnload ()V
+	METHOD g g (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

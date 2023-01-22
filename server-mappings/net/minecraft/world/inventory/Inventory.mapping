@@ -1,0 +1,10 @@
+CLASS lf net/minecraft/world/inventory/Inventory
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+		ARG 1 index
+	METHOD a setStack (ILik;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD a_ a_ (Lgp;)Z
+		ARG 1 playerEntity
+	METHOD b getDisplay ()Ljava/lang/String;

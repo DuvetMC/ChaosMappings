@@ -1,0 +1,15 @@
+CLASS bg net/minecraft/world/block/entity/BlockEntity
+	FIELD a world Lff;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e idToClass Ljava/util/Map;
+	FIELD f classToId Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a loadTag (Lad;)V
+		ARG 1 tag
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD b saveToTag (Lad;)V
+		ARG 1 tag
+	METHOD c loadFromTag (Lad;)Lbg;
+	METHOD f getInitPacket ()Lju;

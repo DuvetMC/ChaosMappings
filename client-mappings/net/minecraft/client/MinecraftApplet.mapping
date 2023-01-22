@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+	FIELD a canvas Ljava/awt/Canvas;
+	FIELD b instance Lnet/minecraft/client/Minecraft;
+	FIELD c minecraftMainThread Ljava/lang/Thread;
+	METHOD a addNotify ()V
+	METHOD init init ()V

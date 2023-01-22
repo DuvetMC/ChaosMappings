@@ -1,0 +1,2 @@
+CLASS co FishingRodItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

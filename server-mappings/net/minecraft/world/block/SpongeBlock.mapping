@@ -1,0 +1,3 @@
+CLASS jo net/minecraft/world/block/SpongeBlock
+	METHOD b onBreak (Lff;III)V
+	METHOD e onPlace (Lff;III)V

@@ -1,0 +1,7 @@
+CLASS hu TorchBlock
+	METHOD a isFullBlock ()Z
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD c onUseBlock (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;
+	METHOD e onPlace (Lff;III)V

@@ -1,0 +1,7 @@
+CLASS w FancyBlock
+	FIELD a isFancy Z
+	METHOD <init> <init> (IILkz;Z)V
+		ARG 3 properties
+		ARG 4 isFancy
+	METHOD a isFullBlock ()Z
+	METHOD a b (Ljw;IIII)Z

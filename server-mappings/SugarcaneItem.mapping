@@ -1,0 +1,6 @@
+CLASS ld SugarcaneItem
+	FIELD a blockId I
+	METHOD <init> <init> (ILgu;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

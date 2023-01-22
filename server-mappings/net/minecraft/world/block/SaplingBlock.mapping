@@ -1,0 +1,2 @@
+CLASS gz net/minecraft/world/block/SaplingBlock
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V

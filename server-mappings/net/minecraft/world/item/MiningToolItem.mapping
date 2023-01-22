@@ -1,0 +1,7 @@
+CLASS dq net/minecraft/world/item/MiningToolItem
+	FIELD bb breakable [Lgu;
+	FIELD bc breakSpeed F
+	METHOD a getAttackStrength (Lep;)I
+	METHOD a postMine (Lik;IIII)V
+	METHOD a breakMultiplier (Lik;Lgu;)F
+	METHOD a postHit (Lik;Llb;)V

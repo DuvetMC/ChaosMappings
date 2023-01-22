@@ -1,0 +1,11 @@
+CLASS im net/minecraft/world/entity/EntityRegistry
+	FIELD a nameToClass Ljava/util/Map;
+	FIELD b classToName Ljava/util/Map;
+	FIELD c idToClass Ljava/util/Map;
+	FIELD d classToId Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a createEntityFromTag (Lad;Lff;)Lep;
+	METHOD a toId (Lep;)I
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD a createEntityFromName (Ljava/lang/String;Lff;)Lep;
+	METHOD b toName (Lep;)Ljava/lang/String;

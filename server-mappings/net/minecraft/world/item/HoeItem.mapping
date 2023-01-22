@@ -1,0 +1,2 @@
+CLASS ki net/minecraft/world/item/HoeItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

@@ -1,0 +1,9 @@
+CLASS kp net/minecraft/world/entity/MinecartEntity
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD a storeTag (Lad;)V
+	METHOD a onPlayerInteract (Lgp;)Z
+	METHOD b getDisplay ()Ljava/lang/String;
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V
+	METHOD l remove ()V

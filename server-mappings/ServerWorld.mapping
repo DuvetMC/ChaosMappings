@@ -1,0 +1,12 @@
+CLASS fm ServerWorld
+	FIELD D server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Ljava/lang/String;I)V
+		ARG 1 server
+	METHOD a spawnExplosion (Lep;DDDFZ)Lcw;
+	METHOD d getBlockEntitiesInRegion (IIIIII)Ljava/util/List;
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ

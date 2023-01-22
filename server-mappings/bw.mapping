@@ -1,0 +1,3 @@
+CLASS bw bw
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playDisc (Ljava/lang/String;III)V

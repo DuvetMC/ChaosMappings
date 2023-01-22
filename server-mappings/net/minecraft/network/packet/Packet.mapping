@@ -1,0 +1,20 @@
+CLASS ju net/minecraft/network/packet/Packet
+	FIELD a idToPacketLookup Ljava/util/Map;
+	FIELD b packetToIdLookup Ljava/util/Map;
+	FIELD j initTime J
+	METHOD <init> <init> ()V
+	METHOD a getSize ()I
+	METHOD a getPacket (I)Lju;
+	METHOD a register (ILjava/lang/Class;)V
+	METHOD a send (Lfr;)V
+		ARG 1 networking
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a writeTo (Lju;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dataOutputStream
+	METHOD b getId ()I
+	METHOD b readPacket (Ljava/io/DataInputStream;)Lju;
+		ARG 0 dataInputStream

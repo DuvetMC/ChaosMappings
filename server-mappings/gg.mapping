@@ -1,0 +1,5 @@
+CLASS gg gg
+	FIELD b size I
+	METHOD <init> <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 size

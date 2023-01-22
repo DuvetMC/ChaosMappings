@@ -1,0 +1,4 @@
+CLASS i i
+	METHOD a getSize ()I
+	METHOD a getStack (I)Lik;
+	METHOD b getDisplay ()Ljava/lang/String;

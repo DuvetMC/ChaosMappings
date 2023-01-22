@@ -1,0 +1,22 @@
+CLASS cc net/minecraft/client/renderer/ParticleRenderer
+	FIELD a world Ldd;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textureLoader Lgd;
+	FIELD d random Ljava/util/Random;
+	METHOD <init> <init> (Ldd;Lgd;)V
+		ARG 1 world
+		ARG 2 textureLoader
+	METHOD a spawnBlockParticles (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setWorld (Ldd;)V
+		ARG 1 world
+	METHOD a a (Lmm;F)V
+		ARG 1 entity
+		ARG 2 multiplier
+	METHOD a addParticle (Lqe;)V
+		ARG 1 paricle
+	METHOD b count ()Ljava/lang/String;
+	METHOD b b (Lmm;F)V
+		ARG 1 entity

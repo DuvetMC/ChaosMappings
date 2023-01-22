@@ -1,0 +1,7 @@
+CLASS bi net/minecraft/world/block/LeavesBlock
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD g decay (Lff;III)V

@@ -1,0 +1,5 @@
+CLASS bx bx
+	FIELD a inventory Llf;
+	METHOD <init> <init> (Llf;Llf;)V
+		ARG 1 inventory1
+		ARG 2 inventory2

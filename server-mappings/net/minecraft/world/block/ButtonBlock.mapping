@@ -1,0 +1,9 @@
+CLASS aw net/minecraft/world/block/ButtonBlock
+	METHOD a isFullBlock ()Z
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD b getUpdateRate ()I
+	METHOD b onBreak (Lff;III)V
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD c onUseBlock (Lff;IIII)V
+	METHOD d getCollisionBox (Lff;III)Lel;
+	METHOD e onPlace (Lff;III)V

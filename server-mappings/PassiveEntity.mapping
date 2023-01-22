@@ -1,0 +1,4 @@
+CLASS bf PassiveEntity
+	METHOD a isSpawnable ()Z
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V

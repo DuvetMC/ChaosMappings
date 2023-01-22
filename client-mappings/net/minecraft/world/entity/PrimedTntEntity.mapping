@@ -1,0 +1,2 @@
+CLASS li net/minecraft/world/entity/PrimedTntEntity
+	FIELD a fuse I

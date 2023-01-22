@@ -1,0 +1,65 @@
+CLASS hk PlayerManager
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD b players Ljava/util/List;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIPs Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i bannedPlayersFile Ljava/io/File;
+	FIELD j bannedIPsFile Ljava/io/File;
+	FIELD k opsFile Ljava/io/File;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a sendToAllInRadius (DDDDLju;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 radius
+		ARG 9 packet
+	METHOD a a (IIILbg;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a a (Lfi;)V
+		ARG 1 player
+	METHOD a a (Lfm;)V
+		ARG 1 world
+	METHOD a connectPlayer (Lgh;Ljava/lang/String;Ljava/lang/String;)Lfi;
+		ARG 1 handler
+		ARG 2 name
+		ARG 3 playerKey
+	METHOD a ban (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a a (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a broadcast (Lju;)V
+		ARG 1 packet
+	METHOD b b (Lfi;)V
+		ARG 1 serverPlayerEntity
+	METHOD b pardon (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD c removePlayer (Lfi;)V
+		ARG 1 serverPlayerEntity
+	METHOD c banIP (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD d d (Lfi;)Lfi;
+		ARG 1 player
+	METHOD d pardonIP (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD e loadBannedPlayersList ()V
+	METHOD e op (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD f saveBannedPlayersList ()V
+	METHOD f deop (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD g loadBannedIPsList ()V
+	METHOD g isOpped (Ljava/lang/String;)Z
+		ARG 1 username
+	METHOD h saveBannedIPsList ()V
+	METHOD h getPlayerByName (Ljava/lang/String;)Lfi;
+		ARG 1 name
+	METHOD i loadOpsList ()V
+	METHOD i broadcastToOps (Ljava/lang/String;)V
+		ARG 1 messge
+	METHOD j saveOpsList ()V

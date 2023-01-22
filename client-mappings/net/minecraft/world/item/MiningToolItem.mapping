@@ -1,0 +1,7 @@
+CLASS ce net/minecraft/world/item/MiningToolItem
+	FIELD bb breakable [Lof;
+	FIELD bc breakSpeed F
+	METHOD <init> <init> (III[Lof;)V
+		ARG 1 id
+		ARG 3 level
+		ARG 4 breakable

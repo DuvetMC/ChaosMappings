@@ -1,0 +1,5 @@
+CLASS hn hn
+	METHOD <init> <init> ()V
+	METHOD a getSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

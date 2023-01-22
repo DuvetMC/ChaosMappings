@@ -1,0 +1,4 @@
+CLASS dt ServerPropertiesLoader
+	METHOD a getOrDefault (Ljava/lang/String;I)I
+	METHOD a getOrDefault (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getOrDefault (Ljava/lang/String;Z)Z

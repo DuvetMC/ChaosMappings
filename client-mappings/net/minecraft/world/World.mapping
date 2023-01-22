@@ -1,0 +1,222 @@
+CLASS dd net/minecraft/world/World
+	FIELD C tickNextTick1 Ljava/util/TreeSet;
+	FIELD D tickNextTick2 Ljava/util/Set;
+	FIELD F lastSaveTime J
+	FIELD G chunkView Lbf;
+	FIELD H playerTag Ljd;
+	FIELD L caveSoundTicks I
+	FIELD M collisionCache Ljava/util/List;
+	FIELD b entities Ljava/util/List;
+	FIELD c blockEntities Ljava/util/List;
+	FIELD d players Ljava/util/List;
+	FIELD e worldTime J
+	FIELD k difficulty I
+	FIELD l random Ljava/util/Random;
+	FIELD m playerX I
+	FIELD n playerY I
+	FIELD o playerZ I
+	FIELD s dir Ljava/io/File;
+	FIELD t worldDir Ljava/io/File;
+	FIELD u seed J
+	FIELD v sizeOnDisk J
+	FIELD w name Ljava/lang/String;
+	FIELD z isClient Z
+	METHOD <init> <init> (Ldd;Lpo;)V
+		ARG 1 world
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 dir
+		ARG 2 name
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 dir
+		ARG 2 name
+		ARG 3 seed
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;JLpo;)V
+		ARG 1 dir
+		ARG 2 name
+		ARG 3 seed
+	METHOD <init> <init> (Ljava/lang/String;Lpo;J)V
+		ARG 1 name
+		ARG 3 seed
+	METHOD a locateNearestPlayer (DDDD)Leh;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 maxDistance
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 name
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a getTopBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a setBlock (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 meta
+	METHOD a addBlockEntity (IIILjw;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD a getLight (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 includeArtificial
+	METHOD a setWorldTime (J)V
+		ARG 1 worldTime
+	METHOD a getLight (Lcl;III)I
+	METHOD a a (Lcl;IIII)V
+		ARG 1 lightingType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 lightLevel
+	METHOD a a (Lct;)Z
+		ARG 1 box
+	METHOD a a (Lct;Lhl;)Z
+		ARG 1 box
+		ARG 2 properties
+	METHOD a a (Lct;Lhl;Lmm;)Z
+		ARG 1 box
+		ARG 2 blockProperties
+		ARG 3 entity
+	METHOD a loadFromLevelDat (Ljava/io/File;Ljava/lang/String;)Ljd;
+		ARG 0 mcDir
+		ARG 1 worldName
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a playSound (Ljava/lang/String;III)V
+	METHOD a addEntities (Ljava/util/List;)V
+	METHOD a spawnEntity (Lmm;)Z
+		ARG 1 entity
+	METHOD a locateNearestPlayer (Lmm;D)Leh;
+		ARG 1 entity
+		ARG 2 distance
+	METHOD a spawnExplosion (Lmm;DDDF)Llh;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 power
+	METHOD a spawnExplosion (Lmm;DDDFZ)Llh;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 power
+		ARG 9 fire
+	METHOD a a (Lmm;Lct;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
+	METHOD a playSound (Lmm;Ljava/lang/String;FF)V
+		ARG 1 entity
+		ARG 2 name
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a deleteRecursively ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD b getChunkByBlockPosition (II)Lhk;
+		ARG 1 x
+		ARG 2 z
+	METHOD b setMetaThenUpdate (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD b setBlockThenUpdate (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 meta
+	METHOD b b (IIILjw;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
+		ARG 0 mcDir
+		ARG 1 worldName
+	METHOD b removeEntities (Ljava/util/List;)V
+	METHOD b getEntitiesInBox (Lmm;Lct;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
+	METHOD c getChunk (II)Lhk;
+		ARG 1 x
+		ARG 2 z
+	METHOD c setMeta (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD d isAir (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d setBlockThenUpdate (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD d removeEntity (Lmm;)V
+		ARG 1 entity
+	METHOD e onUpdateBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD f f3EntityCountString ()Ljava/lang/String;
+	METHOD f addEntity (Lmm;)V
+		ARG 1 entity
+	METHOD g isChunkLoaded (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g updateNeighbors (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sourceBlock
+	METHOD h isInWorld (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h h (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j isAboveTopBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k getLight (III)I
+	METHOD l isAboveTopBlockAndInWorld (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD l updateBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sourceBlock
+	METHOD m quitWorld ()V
+	METHOD m removeBlockEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD n checkSessionLock ()V
+	METHOD n tickRandom_maybe (III)V
+	METHOD p saveWorld ()V

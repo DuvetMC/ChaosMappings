@@ -1,0 +1,16 @@
+CLASS pe net/minecraft/world/chunk/ChunkSection
+	FIELD a data [B
+	METHOD <init> <init> (I)V
+		ARG 1 size
+	METHOD <init> <init> ([B)V
+		ARG 1 array
+	METHOD a isValid ()Z
+	METHOD a get (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a set (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 value

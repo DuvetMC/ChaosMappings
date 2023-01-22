@@ -1,0 +1,2 @@
+CLASS dk net/minecraft/world/item/MinecartItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

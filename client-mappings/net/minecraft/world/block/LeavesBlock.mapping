@@ -1,0 +1,12 @@
+CLASS an net/minecraft/world/block/LeavesBlock
+	FIELD b baseTextureId I
+	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 textureId
+	METHOD a updateTextureId (Z)V
+		ARG 1 isFancy
+	METHOD h decay (Ldd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

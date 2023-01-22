@@ -1,0 +1,2 @@
+CLASS g EggItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

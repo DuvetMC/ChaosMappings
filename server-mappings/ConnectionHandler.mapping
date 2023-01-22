@@ -1,0 +1,25 @@
+CLASS eh ConnectionHandler
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD b active Z
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD d socket Ljava/net/ServerSocket;
+	FIELD e conectionThread Ljava/lang/Thread;
+	FIELD f totalConnections I
+	FIELD g pendingConnections Ljava/util/ArrayList;
+	FIELD h activeConnections Ljava/util/ArrayList;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
+		ARG 1 minecraftServer
+		ARG 2 inetAddress
+		ARG 3 port
+	METHOD a tick ()V
+	METHOD a getNewConnection (Leh;)Ljava/net/ServerSocket;
+		ARG 0 handler
+	METHOD a acceptConnection (Leh;Lgh;)V
+		ARG 0 conn
+		ARG 1 handler
+	METHOD a acceptConnection (Lgh;)V
+		ARG 1 handler
+	METHOD a addGameplayNetworkHandler (Lkj;)V
+		ARG 1 handler
+	METHOD b getNextConnectionId (Leh;)I
+		ARG 0 handler

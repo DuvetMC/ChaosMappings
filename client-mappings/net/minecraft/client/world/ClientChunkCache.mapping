@@ -1,0 +1,10 @@
+CLASS hb net/minecraft/client/world/ClientChunkCache
+	FIELD a x I
+	FIELD b z I
+	FIELD c defaultChunk Lhk;
+	FIELD d parent Lbf;
+	FIELD f chunks [Lhk;
+	FIELD g world Ldd;
+	FIELD h currentChunk Lhk;
+	METHOD <init> <init> (Ldd;Laj;Lbf;)V
+		ARG 1 world

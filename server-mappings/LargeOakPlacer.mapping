@@ -1,0 +1,8 @@
+CLASS ia LargeOakPlacer
+	FIELD b random Ljava/util/Random;
+	FIELD c world Lff;
+	METHOD <init> <init> ()V
+	METHOD a a (IIIFBI)V
+		ARG 6 block
+	METHOD a a ([I[II)V
+		ARG 3 block

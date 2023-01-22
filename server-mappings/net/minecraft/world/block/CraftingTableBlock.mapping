@@ -1,0 +1,2 @@
+CLASS fk net/minecraft/world/block/CraftingTableBlock
+	METHOD a getTextureId (I)I

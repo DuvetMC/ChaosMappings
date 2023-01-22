@@ -1,0 +1,30 @@
+CLASS em RedstoneDustBlock
+	METHOD <init> <init> (II)V
+		ARG 1 id
+		ARG 2 textureId
+	METHOD a isFullBlock ()Z
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD b onBreak (Lff;III)V
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD b b (Ljw;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d getCollisionBox (Lff;III)Lel;
+	METHOD e onPlace (Lff;III)V
+	METHOD f f (Lff;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g g (Lff;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h updateNeighborsOfNeighbor (Lff;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

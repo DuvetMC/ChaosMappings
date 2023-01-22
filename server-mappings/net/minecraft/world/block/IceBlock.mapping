@@ -1,0 +1,5 @@
+CLASS t net/minecraft/world/block/IceBlock
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD a b (Ljw;IIII)Z
+	METHOD b onBreak (Lff;III)V

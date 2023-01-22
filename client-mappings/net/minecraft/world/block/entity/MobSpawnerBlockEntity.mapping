@@ -1,0 +1,2 @@
+CLASS bn net/minecraft/world/block/entity/MobSpawnerBlockEntity
+	FIELD b defaultEntity Ljava/lang/String;

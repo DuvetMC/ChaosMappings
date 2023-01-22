@@ -1,0 +1,5 @@
+CLASS af net/minecraft/world/block/StillFluidBlock
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD b onNeighborUpdated (Lff;IIII)V
+	METHOD i j (Lff;III)V
+	METHOD j isBlockFlammable (Lff;III)Z

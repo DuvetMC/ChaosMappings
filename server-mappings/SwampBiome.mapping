@@ -1,0 +1,2 @@
+CLASS fg SwampBiome
+	METHOD <init> <init> ()V

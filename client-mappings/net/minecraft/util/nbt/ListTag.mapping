@@ -1,0 +1,8 @@
+CLASS mo net/minecraft/util/nbt/ListTag
+	FIELD a items Ljava/util/List;
+	FIELD b itemType B
+	METHOD a get (I)Lfl;
+		ARG 1 index
+	METHOD a add (Lfl;)V
+		ARG 1 tag
+	METHOD c size ()I

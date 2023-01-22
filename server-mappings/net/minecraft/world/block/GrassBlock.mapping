@@ -1,0 +1,3 @@
+CLASS ix net/minecraft/world/block/GrassBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V

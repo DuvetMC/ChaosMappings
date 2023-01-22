@@ -1,0 +1,9 @@
+CLASS fb FurnaceBlockEntity
+	METHOD a getTextureId (I)I
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a a (ZLff;III)V
+		ARG 1 world
+	METHOD a_ createBlockEntity ()Lbg;
+	METHOD e onPlace (Lff;III)V
+	METHOD g g (Lff;III)V
+		ARG 1 world

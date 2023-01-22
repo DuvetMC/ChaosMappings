@@ -1,0 +1,4 @@
+CLASS ca ca
+	METHOD a storeTag (Lad;)V
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V

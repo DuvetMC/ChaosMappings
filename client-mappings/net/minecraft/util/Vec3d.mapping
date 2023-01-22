@@ -1,0 +1,31 @@
+CLASS ar net/minecraft/util/Vec3d
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d INSTANCES Ljava/util/List;
+	FIELD e LAST_INSTANCE I
+	METHOD <init> <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a dropCache ()V
+	METHOD a create (DDD)Lar;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a subtract (Lar;)Lar;
+		ARG 1 vec
+	METHOD a a (Lar;D)Lar;
+		ARG 1 vec
+	METHOD b cached (DDD)Lar;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD d d (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e set (DDD)Lar;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

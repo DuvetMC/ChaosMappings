@@ -1,0 +1,2 @@
+CLASS pj net/minecraft/world/entity/ChickenEntity
+	FIELD i eggLayTime I

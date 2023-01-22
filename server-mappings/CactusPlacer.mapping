@@ -1,0 +1,2 @@
+CLASS fy CactusPlacer
+	METHOD <init> <init> ()V

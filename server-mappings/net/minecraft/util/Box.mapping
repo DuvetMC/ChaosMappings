@@ -1,0 +1,38 @@
+CLASS el net/minecraft/util/Box
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g INSTANCES Ljava/util/List;
+	FIELD h LAST_INSTANCE I
+	METHOD <init> <init> (DDDDDD)V
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD a dropCache ()V
+	METHOD a create (DDDDDD)Lel;
+	METHOD a b (Lbn;)Z
+	METHOD a intersects (Lel;)Z
+		ARG 1 other
+	METHOD b asCached ()Lel;
+	METHOD b expand (DDD)Lel;
+	METHOD b cached (DDDDDD)Lel;
+	METHOD b c (Lbn;)Z
+	METHOD b set (Lel;)V
+	METHOD c set (DDDDDD)Lel;
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD c d (Lbn;)Z
+	METHOD d offset (DDD)Lel;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

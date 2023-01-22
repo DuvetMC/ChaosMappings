@@ -1,0 +1,26 @@
+CLASS gh HandshakeNetworkHandler
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD b queue Lbs;
+	FIELD c completed Z
+	FIELD d RANDOM Ljava/util/Random;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f loginTime I
+	FIELD g playerName Ljava/lang/String;
+	FIELD h handshakePacket Laj;
+	FIELD i playerKey Ljava/lang/String;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
+		ARG 1 server
+		ARG 2 socket
+		ARG 3 name
+	METHOD a tick ()V
+	METHOD a getPlayerKey (Lgh;)Ljava/lang/String;
+		ARG 0 handler
+	METHOD a finishLogin (Lgh;Laj;)Laj;
+		ARG 0 handler
+		ARG 1 packet
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD a b (Lju;)V
+	METHOD b getConnectionName ()Ljava/lang/String;
+	METHOD b completeHandshake (Laj;)V
+		ARG 1 packet

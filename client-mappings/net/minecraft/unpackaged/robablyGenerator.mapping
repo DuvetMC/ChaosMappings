@@ -1,0 +1,3 @@
+CLASS qd net/minecraft/unpackaged/robablyGenerator
+	METHOD <init> <init> (Ldd;)V
+		ARG 1 world

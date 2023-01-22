@@ -1,0 +1,17 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD c connectionHandler Leh;
+	FIELD d properties Ldt;
+	FIELD e world Lfm;
+	FIELD f playerManager Lhk;
+	FIELD l isOnline Z
+	FIELD m isSpawnAnimals Z
+	FIELD n isPvp Z
+	FIELD q parameters Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 path
+	METHOD c loadWorld (Ljava/lang/String;)V
+		ARG 1 world
+	METHOD d start ()Z
+	METHOD run run ()V

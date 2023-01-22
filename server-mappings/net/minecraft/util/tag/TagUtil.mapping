@@ -1,0 +1,6 @@
+CLASS au net/minecraft/util/tag/TagUtil
+	METHOD <init> <init> ()V
+	METHOD a writeTag (Lad;Ljava/io/DataOutput;)V
+	METHOD a writeToOutputStream (Lad;Ljava/io/OutputStream;)V
+	METHOD a readTag (Ljava/io/DataInput;)Lad;
+	METHOD a loadFromInputStream (Ljava/io/InputStream;)Lad;

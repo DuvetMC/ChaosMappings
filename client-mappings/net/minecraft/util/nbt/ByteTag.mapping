@@ -1,0 +1,2 @@
+CLASS la net/minecraft/util/nbt/ByteTag
+	FIELD a value B

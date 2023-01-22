@@ -1,0 +1,5 @@
+CLASS ir net/minecraft/world/chunk/ChunkSection
+	FIELD a data [B
+	METHOD a isValid ()Z
+	METHOD a get (III)I
+	METHOD a set (IIII)V

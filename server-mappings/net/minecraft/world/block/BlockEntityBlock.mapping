@@ -1,0 +1,4 @@
+CLASS du net/minecraft/world/block/BlockEntityBlock
+	METHOD a_ createBlockEntity ()Lbg;
+	METHOD b onBreak (Lff;III)V
+	METHOD e onPlace (Lff;III)V

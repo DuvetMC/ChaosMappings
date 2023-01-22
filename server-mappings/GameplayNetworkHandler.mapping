@@ -1,0 +1,23 @@
+CLASS kj GameplayNetworkHandler
+	FIELD a LOGGER Ljava/util/logging/Logger;
+	FIELD b queue Lbs;
+	FIELD c closed Z
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e playerEntity Lfi;
+	FIELD g x D
+	FIELD h y D
+	FIELD i z D
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lbs;Lfi;)V
+		ARG 1 server
+		ARG 3 playerEntity
+	METHOD a tick ()V
+	METHOD a initPosition (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD a b (Lju;)V
+	METHOD b sendPacket (Lju;)V

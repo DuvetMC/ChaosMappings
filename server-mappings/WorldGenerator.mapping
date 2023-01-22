@@ -1,0 +1,4 @@
+CLASS jl WorldGenerator
+	FIELD a world Lff;
+	FIELD g dimensionId I
+	METHOD <init> <init> ()V

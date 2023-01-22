@@ -1,0 +1,5 @@
+CLASS mz net/minecraft/world/block/FurnaceBlock
+	FIELD a lit Z
+	METHOD <init> <init> (IZ)V
+		ARG 1 slot
+		ARG 2 lit

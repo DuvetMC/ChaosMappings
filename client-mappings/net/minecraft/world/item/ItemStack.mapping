@@ -1,0 +1,25 @@
+CLASS fy net/minecraft/world/item/ItemStack
+	FIELD a amount I
+	FIELD c item I
+	FIELD d durability I
+	METHOD a getItem ()Led;
+	METHOD a postMine (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a a (Leh;)V
+		ARG 1 player
+	METHOD a postHit (Lhp;)V
+		ARG 1 entity
+	METHOD a writeData (Ljd;)Ljd;
+		ARG 1 tag
+	METHOD a getAttackStrength (Lmm;)I
+		ARG 1 entity
+	METHOD b damage (I)V
+		ARG 1 durability
+	METHOD b readData (Ljd;)V
+		ARG 1 tag
+	METHOD b canBreak (Lof;)Z
+		ARG 1 block
+	METHOD c getMaxStack ()I
+	METHOD d getMaxDurability ()I

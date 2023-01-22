@@ -1,0 +1,5 @@
+CLASS bm net/minecraft/world/block/RedstoneOreBlock
+	METHOD a getDroppedItem (ILjava/util/Random;)I
+	METHOD a randomTick (Lff;IIILjava/util/Random;)V
+	METHOD a getDroppedItemCount (Ljava/util/Random;)I
+	METHOD b getUpdateRate ()I

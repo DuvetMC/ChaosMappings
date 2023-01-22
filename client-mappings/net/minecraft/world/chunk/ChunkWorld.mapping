@@ -1,0 +1,9 @@
+CLASS cx net/minecraft/world/chunk/ChunkWorld
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> <init> (Ldd;IIIIII)V
+		ARG 1 world
+	METHOD a a (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

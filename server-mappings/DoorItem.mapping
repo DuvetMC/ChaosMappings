@@ -1,0 +1,2 @@
+CLASS hs DoorItem
+	METHOD a useOnBlock (Lik;Lgp;Lff;IIII)Z

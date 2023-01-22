@@ -1,0 +1,9 @@
+CLASS gb net/minecraft/world/entity/BoatEntity
+	METHOD <init> <init> (Lff;DDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a storeTag (Lad;)V
+	METHOD a onPlayerInteract (Lgp;)Z
+	METHOD b loadFromTag (Lad;)V
+	METHOD b_ tick ()V

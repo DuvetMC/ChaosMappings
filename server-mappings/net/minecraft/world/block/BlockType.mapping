@@ -1,0 +1,7 @@
+CLASS cp net/minecraft/world/block/BlockType
+	FIELD a sound Ljava/lang/String;
+	FIELD b volume F
+	FIELD c pitch F
+	METHOD a volume ()F
+	METHOD b pitch ()F
+	METHOD c stepSound ()Ljava/lang/String;

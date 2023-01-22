@@ -1,0 +1,2 @@
+CLASS cz net/minecraft/world/item/BowItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

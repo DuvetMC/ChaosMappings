@@ -1,0 +1,2 @@
+CLASS dj SnowballItem
+	METHOD a use (Lik;Lff;Lgp;)Lik;

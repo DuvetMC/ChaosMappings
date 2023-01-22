@@ -1,0 +1,2 @@
+CLASS ie SugarcanePlacer
+	METHOD <init> <init> ()V

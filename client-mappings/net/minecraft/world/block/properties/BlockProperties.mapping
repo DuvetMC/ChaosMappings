@@ -1,0 +1,19 @@
+CLASS hl net/minecraft/world/block/properties/BlockProperties
+	FIELD a AIR Lhl;
+	FIELD c WOOD Lhl;
+	FIELD d STONE Lhl;
+	FIELD f WATER Lhl;
+	FIELD g LAVA Lhl;
+	FIELD h LEAVES Lhl;
+	FIELD k WOOL Lhl;
+	FIELD l FIRE Lhl;
+	FIELD m FALLING Lhl;
+	FIELD o GLASS Lhl;
+	FIELD r ICE Lhl;
+	FIELD t SNOW Lhl;
+	FIELD v CLAY Lhl;
+	FIELD w PUMPKIN Lhl;
+	FIELD y flammable Z
+	METHOD d isFluid ()Z
+	METHOD e isFlammable ()Z
+	METHOD f flammable ()Lhl;

@@ -1,0 +1,25 @@
+CLASS ik net/minecraft/world/item/ItemStack
+	FIELD a amount I
+	FIELD c item I
+	FIELD d durability I
+	METHOD a getItem ()Lgl;
+	METHOD a postMine (IIII)V
+	METHOD a writeData (Lad;)Lad;
+		ARG 1 tag
+	METHOD a getAttackStrength (Lep;)I
+		ARG 1 entity
+	METHOD a a (Lgp;)V
+		ARG 1 entity
+	METHOD a a (Lik;)Lik;
+		ARG 0 stack
+	METHOD a postHit (Llb;)V
+		ARG 1 entity
+	METHOD b getMaxStack ()I
+	METHOD b damage (I)V
+	METHOD b readData (Lad;)V
+		ARG 1 tag
+	METHOD b canBreak (Lgu;)Z
+		ARG 1 block
+	METHOD b b (Lik;)Z
+		ARG 1 stack
+	METHOD c getMaxDurability ()I

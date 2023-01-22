@@ -1,0 +1,2 @@
+CLASS il net/minecraft/world/item/ShovelItem
+	METHOD a canBreak (Lgu;)Z

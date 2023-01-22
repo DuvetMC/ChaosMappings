@@ -1,0 +1,20 @@
+CLASS f f
+	FIELD J entitiesLoaded I
+	FIELD K entitiesRendered I
+	FIELD L blockEntitiesRendered I
+	FIELD M chunksLoaded I
+	FIELD P chunksRendered I
+	FIELD k world Ldd;
+	FIELD l textureLoader Lgd;
+	FIELD t minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> <init> (Lnet/minecraft/client/Minecraft;Lgd;)V
+		ARG 1 minecraft
+		ARG 2 textureLoader
+	METHOD a a (Ldd;)V
+		ARG 1 world
+	METHOD b f3WorldString ()Ljava/lang/String;
+	METHOD b b (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c f3EntityString ()Ljava/lang/String;
