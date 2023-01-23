@@ -46,7 +46,7 @@ tasks {
             archiveVersion.set(project.version.toString())
             from(lieToLoom) {
                 into("mappings")
-                rename("$side.tiny", "mappings.tiny")
+                rename("$side-loom.tiny", "mappings.tiny")
             }
         }
 
