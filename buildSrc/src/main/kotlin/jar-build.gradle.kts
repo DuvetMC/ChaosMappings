@@ -5,49 +5,56 @@ plugins {
 }
 
 tasks {
-    val buildClientMappings by registering {
-        outputs.file("build/mappings/client.tiny")
-        doLast {
-            ConvertMappingsCommand.run(
-                "enigma",
-                project.file("client-mappings").toPath(),
-                "tinyv2:intermediary:named",
-                project.file("build/mappings/client.tiny").toPath()
-            )
+    fun createTasks(side: String): List<TaskProvider<out Task>> {
+        val titlecased = side.capitalize()
+        val buildMappings = register("build${titlecased}Mappings") {
+            outputs.file("build/mappings/$side.tiny")
+            doLast {
+                ConvertMappingsCommand.run(
+                    "enigma",
+                    project.file("$side-mappings").toPath(),
+                    "tinyv2:official:named",
+                    project.file("build/mappings/$side.tiny").toPath()
+                )
+            }
         }
-    }
-
-    val clientMappingsJar by registering(Jar::class) {
-        group = "build"
-        archiveClassifier.set("client")
-        archiveVersion.set(project.version.toString())
-        from(buildClientMappings) {
-            into("mappings")
-            rename("client.tiny", "mappings.tiny")
+        val lieToLoom = register("build${titlecased}LoomMappings") {
+            outputs.file("build/mappings/$side-loom.tiny")
+            doLast {
+                ConvertMappingsCommand.run(
+                    "enigma",
+                    project.file("$side-mappings").toPath(),
+                    "tinyv2:intermediary:named",
+                    project.file("build/mappings/$side-loom.tiny").toPath()
+                )
+            }
         }
-    }
 
-    val buildServerMappings by registering {
-        outputs.file("build/mappings/server.tiny")
-        doLast {
-            ConvertMappingsCommand.run(
-                "enigma",
-                project.file("server-mappings").toPath(),
-                "tinyv2:intermediary:named",
-                project.file("build/mappings/server.tiny").toPath()
-            )
-        }
-    }
-
-    val serverMappingsJar by registering(Jar::class) {
-        group = "build"
-        archiveClassifier.set("server")
-        from(buildServerMappings) {
+        val mappingsJar = register<Jar>("${side}MappingsJar") {
+            group = "build"
+            archiveClassifier.set(side)
             archiveVersion.set(project.version.toString())
-            into("mappings")
-            rename("server.tiny", "mappings.tiny")
+            from(buildMappings) {
+                into("mappings")
+                rename("$side.tiny", "mappings.tiny")
+            }
         }
-    }
 
-    build.get().dependsOn(clientMappingsJar, serverMappingsJar)
+        val loomMappingsJar = register<Jar>("${side}LoomMappingsJar") {
+            group = "build"
+            archiveClassifier.set("${side}-loom")
+            archiveVersion.set(project.version.toString())
+            from(lieToLoom) {
+                into("mappings")
+                rename("$side.tiny", "mappings.tiny")
+            }
+        }
+
+        return listOf(buildMappings, mappingsJar, lieToLoom, loomMappingsJar)
+    }
+    
+    val clientTasks = createTasks("client")
+    val serverTasks = createTasks("server")
+
+    build.get().dependsOn(clientTasks + serverTasks)
 }
