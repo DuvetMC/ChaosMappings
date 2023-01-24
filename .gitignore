@@ -5,3 +5,4 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 *.class
 .gradle/
+/mappings.tiny
