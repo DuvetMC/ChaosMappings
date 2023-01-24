@@ -1,8 +1,0 @@
-CLASS qu RayCast
-	FIELD a type Lhd;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD f pos Lay;
-	METHOD <init> (IIIILay;)V
-		ARG 5 pos
