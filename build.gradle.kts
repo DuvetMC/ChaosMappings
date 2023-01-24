@@ -1,9 +1,15 @@
 plugins {
     `jar-build` // defined in buildSrc
     `maven-publish`
+    id("com.palantir.git-version") version "0.15.0"
 }
-
-version = "mcb1.0_01"
+val versionDetails: groovy.lang.Closure<com.palantir.gradle.gitversion.VersionDetails> by extra
+val details = versionDetails()
+val gitVersion: groovy.lang.Closure<String> by extra
+val gitrev = details.commitDistance
+// val side = "client"
+val branch = details.branchName
+version = "mc.$branch+build.$gitrev"
 
 tasks.jar {
     enabled = false
