@@ -79,10 +79,6 @@ CLASS dt net/minecraft/world/World
 	METHOD d isAir (III)Z
 	METHOD d setMeta (IIII)Z
 	METHOD d removeEntity (Lom;)V
-	METHOD e getBlockId (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD e setBlockThenUpdate (IIII)Z
 	METHOD f entityTick ()V
 	METHOD f getPropetiesAt (III)Liu;
