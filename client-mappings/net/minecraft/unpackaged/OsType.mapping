@@ -1,0 +1,6 @@
+CLASS ls net/minecraft/unpackaged/OsType
+	FIELD a LINUX Lls;
+	FIELD b SOLARIS Lls;
+	FIELD c BINBOWS Lls;
+	FIELD d MACOS Lls;
+	FIELD e OTHER Lls;
