@@ -3,6 +3,5 @@ CLASS dn net/minecraft/world/chunk/ChunkWorld
 	FIELD b z I
 	METHOD a getBlock (III)I
 	METHOD b getBlockEntity (III)Lll;
-	METHOD e getBlockId (III)I
 	METHOD f getPropetiesAt (III)Liu;
 	METHOD g isFullBlock (III)Z
