@@ -1,8 +1,2 @@
 CLASS gv net/minecraft/unpackaged/ClayBlotchPlacer
 	FIELD a block I
-	METHOD a generate (Lcp;Ljava/util/Random;III)Z
-		ARG 1 world
-		ARG 2 random
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z

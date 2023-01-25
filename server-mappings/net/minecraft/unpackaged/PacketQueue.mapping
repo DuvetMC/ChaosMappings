@@ -1,5 +1,4 @@
 CLASS hz net/minecraft/unpackaged/PacketQueue
-	FIELD d timeSinceLastPacket I
 	FIELD f socket Ljava/net/Socket;
 	FIELD g addr Ljava/net/SocketAddress;
 	FIELD h inputStream Ljava/io/DataInputStream;
@@ -8,7 +7,6 @@ CLASS hz net/minecraft/unpackaged/PacketQueue
 	FIELD k serverBoundPackets Ljava/util/List;
 	FIELD l clientboundPackets Ljava/util/List;
 	FIELD n handler Lkj;
-	FIELD o closed Z
 	FIELD p writeThread Ljava/lang/Thread;
 	FIELD q readThread Ljava/lang/Thread;
 	FIELD r closed Z

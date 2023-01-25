@@ -7,12 +7,6 @@ CLASS hd net/minecraft/world/block/IceBlock
 		ARG 5 random
 	METHOD a getDroppedItemCount (Ljava/util/Random;)I
 		ARG 1 random
-	METHOD a b (Lmw;IIII)Z
-		ARG 1 worldView
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 direction
 	METHOD b onBreak (Lcp;III)V
 		ARG 1 world
 		ARG 2 x
