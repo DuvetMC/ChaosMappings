@@ -8,6 +8,7 @@ tasks {
     fun createTasks(side: String): List<TaskProvider<out Task>> {
         val titlecased = side.capitalize()
         val buildMappings = register("build${titlecased}Mappings") {
+            file("build/mappings/$side.tiny").delete()
             outputs.file("build/mappings/$side.tiny")
             doLast {
                 ConvertMappingsCommand.run(
@@ -19,6 +20,7 @@ tasks {
             }
         }
         val lieToLoom = register("build${titlecased}LoomMappings") {
+            file("build/mappings/$side-loom.tiny").delete()
             outputs.file("build/mappings/$side-loom.tiny")
             doLast {
                 ConvertMappingsCommand.run(
