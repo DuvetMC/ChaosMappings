@@ -21,10 +21,6 @@ CLASS dt net/minecraft/world/World
 	METHOD a getTopBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBlock (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
 	METHOD a setBlock (IIIII)Z
 		ARG 1 x
 		ARG 2 y
